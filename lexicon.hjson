@@ -1,0 +1,2833 @@
+{
+  @num: [ // numeric roots
+    [
+      [
+        a set of @
+        @-faceted
+        @th in sequence
+      ]
+      [
+        times @
+        @ times
+        to the @th power
+      ]
+      [
+        divide in @
+        be of @ parts
+        to the -@th power
+      ]
+    ]
+    official
+  ]
+  @gv: [ // piece of clothing
+    [
+      [
+        @
+        @ (marker)
+        @ (ornament)
+      ]
+      covering
+      fashion
+    ]
+    [
+      [
+        @ (formal)
+        @ (marker, formal)
+        @ (ornament, formal)
+      ]
+      [
+        @ (uniform)
+        @ (marker, uniform)
+        @ (ornament, uniform)
+      ]
+      [
+        @ (costume)
+        @ (marker, costume)
+        @ (ornament, costume)
+      ]
+    ]
+  ]
+  @vr: [ // waterlife
+    [
+      [
+        @
+        @ (male)
+        @ (female)
+      ]
+      [
+        @ (wild)
+        @ (wild male)
+        @ (wild female)
+      ]
+      [
+        @ (domesticated)
+        @ (domesticated male)
+        @ (domesticated female)
+      ]
+    ]
+    [
+      [
+        @ (resource)
+        @ (resource male)
+        @ (resource female)
+      ]
+      [
+        @ (prey)
+        @ (prey male)
+        @ (prey female)
+      ]
+      [
+        @ (processed)
+        @ (processed male)
+        @ (processed female)
+      ]
+    ]
+    [
+      egg
+      meat
+      skin/shell
+      fluid/ink
+      smoked meat
+      bait
+      fodder
+      ingredient
+      cooked meat
+    ]
+  ]
+  @sk: [ // mammal
+    [
+      [
+        @
+        @ (male)
+        @ (female)
+      ]
+      [
+        @ (wild)
+        @ (wild male)
+        @ (wild female)
+      ]
+      [
+        @ (domesticated)
+        @ (domesticated male)
+        @ (domesticated female)
+      ]
+    ]
+    [
+      [
+        @ (resource)
+        @ (resource male)
+        @ (resource female)
+      ]
+      [
+        @ (prey)
+        @ (prey male)
+        @ (prey female)
+      ]
+      [
+        @ (processed)
+        @ (processed male)
+        @ (processed female)
+      ]
+    ]
+    [
+      egg
+      milk
+      oil/secretion/venom
+      fat
+      skin/hide
+      tail
+      tusk/horn
+      fur/feathers
+      flesh/meat
+    ]
+  ]
+  @fţ: [ // insect
+    [
+      [
+        @
+        @ (male)
+        @ (female)
+      ]
+      [
+        @ (wild)
+        @ (wild male)
+        @ (wild female)
+      ]
+      [
+        @ (domesticated)
+        @ (domesticated male)
+        @ (domesticated female)
+      ]
+    ]
+    [
+      [
+        @ (resource)
+        @ (resource male)
+        @ (resource female)
+      ]
+      [
+        @ (prey)
+        @ (prey male)
+        @ (prey female)
+      ]
+      [
+        @ (processed)
+        @ (processed male)
+        @ (processed female)
+      ]
+    ]
+    [
+      egg
+      wing
+      oil/secretion
+      silk/web
+      skin/pellicle
+      tail
+      horn
+      leg
+    ]
+  ]
+  @pr: [ // leg/foot/tail
+    [
+      [
+        @
+        @ (support)
+        @ (ambulator)
+      ]
+      physical
+      functional
+    ]
+    non-animal
+  ]
+  @g: [ // part
+    [
+      [
+        @
+        condition of @
+        @ (in relation to whole)
+      ]
+      [
+        @ (physical)
+        physical condition of @
+        @ (physical, in relation to whole)
+      ]
+      [
+        @ (function)
+        effect of @'s condition on function
+        @ (function in relation to whole)
+      ]
+    ]
+    separable
+  ]
+  @xl: [ // solid
+    [
+      [
+        @ or chunk of @
+        derived @ or chunk of derived @
+        source of @
+      ]
+      [
+        chunk of @
+        chunk of derived @
+        natural source of @
+      ]
+      [
+        @
+        derived @
+        artificial source of @
+      ]
+    ]
+    [
+      [
+        @ or chunk of @ in abnormal liquid or gaseous state
+        thing made of @ or its function
+        status of @ being or not being solid
+      ]
+      [
+        @ or chunk of @ in abnormal liquid state
+        thing made of @
+        made of solid @
+      ]
+      [
+        @ or chunk of @ in abnormal gaseous state
+        function of thing made of @
+        made of quasi-solid @
+      ]
+    ]
+  ]
+  @kv: [ // quality of matter
+    [
+      [
+        degree of @
+        decrease in @
+        increase in @
+      ]
+      organic substance
+      synthetic substance
+    ]
+    abnormal
+  ]
+  @xt': [ // color
+    [
+      [
+        @
+        light @
+        dark @
+      ]
+      [
+        @ thing
+        light @ thing
+        dark @ thing
+      ]
+      [
+        the color @
+        the color light-@
+        the color dark-@
+      ]
+    ]
+    [
+      [
+        @ (dye)
+        light @ (dye)
+        dark @ (dye)
+      ]
+      [
+        @ thing (dyed)
+        light @ thing (dyed)
+        dark @ thing (dyed)
+      ]
+      [
+        the color @ (dye)
+        the color light-@ (dye)
+        the color dark-@ (dye)
+      ]
+    ]
+    [
+      extra light
+      pale
+      clear
+      fluorescent
+      vibrant
+      bright
+      ish
+      translucent
+      opaque
+      extra dark
+    ]
+  ]
+  @š: [ // texture
+    [
+      [
+        @ + sensation
+        material impact of @ to object
+        material impact of @ to consumer
+      ]
+      [
+        object having @
+        assumed material impact of @ to object
+        assumed material impact of @ to consumer
+      ]
+      [
+        @ itself
+        actual material impact of @ to object
+        actual material impact of @ to consumer
+      ]
+    ]
+    [
+      [
+        act to render @ + result
+        emotional impact of @ to object
+        emotional impact of @ to consumer
+      ]
+      [
+        act to render @
+        assumed emotional impact of @ to object
+        assumed emotional impact of @ to consumer
+      ]
+      [
+        result of act to render @
+        actual emotional impact of @ to object
+        actual emotional impact of @ to consumer
+      ]
+    ]
+    [
+      sensuous reaction
+      fun reaction
+      soothing reaction
+      expected reaction
+      surprising+ reaction
+      surprising− reaction
+      annoying reaction
+      painful reaction
+    ]
+  ]
+  @f: [ // position
+    [
+      [
+        position @
+        orientation @
+        direction @
+      ]
+      [
+        position @ (one side)
+        orientation @ (one side)
+        direction @ (one side)
+      ]
+      [
+        position @ (other side)
+        orientation @ (other side)
+        direction @ (other side)
+      ]
+    ]
+    [
+      [
+        position @ (specific end)
+        orientation @ (specific end)
+        direction @ (specific end)
+      ]
+      [
+        specific position @ (one end)
+        specific orientation @ (one end)
+        specific direction @ (one end)
+      ]
+      [
+        specific position @ (other end)
+        specific orientation @ (other end)
+        specific direction @ (other end)
+      ]
+    ]
+  ]
+  @pk: [ // feeling
+    [
+      [
+        experience @
+        act caused by @
+        cause of @
+      ]
+      process focus
+      feeling focus
+    ]
+    institutional
+  ]
+  @kh: [ // social
+    [
+      [
+        @ relation
+        @ relation (dominant)
+        @ relation (passive)
+      ]
+      state
+      implications
+    ]
+    expected role
+  ]
+  @sxh: [ // disease
+    [
+      [
+        chronic @
+        chronic infection @
+        chronic ideopathic/genetic @
+      ]
+      condition focus
+      symptom focus
+    ]
+    [
+      [
+        acute @
+        catch infectious @
+        acute ideopathic/genetic @
+      ]
+      condition focus
+      symptom focus
+    ]
+  ]
+  b: [ // want
+    [
+      [
+        want
+        consciously want
+        wish
+      ]
+      [
+        desire feeling
+        conscious desire feeling
+        wish feeling
+      ]
+      [
+        thing wanted
+        thing consciously wanted
+        thing wished for
+      ]
+    ]
+    [
+      [
+        request
+        need
+        aspiration
+      ]
+      [
+        request desire feeling
+        need feeling
+        aspiration feeling
+      ]
+      [
+        thing requested
+        thing needed
+        goal
+      ]
+    ]
+  ]
+  bb: ["@gv" "coat"]
+  bd: ["@gv" "necktie"]
+  bdh: ["@vr" "octopus"]
+  bg: ["@vr" "squid"]
+  bj: ["@vr" "eel"]
+  bk: ["@vr" "lamprey"]
+  bkw: ["@vr" "pike"]
+  bk': ["@vr" "ray"]
+  bkh: ["@vr" "shark"]
+  bl: ["@g" "middle"]
+  blw: ["@xt'" "aquamarine"]
+  bm: ["@vr" "scallop"]
+  bn: ["@vr" "mussel"]
+  bq: ["@vr" "crap"]
+  bqw: ["@vr" "bass"]
+  bq': ["@vr" "shrimp"]
+  bqh: ["@vr" "lobster"]
+  br: ["@xt'" "yellow"]
+  bř: ["@vr" "clam"]
+  bt: ["@vr" "trout"]
+  bt': ["@vr" "tuna"]
+  bth: ["@vr" "salmon"]
+  btw: ["@vr" "cod"]
+  bv: [ // application of knowledge
+    [
+      [
+        application of knowledge
+        theorize/theory
+        brainstorm
+      ]
+      [
+        knowledge application process
+        theorize
+        brainstorm process
+      ]
+      [
+        knowledge application result
+        theory
+        brainstorm result
+      ]
+    ]
+    [
+      [
+        piece of technology
+        prototype
+        breakthrough
+      ]
+      itself
+      function
+    ]
+  ]
+  bw: [ // mouth
+    [
+      [
+        mouth
+        lip
+        mouth (interior)
+      ]
+      physical
+      function
+    ]
+    figurative
+  ]
+  by: ["@vr" "dog"]
+  bz: [ // describe
+    [
+      [
+        describe
+        report
+        historical narrative
+      ]
+      [
+        describe (process)
+        report (process)
+        historically narrate (work)
+      ]
+      [
+        description (content)
+        report (content)
+        historical narrative (content)
+      ]
+    ]
+    [
+      [
+        story
+        recite
+        fictional narrative
+      ]
+      [
+        story (process)
+        recite (process)
+        fictionally narrate (work)
+      ]
+      [
+        story (content)
+        recitation (content)
+        fictional narrative (content)
+      ]
+    ]
+  ]
+  bzd: ["@f" "2d-between"]
+  bzdw: ["@sk" "python"]
+  bzg: ["@f" "1d-between"]
+  bzgr: ["@sk" "viper"]
+  c: [ // exist
+    [
+      [
+        existing
+        law of nature
+        natural/inherent
+      ]
+      ontology
+      metaphysical
+    ]
+    epistemological
+  ]
+  ck: ["@gv" "hat"]
+  ckh: [ // non-water liquid as substance and tool
+    [
+      [
+        non-water liquid
+        non-water liquid in context of usage
+        frozen non-water liquid
+      ]
+      [
+        non-water liquid (substance)
+        non-water liquid as tool
+        freeze (as non-water liquid)
+      ]
+      [
+        degree of moisture (non-water)
+        wash, clean (with non-water)
+        float (on non-water)
+      ]
+    ]
+    [
+      [
+        non-water liquid as component of life
+        non-water liquid as nourishment; drink
+        non-water liquid as biological environment
+      ]
+      [
+        non-water liquid of corporeal body
+        act of drinking non-water liquid
+        natural/inherent (ontology, epistem.)
+      ]
+      [
+        existing (metaphysical, epistem.)
+        law of nature (metaphysical, epistem.)
+        natural/inherent (metaphysical, epistem.)
+      ]
+    ]
+  ]
+  cl: ["@f" "behind-below"]
+  cm: [ // longitude
+    [
+      [
+        east-west designation
+        west designation
+        east designation
+      ]
+      [
+        east-west direction
+        west direction
+        east direction
+      ]
+      [
+        east-west geo. areal designation
+        west geo. areal designation
+        east geo. areal designation
+      ]
+    ]
+    [
+      [
+        longitude
+        west longitude
+        east longitude
+      ]
+      [
+        meridian
+        time zone
+        International Date Line
+      ]
+      [
+        zero meridian
+        Western Hemisphere
+        Eastern Hemisphere
+      ]
+    ]
+  ]
+  cn: [ // plant types
+    [
+      [
+        leaved plant + flower/fruit
+        grass/stalk + seed/grain
+        moss/fungus + spore/cyst
+      ]
+      [
+        leaved plant
+        grass/stalk
+        moss/fungus
+      ]
+      [
+        flower/fruit
+        seed/grain
+        spore/cyst
+      ]
+    ]
+    "resource"
+  ]
+  cp: ["@f" "left-ahead"]
+  cp': [
+    [
+      [
+        flex joint
+        ball-and-socket joint
+        standard joint
+      ]
+      [
+        flex joint (body part)
+        ball-and-socket joint (body part)
+        standard joint (body part)
+      ]
+      [
+        flex joint (internal)
+        ball-and-socket joint (internal)
+        standard joint (internal)
+      ]
+    ]
+    [
+      [
+        specialized bodily joint
+        vertebra
+        wrist/ankle/waist
+      ]
+      [
+        specialized bodily joint
+        vertebra
+        wrist/ankle/waist
+      ]
+      [
+        specialized bodily joint
+        vertebra
+        wrist/ankle/waist
+      ]
+    ]
+  ]
+  cq: ["@num" "6"]
+  cr: ["@f" "behind"]
+  ct: ["@f" "right-ahead"]
+  ct': [ // 3d block
+    [
+      [
+        solid cube
+        solid cuboid
+        solid disc
+      ]
+      [
+        abstract cube
+        abstract cuboid
+        abstract disc
+      ]
+      [
+        cube-shaped object
+        cuboid-shaped object
+        disc-shaped object
+      ]
+    ]
+    wireframe
+  ]
+  cw: ["@f" "left"]
+  cy: ["@sk" "mouse"]
+  c': ["@pk" "tenderness/caring"]
+  ch: ["@pk" "grief"]
+  ç: ["@pk" "excitement/thrill"]
+  çc: ["@gv" "dress"]
+  çcw: ["@sk" "shrew"]
+  çç: ["@pk" "trance"]
+  çč: ["@pk" "feeling-above-it-all"]
+  çčw: ["@sk" "vole"]
+  çf: ["@pk" "desire for new experiences"]
+  çfl: ["@kh" "matched"]
+  çk: ["@pk" "zeal"]
+  çkç: ["@kh" "one-upmanship"]
+  çkf: ["@kh" "interview"]
+  çkl: ["@kh" "sports teammate"]
+  çkr: ["@kh" "enmity/hatred"]
+  çkţ: ["@kh" "co-participant"]
+  çkv: ["@kh" "co-worker"]
+  çkw: ["@kh" "sibling"]
+  çky: ["@kh" "stigmatized group"]
+  çk': [ // non-water liquid in natural motion
+    [
+      [
+        flow of non-water liquid
+        shower of non-water
+        cascade/pour of non-water
+      ]
+      [
+        liquid component of non-water flow
+        liquid component of non-water shower
+        liquid component of non-water cascade
+      ]
+      [
+        course of non-water flow
+        course of non-water shower
+        course of non-water cascade
+      ]
+    ]
+    [
+      [
+        river of non-water liquid
+        rain of non-water
+        non-water waterfall
+      ]
+      [
+        liquid component of non-water river
+        liquid component of non-water rain
+        liquid component of non-water waterfall
+      ]
+      [
+        course of non-water river
+        course of non-water rain
+        course of non-water waterfall
+      ]
+    ]
+  ]
+  çkh: ["@pk" "post-orgasmic bliss"]
+  çkhw: ["@sk" "porcupine"]
+  çl: ["@pk" "carefreeness"]
+  çm: ["@pk" "jollity"]
+  çmw: ["@kh" "anger/resentment"]
+  çn: ["@pk" "oneness with universe"]
+  çnw: ["@kh" "creditor/debitor"]
+  çp: ["@pk" "inspiration"]
+  çpç: ["@kh" "lessor/lessee"]
+  çpf: ["@kh" "sports adversary"]
+  çpl: ["@kh" "official/applicant"]
+  çpr: ["@kh" "circumstantial strangers"]
+  çpř: ["@kh" "shared beliefs"]
+  çpţ: ["@kh" "threat"]
+  çpw: ["@kh" "holy order"]
+  çph: ["@sk" "squirrel"]
+  çphw: ["@sk" "possum"]
+  çq: ["@gv" "skirt"]
+  çqf: ["@kh" "jealousy"]
+  çql: ["@kh" "co-authors"]
+  çqr: ["@kh" "feud"]
+  çqţ: ["@kh" "material envy"]
+  çq': ["@sk" "chipmunk"]
+  çqh: ["@pk" "drug high"]
+  çqhw: ["@sk" "mole"]
+  çr: ["@pk" "cuteness reaction"]
+  çt: [ // contain as int-ext partition (todo: ssd for formal s3?)
+    [
+      [
+        hold/keep
+        have room for
+        containment volume/boundary
+      ]
+      wall
+      room
+    ]
+    [
+      [
+        chamber
+        reside/room as residence
+        room boundaries
+      ]
+      separating inside from outside
+      shelter/sanctuary
+    ]
+  ]
+  çtl: ["@kh" "trader/barterer"]
+  çtr: ["@kh" "presenter/audience"]
+  çtř: ["@kh" "revenge enmity"]
+  çtw: ["@kh" "autocrat/subjects"]
+  çt': ["@sk" "rat"]
+  çth: ["@pk" "joie-de-vivre"]
+  çthw: ["@sk" "skunk"]
+  çv: ["@pk" "anticipation"]
+  çw: ["@pk" "serenity"]
+  č: [ // physical contact
+    [
+      [
+        physical contact
+        application of pressure
+        set in motion via physical content
+      ]
+      focus on act
+      focus on effect
+    ]
+    with default appendage
+  ]
+  čk: [ // switch settings
+    [
+      [
+        switch to different value
+        change course
+        change intensity
+      ]
+      [
+        switch to higher value
+        change to trickier course
+        increase intensity
+      ]
+      [
+        switch to lower value
+        change to easier course
+        decrease intensity
+      ]
+    ]
+    permanent/authoritative
+  ]
+  čkh: ["@num" "10¹⁶"]
+  čl: ["@f" "right"]
+  čm: [ // non-heat food prep
+    [
+      [
+        prepare food (without heat)
+        infrastructure for preparing food without heat
+        interface for preparing food without heat
+      ]
+      method
+      result
+    ]
+    commercial
+  ]
+  čn: [ // wakefulness
+    [
+      [
+        degree of consciousness
+        degree of wakefulness
+        degree of alertness
+      ]
+      [
+        capacity for consciousness
+        capacity for wakefulness
+        capacity for alertness
+      ]
+      [
+        object of consciousness
+        object of wakefulness/sleepiness
+        object of alertness
+      ]
+    ]
+    [
+      [
+        degree of activity
+        degree of dormancy
+        degree of diligence
+      ]
+      [
+        state of activity
+        state of dormancy
+        state of diligence
+      ]
+      [
+        object of activity
+        object of dormancy
+        object of diligence
+      ]
+    ]
+  ]
+  čp: ["@f" "left-behind"]
+  čp': ["@xl" "glass"]
+  čq: ["@f" "above"]
+  čr: ["@sk" "vulture"]
+  čt: ["@f" "right-behind"]
+  čthw: ["+qw" "gourd"]
+  čv: ["@gv" "collar"]
+  čw: ["@f" "ahead"]
+  č': [ // access
+    [
+      [
+        passage
+        infiltration of substances
+        filter
+      ]
+      [
+        enter
+        imbue
+        filter through
+      ]
+      [
+        exit
+        dispense
+        filter out
+      ]
+    ]
+    [
+      [
+        doorway portal
+        gateway/portal
+        checkpoint
+      ]
+      [
+        enter through primary entrance
+        receive
+        admit/let in
+      ]
+      [
+        exit through primary entrance
+        remove
+        oust/eject
+      ]
+    ]
+  ]
+  čh: [ // construct
+    [
+      [
+        construct from materials
+        form from parts
+        integrate/organize
+      ]
+      work
+      product
+    ]
+    [
+      [
+        mechanically construct
+        integrate parts
+        machine / mechanical
+      ]
+      work
+      product
+    ]
+  ]
+  d: [ // name
+    [
+      [
+        name; to be called
+        designation; to refer
+        label/nickname; to go by
+      ]
+      reference focus
+      referent focus
+    ]
+    [
+      [
+        title + referent
+        formal designation + referent
+        role
+      ]
+      reference focus
+      referent focus
+    ]
+  ]
+  dbr: ["@sxh" "inflammatory disorder"]
+  dby: ["@sxh" "pulmonary disorder"]
+  dd: ["@gv" "pants"]
+  ddl: ["@sxh" "degenerative tissue disorder"]
+  ddr: ["@sxh" "mental disorder"] // TODO SSD
+  ddř: ["@sxh" "peripheral nervous system disorder"]
+  ddw: ["@sxh" "topical skin disorder"]
+  ddy: ["@sxh" "neuro-muscular disorder"]
+  dg: ["@gv" "apron"]
+  dgl: ["@sxh" "cellular/metabolic disorder"]
+  dgr: ["@sxh" "cancer"]
+  dgv: ["@sxh" "cardio-vascular disorder"]
+  dgw: ["@sxh" "eye disorder"]
+  dgy: ["@sxh" "neuro-muscular back pain"]
+  dh: [ // water as substance and tool
+    [
+      [
+        water
+        water (usage)
+        ice
+      ]
+      [
+        water (substance)
+        water as tool
+        freeze
+      ]
+      [
+        degree of (water) moisture
+        wash with water
+        float in water
+      ]
+    ]
+    [
+      [
+        water as component of life
+        water as nourishment; drink water
+        water as biological environment
+      ]
+      [
+        water of one's body
+        act of drinking water
+        water from natural environment
+      ]
+      [
+        hydrate
+        to water (plants)
+        live in water
+      ]
+    ]
+  ]
+  dhb: [ // common-sense/prudence
+    [
+      [
+        common sense
+        prudent/circumspect
+        wise/sagacious
+      ]
+      state focus
+      consequence focus
+    ]
+    self-aware
+  ]
+  dhbl: ["@sxh" "genetic disorder"]
+  dhbv: ["@sxh" "endocrine disorder"]
+  dhbw: ["@sxh" "musculo-skeletal disorder"]
+  dhbz: ["@sxh" "throat/mouth disorder"]
+  dhg: [ // courage/valor
+    [
+      [
+        brave/undaunted
+        courageous/intrepid
+        valorous/bold
+      ]
+      state focus
+      consequence focus
+    ]
+    self-aware
+  ]
+  dhgl: ["@sxh" "blood disorder"]
+  dhgr: ["@sxh" "invasive skin disorder"]
+  dhgv: ["@sxh" "spinal condition or disorder"]
+  dhgw: ["@sxh" "microbial infection"]
+  dhgy: ["@sxh" "physical brain disorder"]
+  dhgz: ["@sxh" "bowel problem"]
+  dhl: ["@xt'" "maroon"]
+  dhm: ["@sxh" "common cold"]
+  dhmw: ["@sxh" "non-cancerous growth"]
+  dhmy: ["@sxh" "auto-immune condition"]
+  dhn: ["@pk" "home-sweet-home"]
+  dhnw: ["@sxh" "stomach disorder"]
+  dhr: [ // representation/artistic element (todo SSD)
+    [
+      [
+        motif (functional)
+        depiction (functional)
+        appreciation (functional)
+      ]
+      creation process focus
+      design focus
+    ]
+    [
+      [
+        motif (aesthetic)
+        depiction (aesthetic)
+        appreciation (aesthetic)
+      ]
+      creation process focus
+      design focus
+    ]
+  ]
+  dhř: ["@xl" "methanol"]
+  dhv: [ // emotionalism/mysticism
+    [
+      [
+        emotion-driven
+        whim-driven
+        mysticism-driven
+      ]
+      state focus
+      consequence focus
+    ]
+    self-aware
+  ]
+  dhw: ["@xl" "ethanol"]
+  dhy: ["@pr" "tail"]
+  dk: [ // misc body parts
+    [
+      [
+        buttock
+        breast
+        navel
+      ]
+      physical
+      function
+    ]
+    [
+      [
+        haunch
+        snout/proboscis
+        fin
+      ]
+      physical
+      function
+    ]
+  ]
+  dl: [ // hand
+    [
+      [
+        hand
+        hand (grasping, striking)
+        hand (handling, feeling)
+      ]
+      physical
+      function
+    ]
+    non-animal
+  ]
+  dlw: ["@sxh" "nasal disorder"]
+  dly: ["@sxh" "hearing problem"]
+  dm: ["@gv" "robe"]
+  dmy: ["@sxh" "neurological disorder"]
+  dn: [ // goodwill, friendliness
+    [
+      [
+        being nice
+        goodwill
+        friendliness
+      ]
+      action focus
+      emotion focus
+    ]
+    [
+      [
+        good samaritanship
+        peace/fellowship
+        friendship (one-way)
+      ]
+      action focus
+      emotion focus
+    ]
+  ]
+  dnw: ["@sxh" "liver disorder"]
+  dr: [ // manage, guidance, compliance
+    [
+      [
+        guide (+ compliance)
+        manage (+ compliance)
+        discipline (+ obedience)
+      ]
+      [
+        guide
+        manage
+        discipline
+      ]
+      [
+        follow guide
+        comply
+        obey to discipline
+      ]
+    ]
+    [
+      [
+        rule (+ obedience)
+        govern (+ abidance)
+        moral guideline + rectitude
+      ]
+      [
+        rule over
+        govern
+        moral guideline
+      ]
+      [
+        obey rule
+        abide by law
+        personal rectitude
+      ]
+    ]
+  ]
+  dř: ["@xt'" "orange"]
+  dv: ["@kv" "smoothness"]
+  dw: ["@kh" "seller/buyer"]
+  dy: [ // sense, sensation
+    [
+      [
+        sense
+        sensory (organ)
+        imagine(d) sensation
+      ]
+      [
+        act of sensing
+        sense ability
+        imagine a sensation
+      ]
+      [
+        sensation
+        sensory organ
+        imagined sensation
+      ]
+    ]
+    [
+      [
+        examine via senses
+        sensory device + use
+        induce(d) sensation
+      ]
+      [
+        examination via senses
+        use of sensory device
+        induction of sensation
+      ]
+      [
+        sense-examined evidence
+        sensory device
+        induced sensation
+      ]
+    ]
+  ]
+  f: ["@f" "at"]
+  fc: ["@fţ" "flying bug"]
+  fč: ["@pk" "disdain"]
+  ff: [ // pleasure- or pain- based vocalization
+    [
+      [
+        sigh (affective)
+        squeal/moan (affective)
+        gasp (affective)
+      ]
+      pleasure
+      pain
+    ]
+    [
+      [
+        sigh (deliberate)
+        squeal/moan (deliberate)
+        gasp (deliberate)
+      ]
+      pleasure
+      pain
+    ]
+  ]
+  ffm: ["@kh" "predator/prey"]
+  ffr: ["@kh" "allies"]
+  ffy: ["@fţ" "gnat"]
+  fk: [ // belief/trust
+    [
+      [
+        belief/believe
+        trust
+        belief/believe in oneself
+      ]
+      [
+        state of belief
+        state of trust
+        state of self-confidence
+      ]
+      [
+        thing believed
+        thing trusted
+        thing self-confident about
+      ]
+    ]
+    [
+      [
+        article of faith
+        act of assurance
+        make certain
+      ]
+      state
+      [
+        article of faith
+        thing assured
+        thing made certain
+      ]
+    ]
+  ]
+  fk': ["@xl" "sulfur"]
+  fkç: ["@fţ" "aphid"]
+  fkh: ["@xl" "lead"]
+  fkhw: ["+qw" "safflower"]
+  fkl: ["@kh" "matchmaker/parties being matched"]
+  fkr: ["@fţ" "mosquito"]
+  fkř: ["@kh" "warring parties"]
+  fkţ: ["@kh" "lender/borrower"]
+  fkw: ["@kh" "entertainer/audience"]
+  fky: ["@kh" "invader/invadee"]
+  fl: ["@xt'" "black"]
+  fly: ["@fţ" "housefly"]
+  // fm: level, layer relative to vertical motion <- does this word exist?
+  fn: [ // cousin
+    [
+      [
+        cousin
+        male cousin
+        female cousin
+      ]
+      through mother
+      through father
+    ]
+    [
+      [
+        step-cousin
+        male step-cousin
+        female step-cousin
+      ]
+      through stepmother
+      through stepfather
+    ]
+  ]
+  fpç: ["@fţ" "butterfly"]
+  fpl: ["@kh" "perpetrator/victim"]
+  fpţ: ["@fţ" "firefly"]
+  fq: [ // egoism/self-interest/integrity
+    [
+      [
+        egoistic (virtue)
+        individualistic
+        personal integrity
+      ]
+      state focus
+      consequence focus
+    ]
+    self-aware
+  ]
+  fqh: ["@pk" "bother, annoyance"]
+  fql: ["@kh" "advisor/advisee"]
+  fqr: ["@kh" "fellowship/fraternity"]
+  fqţ: ["@kh" "fellow hobbyists or enthusiasts"]
+  fr: [ // time period, duration less than one day
+    [
+      [
+        moment
+        a while
+        portion of day
+      ]
+      elapsed time
+      time during which
+    ]
+    [
+      [
+        second
+        minute
+        hour
+      ]
+      elapsed time
+      time during which
+    ]
+  ]
+  fř: [ // infirmity, physical disabomoty
+    [
+      [
+        weakness/infirmity
+        disability
+        handicapped
+      ]
+      condition focus
+      impact focus
+    ]
+    [
+      [
+        acute infirmity
+        injury
+        temporarily impaired
+      ]
+      condition focus
+      impact focus
+    ]
+  ]
+  fs: ["@g" "side/flank"]
+  fsk: ["@kh" "club members"]
+  fsk': ["@kh" "owner/pet"]
+  fskh: ["@fţ" "dragonfly"]
+  fsm: ["@fţ" "wasp"]
+  fsn: ["@kh" "management"]
+  fsp: ["@kh" "business associates"]
+  fsp': ["@fţ" "grasshopper"]
+  fsq: ["@kh" "members of secret society"]
+  fsq': ["@kh" "center of attention/sycophant"]
+  fsqh: ["@kh" "sage/disciples"]
+  fsqw: pheasant
+  fst: ["@fţ" "moth"]
+  fsy: ["@fţ" "flea"]
+  fš: [ // abdomen, thorax, torso, chest
+    [
+      [
+        torso
+        abdomen
+        chest (upper front torso)
+      ]
+      (physical)
+      (function)
+    ]
+    non-animal
+  ]
+  fšk: ["@fţ" "bumblebee"]
+  fšk': ["@kh" "boss/employee"]
+  fškh: ["@kh" "fan/celebrity"]
+  fšp: ["@fţ" "honeybee"]
+  fšp': ["@fţ" "hornet"]
+  fšqh: ["@fţ" "mantis"]
+  fšth: ["@fţ" "locust"]
+  ft: ["@kv" "fullness"]
+  fţ: ["@fţ" "insect"]
+  fth: ["@gv" "legging/sock"]
+  fw: [ // arrangement/order/symmetry
+    [
+      [
+        arrangement
+        hierarchical ranking
+        symmetrical arrangement
+      ]
+      process
+      resulting order
+    ]
+    [
+      [
+        something regular
+        assortment
+        classification
+      ]
+      process
+      resulting order
+    ]
+  ]
+  fy: ["@num" "8"]
+  g: ["@g" "part"]
+  gb: [ // fantastic or imaginary creature
+    [
+      [
+        imaginary creature
+        winged imaginary creature
+        reptilian imaginary creature
+      ]
+      physical
+      behavioral
+    ]
+    [
+      [
+        mythological creature
+        legendary being (allegedly real)
+        extraterrestrial being
+      ]
+      physical
+      behavioral
+    ]
+  ]
+  gd: [ // neck
+    [
+      [
+        neck
+        neck (as body support)
+        neck (as narrow vulnerable body part)
+      ]
+      physical
+      functional
+    ]
+    non-animal
+  ]
+  gdh: ["@xl" "cloth/fabric"]
+  gdr: ["@sk" "albatross"]
+  gg: ["@gv" "veil"]
+  gl: [ // state of health, illness, well-being
+    [
+      [
+        state of physical health
+        physical illness
+        physical injury
+      ]
+      effect focus
+      cause focus
+    ]
+    [
+      [
+        state of mental health
+        mental illness
+        mental trauma
+      ]
+      effect focus
+      cause focus
+    ]
+  ]
+  gm: [ // two-dimensional outline shapes
+    [
+      [
+        2D outline shape
+        2D outline shape horizontally elongated
+        2D outline shape vertically elongated
+      ]
+      abstract
+      object with this form
+    ]
+    [
+      [
+        2D outline shape distorted
+        2D outline shape skewed
+        2D outline shape pinched
+      ]
+      abstract
+      object with this form
+    ]
+  ]
+  gn: ["@xl" "wax"]
+  gr: [ // nutrition, nutritional consumption
+    [
+      [
+        food/eat and drink
+        food/eat
+        drink
+      ]
+      [
+        eat and drink
+        eat
+        to drink
+      ]
+      [
+        food and drink
+        food
+        something to drink
+      ]
+    ]
+    [
+      [
+        serving of food; dine
+        (eat) cooked food
+        (drink) processed drink
+      ]
+      [
+        dine
+        eat cooked food
+        drink processed drink
+      ]
+      [
+        serving of food
+        cooked food
+        processed drink
+      ]
+    ]
+  ]
+  gř: ["@xt'" "sky blue"]
+  gv: ["@gv" "article of clothing"]
+  gw: [ // ambulation
+    [
+      [
+        ambulate
+        rapidly ambulate
+        unnaturally ambulate
+      ]
+      gait focus
+      motion focus
+    ]
+    deliberate/formal
+  ]
+  gy: ["@xt'" "white"]
+  gz: ["@kv" "tenseness"]
+  gzb: ["@f" "intertwined at"]
+  gzbl: ["@sk" "cobra"]
+  gzd: ["@f" "right-above"]
+  gzdr: ["@sk" "rattlesnake"]
+  gzdw: ["@sk" "asp"]
+  gzl: ["@f" "0/0/0"]
+  gzv: ["@f" "right-below"]
+  gž: ["@pk" "heartache"]
+  j: [ // vertical motion, ascent & descent, up & down
+    [
+      [
+        move vertically
+        vertical course
+        move vertically between points
+      ]
+      [
+        move out vertically
+        move away vertically
+        leave vertically
+      ]
+      [
+        move in vertically
+        get closer vertically
+        approach vertically
+      ]
+    ]
+    [
+      [
+        travel vertically
+        vertical route
+        travel vertically between points
+      ]
+      [
+        go travelling vertically
+        travel away vertically
+        depart vertically
+      ]
+      [
+        journey vertically toward
+        close in vertically
+        arrive vertically
+      ]
+    ]
+  ]
+  jgw: hawk
+  jj: action in-situ/motion in-situ
+  jk: oval
+  jm: in-law-foster relations
+  jph: egg-shaped
+  jq': platinum
+  jr: tenacity/audacity/resoluteness
+  jth: half-circle, semi-circle
+  jv: imitation/mimicry/impersonation/dramatic acting
+  jw: scarf
+  k: [ // path-oriented translative motion
+    [
+      [
+        move
+        course
+        move between points
+      ]
+      [
+        move out
+        move away
+        leave
+      ]
+      [
+        move in
+        get closer
+        approach
+      ]
+    ]
+    [
+      [
+        travel
+        route
+        travel between points
+      ]
+      [
+        go travelling
+        travel away
+        depart
+      ]
+      [
+        journey toward
+        close in
+        arrive
+      ]
+    ]
+  ]
+  k': light, radiant energy
+  kc: lower order lifeform
+  kč: excuse, forgiveness, absolution, amnesty
+  kç: affective bodily sensations (surface-tactile)
+  kčhw: ginger
+  kd: capture/seizure/deprivation of freedom of movement
+  kf: types of hard or non-living bodilt tissues
+  kh: social interrelation, interaction
+  khw: purplz
+  kk: solidity, hollowness (=permeability)
+  kk': business partnership
+  kkr: oblique vertical motion
+  kl: [ // water in natural motion
+    [
+      [
+        flow of water
+        shower
+        cascade/pour
+      ]
+      [
+        water component of flow
+        water component of shower
+        water component of cascade
+      ]
+      [
+        course of flow
+        course of shower
+        course of cascade
+      ]
+    ]
+    [
+      [
+        river
+        rain
+        waterfall
+      ]
+      [
+        water component of river
+        water component of rain
+        water component of waterfall
+      ]
+      [
+        course of river
+        course of rain
+        groove of waterfall
+      ]
+    ]
+  ]
+  klw: turquoise
+  km: weight, mass
+  kn: snake
+  kp: length
+  kr: tool, instrument
+  ks: two, duality
+  kš: [ // fool, clown
+    [
+      [
+        fool
+        buffoon
+        nerd
+      ]
+      for laughs
+      poignant context
+    ]
+    [
+      [
+        town fool
+        clown
+        jester
+      ]
+      entertainment
+      parody
+    ]
+  ]
+  ksf: position between, amidst, among [volume-based 3-dimensional context, e.g., sky crowded with balloonists]
+  ksl: -X/0/+Z spatial orientation, position, direction
+  ksn: naivete/foolishness
+  ksp: -X/+Y/+Z spatial orientation, position, direction
+  kšp: -X/-Y/+Z spatial orientation, position, direction
+  ksr: 0/0/-Z spatial orientation, position, direction
+  kst: +X/+Y/+Z spatial orientation, position, direction
+  kšt: +X/-Y/+Z spatial orientation, position, direction
+  ksw: -X/0/-Z spatial orientation, position, direction
+  kt: rock, mineral-based soil, ground
+  ktr: association/deal with/treat with/face/confront
+  kţ: similarity, sameness
+  kt': pressure based or reaction-based or gravitation-based equilibrium, motion, propulsion
+  kţkl: heron
+  kţr: eagle
+  kv: quality or property of matter
+  kw: color, hue
+  ky: coffee plant
+  l: [
+    [
+      [
+        vocal utter
+        speak
+        express
+      ]
+      audio
+      content
+    ]
+    [
+      [
+        meaning of vocal utterance
+        meaning of word
+        meaning of phrase
+      ]
+      objective
+      subjective
+    ]
+  ]
+  ļ: breathe, respiration
+  lb: dimensional, spatio-temporal relations
+  lbw: whale
+  lc: proximity, distance
+  lč: girth (=2-dimensional x-planar dimension)
+  lç: width (=slenderness)
+  lc': planarity, flatness relative to object itself
+  lč': sharpness, dullness of an edge
+  lch: upright position or orientation, veerticality, perpendicular, protrusion
+  ld: amplitude (=2-dimensional z-planar dimension)
+  ldh: reach (=2-dimensional y-planar dimension)
+  ldr: boar
+  ldw: cheetah
+  lf: depth
+  lfq: self-concern/selfishness
+  lfw: frog
+  lg: interval, gap
+  lgw: otter
+  lk: height (= tallness - relative to gratiy)
+  lk': straightness, linearity relative to object itself
+  lkh: master-servant
+  ļkh: ecru
+  lkhw: mint
+  lkw: friendly/vivacious
+  ll: one, unity
+  ļļ: flabiness - cohesiveness, compactness
+  lm: music
+  ļm: springiness - inertness, immobility
+  lmz: dolphin
+  ln: front [relative to directional orientation or primary interface]
+  ļn: classes of land, air animal
+  lntw: nightingale
+  lp: speed, velocity, acceleration
+  lp': volume (=3-dimensional size)
+  ļp: sponginess - stiffness, rigidity
+  ļp': buoyancy
+  ļph: ochre
+  lphw: walrus
+  lq: sharpness, dullness of a point
+  lq': rectilinear, polyhedral, straight-angled
+  ļq: tin
+  ļq': spreadability
+  lqh: classes of waterlife
+  ļqh: deformability - dentability
+  lr: sphericalness, roudness
+  lř: classes of mammal
+  ls: flatness, levelness (relative to gravity)
+  lš: periphery, cirlce, ring
+  lskw: antelope
+  lt: [ // write, inscribe, document
+    [
+      [
+        write symbol
+        write message
+        compose via writing
+      ]
+      [
+        inscribe symbol
+        inscribe message
+        compose via inscribing
+      ]
+      [
+        communicate written symbol
+        communicate written message
+        communicate composed writing
+      ]
+    ]
+    [
+      [
+        written record
+        document
+        page of writing
+      ]
+      physical
+      content
+    ]
+  ]
+  lţ: concavity, depression
+  lt': perpendicularity, uprightness
+  lth: deity, spiritual entity, supernatural entity
+  lţr: turte
+  ltw: goat
+  lv: even (=smooth-surfaced in planar context)
+  ļw: elasticity - stiffness, rigidity
+  lx: convexity, rotundity
+  lxh: brown
+  lxw: rabbit
+  lz: even (=smooth-edged in linear context)
+  lż: specialized volitional bodily sounds
+  lž: elasticity, stretch capacity
+  lzw: goose
+  lżw: gila monster
+  m: [ // appearance, semblance, impression
+    [
+      [
+        seem
+        seem on first blush
+        seem superficially
+      ]
+      focus on object
+      focus on observer
+    ]
+    [
+      [
+        seem ostensibly
+        resemble
+        façade/veneer
+      ]
+      focus on object
+      focus on observer
+    ]
+  ]
+  mb: geographical, geopolitical elements
+  mç: durability, fragility (=capacity for being damaged)
+  mf: glove
+  mg: peach (color)
+  mj: shame, feeling of being ridiculed
+  mk: aspects, methods of ingestion, feeding
+  mk': silicon
+  mkh: beige, tan
+  mkhw: mauve
+  ml: foot
+  mm: nuclear familiy member
+  mn: awe, be or feel impressed, humbleness in face of something
+  mp: smell, odor
+  mp': architectural components, forms
+  mpy: squash
+  mq: romantic love relationship
+  mqhw: date (fruit)
+  mř: transfer of possession
+  ms: value, worth, price, cost
+  msk: bodily positions (other than upright of supine)
+  mš: irregular, amorphous outline
+  mt: parent-child relationship
+  mţ: autumn, fall
+  mt': classes of animal
+  mth: soil, ground, dirt (mixed organic + mineral)
+  mv: middle, center (as seen perpendicular to long axis of entity)
+  mw: tightness, slack (=tauntness)
+  mx: season
+  mxh: horizontal supporting surface against gravity
+  mxz: cucumber
+  my: gratitude, thankfulness, praise
+  mz: remember, recall, memory, record
+  mž: gender
+  n: exterior, outer/external part of, outside, “skin”
+  ň: ["@num" "100"]
+  nç: cherry
+  nc': banana
+  nč': coconut
+  ňc: tick
+  ňč: non-sanguine relation
+  ňç: waterbug
+  nch: fig
+  nčh: tangerine
+  nchw: duck
+  ňčhw: bamboo
+  nçw: swan
+  nd: question/inquiry/answer/response
+  ndh: pineapple
+  ndr: fox
+  ndw: moose
+  ňf: sliver-moon shaped
+  ňg: temporary atmospheric phenomena
+  ňgr: baboon
+  ňgw: chimpanzee
+  ňgy: sticky/adhesive material
+  ňk: architectural components (ornamental/specialized)
+  ňkh: whole number/integer
+  ňkr: lion
+  ňkw: cow
+  ňky: elementary particles/forces of physics (fermions and bosons)
+  nl: hard/soft (=malleability)
+  nļ: plum
+  nm: olive
+  nn: orange (fruit)
+  ňn: ant
+  ňqh: cockroach
+  nr: circle/ellipse
+  nř: spider
+  ňř: termite
+  ns: ["@num" "7"]
+  nš: rear, back part of
+  ňs: square/rectangle/rhombus
+  ňsp: apostasy/heresy/iconoclasm
+  nst: recline/prone position/horizintality
+  nsw: chicken
+  ňšw: gorilla
+  nt: hear(ing) / sound
+  ntr: freedom/independance/autonomy/natural right
+  nţ: close loving friendship
+  nţw: affective bodily sensations (internal/proprioceptive)
+  nt': lemon
+  nth: pear
+  ňk': keep clear/make way/escape
+  ňsk: aspects of bodily physical capacity or physical bodily performance
+  ňth: tropical rainy season
+  nv: peach
+  ňv: generic crawling bug
+  nw: apple
+  ňw: flexibility/rigidity
+  ňx: temporary or youthful romantic dalliance/lovers
+  ňxh: spring
+  ny: choice/alternative
+  nz: marriage
+  nž: lime (fruit)
+  ňz: oil (fatty liquid derived from plants/animals)
+  ňž: beetle
+  p: carrier root
+  p': seek/search
+  pc: [ // marital relationship
+    [
+      [
+        marriage
+        infidelity
+        betrothal
+      ]
+      [
+        legal marriage
+        act of infidelity
+        legal betrothal
+      ]
+      [
+        emotional marriage
+        breaking emotional marriage bond
+        emotional betrothal
+      ]
+    ]
+    [
+      [
+        spouse
+        paramour
+        fiancé(e)
+      ]
+      [
+        husband
+        male paramour
+        fiancé
+      ]
+      [
+        wife
+        female paramour
+        fiancée
+      ]
+    ]
+  ]
+  pč: repugnance, repellant feeling, disgust
+  pç: generic or oblique 3D range of motion/3D pervasive movement/movement 3D volume
+  pçk: faculty/endowment/property/quality
+  pc': embarassment at being unable to perform a task or activity as expected
+  pč': feeling of disappointment/let-down at one's own actions/behavior
+  pch: feeling flustered at not knowing how to react or what to think
+  pčh: frustration, feeling of angry helplessness
+  pčhw: cork
+  pçt: cotton
+  pçw: melon
+  pf: depression, be or feel depressed
+  pg: swooning, feeling of faitness due to emotional overload
+  ph: [ // tree
+    [
+      [
+        tree
+        leaf
+        bark
+      ]
+      [
+        wood
+        root
+        branch
+      ]
+      [
+        seed/fruit/nut
+        flower/blossom
+        sap
+      ]
+    ]
+    [
+      [
+        wood product
+        leaf product
+        bark product
+      ]
+      [
+        wood as resource
+        root as resource
+        branch as resource
+      ]
+      [
+        seed/fruit as resource
+        flower as resource
+        sap product
+      ]
+    ]
+  ]
+  phw: pink
+  pj: feeling of disappointment at being letdown by another
+  pk: experience/undergo a state or feeling
+  pkw: tense, on edge
+  pky: cereal grains and grain-derived foods
+  pk': bother, annoyance at self due to one's own actions/behavior
+  pkh: humiliation
+  pl: regret, repining, ruefulness
+  pļ: shirt, blouse
+  plw: burgundy
+  pm: agitation, disquietude
+  pn: woe, despair, desolation
+  pny: grape
+  pp: hysteria, loss of control
+  pp': sexual partners
+  pph: winter
+  pq: worry, feel preoccupied
+  pq': shock, reeling (from bad news)
+  pqh: embarassment due to a social faux pas, behavior misstep or others seeing through one's facade or airs
+  pr: leg
+  př: blue
+  ps: sorrow, lamentation
+  pš: happen/occur(ence)/manifest/event
+  psb: aluminum
+  psf: intertwined, intermingled, intermixed position, state (individual components permanently combined)
+  psk: -X/+Y/-Z spatial orientation, position, direction
+  pšk: -X/-Y/-Z spatial orientation, position, direction
+  pškh: titanium
+  psl: 0/-Y/+Z spatial orientation, position, direction
+  psp': selenium
+  psq: self-righteousness/hypocrisy
+  psq': carbon
+  pšq': zirconium
+  pšqh: calcium
+  psr: 0/+Y/-Z spatial orientation, position, direction
+  pst: +X/+Y/-Z spatial orientation, position, direction
+  pšt: +X/-Y/-Z spatial orientation, position, direction
+  pstw: 100 million
+  psw: 0/+Y/+Z spatial orientation, position, direction
+  psy: magenta
+  pt: feel hurt/offended
+  pţ: angular structure/corner
+  pt': angst/weltschmertz
+  pth: stoicism/repression
+  pw: material lust, avarice, greed
+  px: ["@num" "4"]
+  pxh: stress, feel pressured
+  py: bittersweet longing
+  q: [
+    [
+      [
+        person
+        human
+        animal
+      ]
+      male
+      female
+    ]
+    [
+      [
+        authorized person
+        authorized human
+        pet or zoo animal
+      ]
+      male
+      female
+    ]
+  ]
+  q': interiority/position or orientation inside
+  qc: spice, herb, seasoning
+  qč: respiratory paroxysm
+  qch: chalk
+  qf: footwear
+  qfr: radium
+  qfř: molybdenum
+  qfw: bismuth
+  qh: transcendence/spirit/religion
+  qj: hysteria/irrathionality/paranoia
+  ql: luquid/fluid
+  qly: manganese
+  qm: component of body's respiratory/cardio-vasculatory system
+  qn: honey
+  qp: aware/alert/suspicious
+  qq: interior, inner/internal part, innards
+  qr: celebratory act/ceremonial rite
+  qt: degree of pleasure/fulfillment/satisfaction/hapiuness
+  qt': security/safety/protection/guardianship
+  qţ: sibling
+  qţl: lithium
+  qţř: germanium
+  qv: resilience/delicateness (=capacity for recovery)
+  qw: food plant
+  r: [ // thought/idea/reason
+    [
+      [
+        think/thought
+        consider(ation)
+        propose/proposition
+      ]
+      [
+        to think
+        to consider
+        to propose
+      ]
+      [
+        thought
+        idea considered
+        proposition
+      ]
+    ]
+    [
+      [
+        reason(ing)
+        analyze/analysis
+        to conceptualize/concept
+      ]
+      [
+        to reason
+        to analyze
+        to conceptualize
+      ]
+      [
+        object of reasoning
+        object of analysis
+        concept
+      ]
+    ]
+  ]
+  ř: [ possession/ownership
+    [
+      [
+        have (physical)
+        have (affective)
+        have (intrinsic)
+      ]
+      state
+      [
+        thing possessed (physical)
+        thing possessed (affective)
+        thing possessed (intrinsic)
+      ]
+    ]
+    [
+      [
+        own (legal, immediate possession)
+        own (legal, non-immediate possession)
+        own (legal, quasi-inalienable)
+      ]
+      state
+      [
+        thing owned (legal, immediate possession)
+        thing owned (legal, non-immediate possession)
+        thing owned (legal, quasi-inalienable)
+      ]
+    ]
+  ]
+  rb: spiral motion along vertical plane
+  řb: lumpy texture/sensation
+  řbg: lemur
+  rbw: lepoard
+  rc: arc/parabolic motion relative to gravity
+  rč: curved motion, curve
+  rç: switch back, veer
+  řc: hard+natural mix of smooth/rough texture (rock)
+  řč: gastro-intestinal/urological component
+  řc': marinade
+  řč': coarse texture
+  rch: civility/peacebleness
+  řch: numbing texture
+  rčp': cadminum
+  rčt': boron
+  rd: generic or oblique spiral motion
+  řd: gastronomic paroxysm
+  rdh: belt
+  řdh: liquidy texture
+  rdhř: magnesium
+  rdhv: cobalt
+  rdhw: gull
+  řdř: krypton
+  řdw: soggy/waterlogged/moist texture
+  rf: circular vector motion
+  řf: gooey texture
+  rfq: griddle
+  rfž: antimony
+  rg: spiral motion along horizontal plane
+  řg: tunic
+  řgl: plastic-like texture
+  řgr: panther (puma)
+  řgř: downy texture
+  řgw: panther (jaguar)
+  rgy: chromium
+  řgz: giraffe
+  rgzd: iguana
+  rgzw: crocodile
+  rj: paint
+  řj: gritty texture
+  řjw: elk
+  rk: planar range of motion
+  rk': source, origin
+  řk: hard + semi-smooth texture (wood)
+  řk': cotton-candy texture
+  řkh: sandpaper texture
+  rkr: tiger
+  řkw: turkey
+  rl: linear/horizontal motion along Y-axis relative to topical referent
+  rļ: spiral vector motion
+  řl: ice-cold texture
+  řļ: chewy texture
+  rm: linear/horizontal motion along X-axis relative to topical referent
+  řm: silk
+  rmkh: palladium
+  řmn: osmium
+  rmq': zinc
+  rmst: sea lion
+  rmxh: beryllium
+  rn: generique or oblique circular motion
+  řn: gummy texture
+  rnr: arsenic
+  rntr: seal
+  rp: vertical range of motion
+  rp': body part
+  rpc': vanadium
+  rpč': tungsten
+  rph: tropical dry season
+  rpţ: sautee
+  rpth: simmer
+  rpv: sun-dry
+  rpx: slow-cook
+  rq: silver
+  rq': mineral
+  rqhw: camel
+  řqr: mettalic texture
+  rqw: nervous/anxious/anxiety
+  rr: ["@sk" "cat"]
+  rs: circular motion in horizontal plane
+  rš: circular motion in vertical plane
+  rsč: maple
+  ršč: elm
+  rsf: ash
+  ršf: poplar
+  rsk: cypress
+  ršk: alder
+  rsl: beech
+  ršl: yew
+  rsm: mahogany
+  ršm: almond
+  rsn: flax
+  ršn: chestnut
+  rsp: eucalyptus
+  ršp: spruce
+  rsph: barbecue
+  rsq: magnolia
+  ršq: broil
+  rsqh: nickel
+  ršqh: stew
+  rst: redwood
+  rst': flash-fry
+  ršt: parboil
+  ršţ: poach
+  ršt': grill
+  ršth: steam-cooked
+  rstr: gazelle
+  rsv: larch
+  ršv: toast
+  řsw: lavender
+  rsx: pressure-cook
+  rt: 2D external circumlative motion/movement around/along periphery or outside edge
+  rţ: 2D external circumlative motion/movement around/along boundary or inside edge
+  rt': summer
+  rth: consideration of a proposal
+  rthw: iridium
+  řthw: ostrich
+  rtk: sear
+  rţk: birch
+  rtļ: orangutan
+  rţl: toad
+  rţm: cedar
+  rtn: brew
+  rţn: oak
+  rtp: smoke cooked
+  rţq: pine
+  rţq': gallium
+  rţt': phosphorus
+  rţv: palm
+  rtw: ["@sk" "horse"]
+  rţw: walnut
+  rv: pregnancy/gestation
+  rvp': rubidium
+  rx: obliquely linear motion
+  rxh: component of nervous system
+  rz: 3D external circumlative motion/movement around/along periphery or surface
+  rż: sari
+  rž: 3D external circumlative motion/movement around/along internal boundary
+  rzd: alligator
+  rzw: yak
+  řzw: buffalo
+  rżw: lizard
+  s: [ // change
+    [
+      [
+        change
+        vary
+        deviate
+      ]
+      appearance/structure focus
+      behavior/function focus
+    ]
+    [
+      [
+        alter/modify
+        diversify/permutate
+        modulate
+      ]
+      appearance/structure focus
+      behavior/function focus
+    ]
+  ]
+  š: ["@š" "texture"]
+  sc: ecstatic contemplation of nature
+  sč: honoraable/respectable/esteemed
+  šč: being ultra alert
+  šč': spite
+  sch: gray
+  ščh: feeling of surprise to discover that vengeance is hollow
+  sf: bottom, lowest part, funcdation
+  šf: feeling of devilishness
+  sk: generic mammal, avian, reptile
+  sk': gathering/accumulation/collection
+  šk: arm
+  šk': narrow-mindedness/prejudice/dogmatism
+  škç: pigeon
+  skh: path/way/course
+  škh: feeling of surprise upon discovering that no need to feel victimized
+  skhw: robin
+  škhw: corn
+  skl: bubbly or effervescent emotional state or personality
+  skr: laxicity/leniency/tolerance
+  škţ: bicarbonate of soda
+  sky: emotionally stifled, mentally blocked
+  šky: pea
+  sl: gas/flume
+  šl: humor/wit/jest
+  sm: terrain-based/geographical elevation
+  šm: lower part or half
+  sn: sense of taste
+  sňy: brine
+  sp: [ // exchange/purchase
+    [
+      [
+        exchange
+        interchange
+        replace
+      ]
+      focus on given
+      focus on taken
+    ]
+    [
+      [
+        trade
+        commerce
+        investment
+      ]
+      [
+        acquire through trade
+        buy
+        acquire via investment
+      ]
+      [
+        trade away
+        sell
+        release interest in
+      ]
+    ]
+  ]
+  sp': degree of bodily slenderness/fatness
+  šp: binary reversal/polarity
+  šp': hunting and gathering
+  sph: carbon dioxide
+  šph: feeling of humor and shame when victim of joke does not get it
+  sphw: lettuce
+  šphw: lark
+  spl: face/visage
+  špr: marble
+  sq: cook
+  sq': oxygen
+  šq: wait
+  šq': roast
+  sqh: moved by art, speech
+  šqh: malicious glee at another's discomfort
+  sqhw: cabbage
+  sqw: tomato
+  sr: lattitude/north-south
+  sř: collateral family member/relative
+  šr: discomfiture at being ill-prepared
+  šř: felling resources are wasted
+  ss: air
+  šš: hide/conceal/avoid/sneak
+  st: comparison/measurement/weight
+  sţ: five
+  st': metal/ore
+  št: fry
+  šţ: discovering a new option
+  št': attraction
+  sth: boil
+  šth: anticipate a negative
+  sthw: sparrow
+  stl: opportunity/advantage/convinience/expedience
+  štl: owl
+  str: diamond
+  stv: cyan
+  stw: rice
+  st:' wpeanut
+  sty: bean
+  sv: fear/fright
+  šv: solace, grief
+  sw: planetary body
+  šw: beauty
+  sx: bake/something baked
+  šx: desire to solve a mystery
+  sxh: disease/disorder/malady
+  šxh: feeling of being on edge
+  sy: manner/conduct/behavior/demeanor
+  šy: bittersweetness
+  t: life
+  ţ: head
+  t': exteriority/position or orientation outside
+  tç: spacetime/space/passage of time
+  ţb: bounce/recoil/inertness/immobility
+  ţc: affective/non-volitional mental state/process
+  ţc': sympathy/pity/empathy/compassion
+  ţč: degree of pain/loss/dissatisfaction/misery
+  tf: psychological manipulation/treatment
+  tfř: ozone
+  ţg: motive/incentive/enticement/pursuasion
+  th: (criminal) law/adjudication
+  tk: upper half or part
+  tk': sincerity/frankness/trustworthiness
+  ţk: three
+  ţk': commitment/loyalty
+  tkç: mercury
+  tkh: 3D spheroid shapes
+  ţkh: flexibility/rigidity (ERROR)
+  ţkhw: spinach
+  ţkl: laughning gas
+  tkr: pig
+  ţkř: helium
+  ţky: wheat
+  tl: salt
+  tļ: 2D curvature/distortion
+  ţl: numbness/emotional saturation
+  tlw: teal
+  ţlw: hydrogen
+  ţly: chlorine
+  tm: sign/mark/visual means of indication/representation
+  ţm: 2D shapes
+  ţmw: garlic
+  ţmy: carbon monoxide
+  tn: large implement for countering gravity
+  ţn: time period/duration
+  ţny: lime
+  ţpf: talc
+  ţph: nonchalance
+  ţphw: sorghum
+  ţpļ: methanol
+  ţpř: nitrogen
+  ţpţ: fluorine
+  ţpw: baking soda
+  tq: feeling of inner balance
+  ţq: consistency/plasticity/rheological phenomenon
+  ţq': crumble/fall apart/coherence/cohesiveness
+  ţqf: radon
+  ţqh: torpor/lethargy
+  ţqhw: lentil
+  ţqţ: argon
+  tr: green
+  tř: appear/manifest/show/exhibit/display
+  ţr: table sugar
+  ţř: edge
+  tt: salutation/greeting/acknowledgment
+  ţt: flaccidity/rigidity
+  ţt': fragility/strength
+  ţth: brittleness/resiliency
+  ţtl: neon
+  ţtř: xenon
+  tv: self/identity/character/subjectivity
+  ţv: jiggliness/immobility
+  tw: occupancy/residency
+  ţw: weather condition
+  ţx: compressability/stiffness
+  txh: subatomic particle
+  ţxh: smugness/conceit/foppishness
+  ţxhw: yam
+  ty: sense of wonder/enthrallment
+  ţy: benevolence
+  v: [ // play/recreation/leisure
+    [
+      [
+        play
+        leisure
+        hobby
+      ]
+      activity focus
+      enjoyment focus
+    ]
+    [
+      [
+        play a game/sport
+        formal entertainment
+        sport activity
+      ]
+      activity focus
+      enjoyment focus
+    ]
+  ]
+  vbr: elephant
+  vdr: wolf
+  vg: helmet
+  vgl: linoleum
+  vgr: kangaroo
+  vgř: graphite
+  vgw: deer
+  vgy: acetone
+  vkr: zebra
+  vkř: emery powder
+  vkw: mule
+  vky: sesame
+  vl: contain/hold/contents
+  vm: curvature/bending/open linear forms
+  vn: degree of fun/joviality
+  vpţ: epsom salts
+  vr: generic waterlife
+  vř: modesty/humility
+  vtr: calm, emotionally tranquil
+  vty: millet
+  vv: feeling of appreciation (benefits of a situation)
+  vw: heart/essence/values
+  vy: good/beneficial
+  vzm: dark, consumed by morose/morbid/(self-)destructive toughts
+  vžř: washing soda
+  vžv: zinc white
+  vzy: potash
+  x: [ // vision
+    [
+      [
+        sight
+        eye
+        visualization
+      ]
+      [
+        to see
+        eye (organ)
+        to envision
+      ]
+      [
+        a sight
+        eye (facial feature)
+        image in mind
+      ]
+    ]
+    [
+      [
+        examination
+        optical instrument + image
+        render
+      ]
+      [
+        to examine
+        optical instrument
+        to render
+      ]
+      [
+        thing examined
+        thing observed instrumentally
+        image rendered
+      ]
+    ]
+  ]
+  xč: weapon
+  xchw: tea
+  xčw: fluorspar
+  xč:' wgypsum
+  xh: fact/know/learn/understand/expertise
+  xhč': stupidity/intelelctual failure
+  xhchw: teff
+  xhčw: ginseng
+  xhf: intention/decision/determination/purpose
+  xhl: oil (petroleum)
+  xhly: rare natural element
+  xhm: rubber
+  xhmy: saspirin
+  xhn: existencial irony
+  xhnw: hemp
+  xhny: silica
+  xhp: functional well-formedness/perfection/aesthetic satisfaction
+  xhp': potassium/closed, emotionally unavailable
+  xhpř: saltpeter
+  xhpw: soya
+  xht: plastic
+  xht': copper
+  xhth: iron
+  xhtr: hot pepper
+  xhtř: magnesia
+  xhtw: tobacco
+  xht:' wamaranth
+  xhw: black pepper
+  xl: (quasi-)solid substance
+  xlw: yellow-green
+  xm: nine
+  xmy: lye
+  xn: back/dorsal area of the body
+  xp: 1D shapes
+  xphw: kelp
+  xpw: onion
+  xp:' woat
+  xr: gold
+  xt: effort/work
+  xt': red
+  xth: master/authority/servitude/obedience
+  xthw: mustard
+  xtļ: liquid (other than water) in static setting
+  xw: water in stating setting
+  xx: repute/notoriety
+  z: mind
+  ż: day/night
+  ž: love/affection/emotional bond
+  zb: conflict-based hostility
+  żb: tar
+  žb: feathery texture
+  zbr: emotionally saturated or drained
+  zbř: iodine
+  žbř: sponge-like texture
+  zbw: hairy texture
+  zd: manners/decorum/dignity
+  žd: slushy texture
+  zdl: formalin
+  zdr: bear
+  zdř: milk of magnesium
+  ždr: papery texture
+  zdw: coyote
+  ždw: fluffy texture
+  zdy: benzene
+  zg: tragicomic-based vocal/facial gesture
+  żg: steel
+  žg: mushy texture
+  žgl: woolly texture
+  zgr: donkey
+  zgř: unstable heavy element
+  žgr: dusty texture
+  zgw: sheep
+  žgy: ammonia
+  zj: nervousness/timidity
+  zk: guess/supposition/assumption
+  żk: honeycombed texture
+  żk': prickly texture
+  žk': viscous texture
+  zl: [ // inversion
+    [
+      [
+        turned
+        mirror-image
+        inside-out
+      ]
+      [
+        turned backwards
+        mirrored backwards
+        turned sideways
+      ]
+      [
+        mirrored sideways
+        turned upside-down
+        mirrored upside-down
+      ]
+    ]
+    formal
+  ]
+  žlw: plaster
+  zm: ten thousand
+  žm: pride/ego/respect
+  zmy: isopropane
+  žmy: synthetic heavy element
+  zn: heat conductive texture
+  zň: slimy texture
+  żn: growth/cultivation/husbandry
+  žny: heavy lanthanide element
+  zp: rubbery texture
+  zp': carrot
+  żp': jade
+  zph: asbestos
+  żph: cartilaginous texture
+  žph: powdery texture
+  zq: slippery texture
+  zq': brass
+  żq: cactus texture
+  żq': plutonium
+  žq: tingly texture
+  žq': uranium
+  zqh: vinegar
+  żqh: granular texture
+  žqh: sticky texture
+  zr: throat/gullet
+  żr: bristly texture
+  żř: quartz
+  žr: intelligent/astute/perspicacious
+  zt: coal
+  żt: pins and needle texture
+  zv: romantic and/or sexual relationship
+  žr: balance/equilibrium/symmetry/homeostasis
+  żv: potato
+  zvw: natural chemical element
+  žvw: lanthanide element
+  zvy: actinide element
+  zw: top, peak, summit
+  žw: fur texture
+  zy: wispy texture
+  žy: curvaceous/sensual
+  zz: soft like a cushion texture
+}

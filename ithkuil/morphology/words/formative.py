@@ -5,7 +5,7 @@ from ..exceptions import AnalysisException
 class Formative(Word):
 
     wordType = Session().query(ithWordType).filter(ithWordType.name == 'Formative').first()
-    
+
     categories = [
         'Root',
         'Stem and Pattern',
@@ -88,7 +88,7 @@ class Formative(Word):
             vals = values(slot)
             if slot == 'Cb' and 'Cb+' in self.slots:
                 vals += '+' if self.slots['Cb+'] else ''
-            desc.append(vals) 
+            desc.append(vals)
 
         def suffix(suf):
             deg = self.atom(self.morpheme('VxC', suf['degree'])).values[0].code
@@ -113,13 +113,13 @@ class Formative(Word):
                 result = { k + ' (inc)': v for k, v in result.items()}
             return result
 
-        def add(slot):   
+        def add(slot):
             if slot not in self.slots:
                 return
             vals = values(slot)
             if slot == 'Cb' and 'Cb+' in self.slots:
-                vals['Bias'] += '+' if self.slots['Cb+'] else ''
-            desc.update(vals) 
+                vals['Bias']['code'] += '+' if self.slots['Cb+'] else ''
+            desc.update(vals)
 
         def suffix(suf):
             if 'suffixes' not in desc:

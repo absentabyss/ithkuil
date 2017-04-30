@@ -1,0 +1,89 @@
+{
+  DEF: [
+    any (random)
+    almost any
+    some X or other
+    some certain X
+    this X or that
+    certain/particular
+    presumably this X
+    in said manner
+    at hand
+  ]
+  DSR: [
+    advertised
+    well-known
+    public
+    shown
+    semi-public
+    personal
+    private
+    secret
+    confidential
+  ]
+  INL: [
+    none whatsoever
+    hardly any
+    a few certain
+    certain
+    several
+    a significant portion
+    most
+    almost every
+  ]
+  EXT: [
+    nothing like that X
+    somewhat like that X
+    nearly that X
+    just about
+    this sort of
+    such a
+    clear case of
+    just like that
+    exactly so
+  ]
+  FAM: [
+    unknowable
+    totally unfamiliar
+    unfamiliar
+    somewhat unfamiliar
+    only just familiar
+    somewhat familiar
+    familiar
+    very familiar
+    intimate
+  ]
+  SIM: [
+    opposite
+    completely dissimilar
+    barely similar
+    other
+    somewhat different
+    similar at deep level
+    similar
+    very similar
+    indistinguishable
+  ]
+  DEX: [
+    yonder (near nobody)
+    there (by 3rd party)
+    there (by listener)
+    here (by speaker)
+    here (by speaker, accessible)
+    here with us (by S+L, accessible)
+    there (by listener, accessible)
+    there (by 3rd party, accessible)
+    yonder (near nobody but accessible)
+  ]
+  UTE: [
+    tool specifically for...
+    medium through which...
+    conduit tool for...
+    natural body part for...
+    object employed circumstantially for...
+    protective element to allow...
+    enabling element to allow...
+    environment which allows...
+    force which causes...
+  ]
+}

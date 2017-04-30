@@ -4,7 +4,7 @@ from ithkuil.morphology.database import ithWordType, Session
 class VerbalAdjunct(Word):
 
     wordType = Session().query(ithWordType).filter(ithWordType.name == 'Verbal adjunct').first()
-    
+
     categories = [
         'Valence',
         'Level',
@@ -60,20 +60,20 @@ class VerbalAdjunct(Word):
             result = { x.category.name: {'code': x.code, 'name': x.name} for x in vals }
             return result
 
-        def add(slot):   
+        def add(slot):
             if slot not in self.slots:
                 return
             vals = values(slot)
             if 'Modality' in vals and vals['Modality']['code'] == '(NO-MOD)':
                 del vals['Modality']
             if slot == 'Cb' and 'Cb+' in self.slots:
-                vals['Bias'] += '+' if self.slots['Cb+'] else ''
+                vals['Bias']['code'] += '+' if self.slots['Cb+'] else ''
             if 'Aspect' in vals and 'Aspect' in desc:
                 vals['Aspect 2'] = vals['Aspect']
                 del vals['Aspect']
             desc.update(vals)
 
         self.fillResult(add)
-        
+
         return desc
 
