@@ -1,97 +1,97 @@
 {
-  ASU: [
+  ASU: [ // n
       of course
       I told you so!
   ]
-  HPB: [
+  HPB: [ // m
       hyperbole
       one-upmanship
   ]
-  COI: [
+  COI: [ // ň
       coincidence
       lucky!
   ]
-  ACP: [
+  ACP: [ // ţ
       acceptance
       resignation
   ]
-  RAC: [
+  RAC: [ // ç
       surprise
       wow!
   ]
-  STU: [
+  STU: [ // s
       it's a wonder
       who would’ve thought?!
   ]
-  CTV: [
+  CTV: [ // z
       I wonder
       huh?
   ]
-  DPV: [
+  DPV: [ // š
       dread/bad news
       despair!
   ]
-  RVL: [
+  RVL: [ // l
       no wonder!
       aha!
   ]
-  GRT: [
+  GRT: [ // r
       pleasant
       bliss!
   ]
-  SOL: [
+  SOL: [ // ř
       please
       come on!
   ]
-  SEL: [
+  SEL: [ // ļ
       as I see it
       and that’s that!
   ]
-  IRO: [
+  IRO: [ // kç
       understatement
       irony!
   ]
-  EXA: [
+  EXA: [ // pļ
       look…
       mockery!
   ]
-  LTL: [
+  LTL: [ // pç
       technically
       literally
   ]
-  CRR: [
+  CRR: [ // x
       correcting
       so to speak
   ]
-  EUP: [
+  EUP: [ // xh
       in other words
       let’s just say…
   ]
-  SKP: [
+  SKP: [ // ks
       hard to believe
       yeah, right!
   ]
-  CYN: [
+  CYN: [ // f
       you mean…?
       sarcastic “oh, great!”
   ]
-  CTP: [
+  CTP: [ // kš
       contempt
       bullshit!
   ]
-  DSM: [
+  DSM: [ // kf
       it’s nothing
       so what?
   ]
-  IDG: [
+  IDG: [ // pš
       pardon?
       how dare…!?
   ]
-  SGS: [
+  SGS: [ // ps
       suggestion
       formal suggestion
   ]
-  PPV: [
+  PPV: [ // pf
       how about…
       ultimatum
   ]
