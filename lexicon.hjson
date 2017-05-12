@@ -267,6 +267,26 @@
     ]
     abnormal
   ]
+  @gm: [ // 2D shapes
+    [
+      [
+        @
+        @, horizontally elongated
+        @, vertically elongated
+      ]
+      abstract
+      object with this form
+    ]
+    [
+      [
+        @, distorted
+        @, skewed
+        @, pinched
+      ]
+      abstract
+      object with this form
+    ]
+  ]
   @xt': [ // color
     [
       [
@@ -478,6 +498,26 @@
     ]
   ]
   bb: ["@gv" "coat"]
+  bbr: [ // false science concept
+    [
+      [
+        false physical concept
+        false chemical concept
+        false biological concept
+      ]
+      concept focus
+      impact focus
+    ]
+    [
+      [
+        false astronomy concept
+        false geology concept
+        false medicine concept
+      ]
+      concept focus
+      impact focus
+    ]
+  ]
   bd: ["@gv" "necktie"]
   bdh: ["@vr" "octopus"]
   bg: ["@vr" "squid"]
@@ -581,6 +621,18 @@
   bzdw: ["@sk" "python"]
   bzg: ["@f" "1d-between"]
   bzgr: ["@sk" "viper"]
+  bž: [ // eccentricity
+    [
+      [
+        eccentric
+        weird
+        unorthodox
+      ]
+      state focus
+      consequence focus
+    ]
+    self-aware
+  ]
   c: [ // exist
     [
       [
@@ -592,6 +644,26 @@
       metaphysical
     ]
     epistemological
+  ]
+  cc: [ // degree of capacity for emotion
+    [
+      [
+        degree of interest
+        degree of devotion
+        degree of capacity for involvement
+      ]
+      quality focus
+      feeling focus
+    ]
+    [
+      [
+        degree of emotional fulfillment
+        degree of emotional stability
+        degree of being in touch with emotions
+      ]
+      quality focus
+      feeling focus
+    ]
   ]
   ck: ["@gv" "hat"]
   ckh: [ // non-water liquid as substance and tool
@@ -747,7 +819,28 @@
     ]
     wireframe
   ]
+  ctw: [ // measurement of illumination
+    [
+      [
+        measure of luminous intensity
+        measure of luminous flux
+        measure of luminance
+      ]
+      process
+      unit
+    ]
+    [
+      [
+        measure of illuminance
+        measure of photon flux
+        measure of other illumination phenomena
+      ]
+      process
+      unit
+    ]
+  ]
   cw: ["@f" "left"]
+  cx: ["+dy" "tactile"]
   cy: ["@sk" "mouse"]
   c': ["@pk" "tenderness/caring"]
   ch: ["@pk" "grief"]
@@ -944,6 +1037,7 @@
   čp: ["@f" "left-behind"]
   čp': ["@xl" "glass"]
   čq: ["@f" "above"]
+  čq': ["@pk" "deep personal contempt"]
   čr: ["@sk" "vulture"]
   čt: ["@f" "right-behind"]
   čthw: ["+qw" "gourd"]
@@ -1545,26 +1639,7 @@
       cause focus
     ]
   ]
-  gm: [ // two-dimensional outline shapes
-    [
-      [
-        2D outline shape
-        2D outline shape horizontally elongated
-        2D outline shape vertically elongated
-      ]
-      abstract
-      object with this form
-    ]
-    [
-      [
-        2D outline shape distorted
-        2D outline shape skewed
-        2D outline shape pinched
-      ]
-      abstract
-      object with this form
-    ]
-  ]
+  gm: ["@gm" "2D outline"]
   gn: ["@xl" "wax"]
   gr: [ // nutrition, nutritional consumption
     [
@@ -1662,16 +1737,65 @@
       ]
     ]
   ]
-  jgw: hawk
-  jj: action in-situ/motion in-situ
-  jk: oval
+  jgw: ["@sk" "hawk"]
+  jj: [ // action in-situ/motion in-situ. TODO: SSD
+    [
+      [
+        action in situ
+        motion of part in situ
+        specific pattern of movement (SSD)
+      ]
+      movement focus
+      impact focus
+    ]
+    [
+      [
+        bodily action in situ
+        motoin of limb in situ
+        dance
+      ]
+      deliberate
+      non-deliberate
+    ]
+  ]
+  jk: ["@gm" "oval"]
   jm: in-law-foster relations
-  jph: egg-shaped
-  jq': platinum
-  jr: tenacity/audacity/resoluteness
-  jth: half-circle, semi-circle
-  jv: imitation/mimicry/impersonation/dramatic acting
-  jw: scarf
+  jph: ["@gm" "egg shape"]
+  jq': ["@xl" "platinum"]
+  jr: [ // tenacity/audacity/resoluteness
+    [
+      [
+        perseverance
+        audacity
+        definace
+      ]
+      state focus
+      consequence focus
+    ]
+    self-aware
+  ]
+  jth: ["@gm" "semi-circle"]
+  jv: [ // imitation/mimicry/impersonation/dramatic acting
+    [
+      [
+        imitate
+        mimic/feign
+        make-believe
+      ]
+      performed act focus
+      observed role focus
+    ]
+    [
+      [
+        simulate
+        impersonate
+        enact
+      ]
+      performed act focus
+      observed role focus
+    ]
+  ]
+  jw: ["@gv" "scarf"]
   k: [ // path-oriented translative motion
     [
       [
@@ -1708,18 +1832,148 @@
       ]
     ]
   ]
-  k': light, radiant energy
-  kc: lower order lifeform
-  kč: excuse, forgiveness, absolution, amnesty
-  kç: affective bodily sensations (surface-tactile)
-  kčhw: ginger
-  kd: capture/seizure/deprivation of freedom of movement
-  kf: types of hard or non-living bodilt tissues
-  kh: social interrelation, interaction
-  khw: purplz
-  kk: solidity, hollowness (=permeability)
-  kk': business partnership
-  kkr: oblique vertical motion
+  k': [ // light, radiant energy
+    [
+      [
+        ray of sunlight
+        the Sun
+        star
+      ]
+      light
+      energy/heat
+    ]
+    [
+      [
+        ray of energy
+        flame
+        artificial light source
+      ]
+      light
+      energy/heat
+    ]
+  ]
+  kc: [ // lower order lifeform
+    [
+      [
+        critter
+        microbe
+        non-microbial animal
+      ]
+      [
+        bacterium
+        virus
+        protist
+      ]
+      [
+        soft-bodied animal
+        exoskeletal animal
+        endoskeletal animal
+      ]
+    ]
+    as resource
+  ]
+  kç: [ // affective bodily sensations (surface-tactile)
+    [
+      [
+        itch
+        tingle
+        sting
+      ]
+      sensation focus
+      source focus
+    ]
+    [
+      [
+        crawling sensation
+        tickle
+        feeling of hairs standing on end
+      ]
+      sensation focus
+      source focus
+    ]
+  ]
+  kč: [ // excuse, forgiveness, absolution, amnesty
+    [
+      [
+        ask/grant excuse
+        ask/grant forgiveness
+        atonement/redemption
+      ]
+      [
+        ask to be excused
+        beg forgiveness
+        atone
+      ]
+      [
+        to excuse
+        to forgive
+        to redeem
+      ]
+    ]
+    [
+      [
+        seek/grant appeasement
+        seek/grant absolution
+        seek/grant amnesty
+      ]
+      [
+        seek appeasement
+        seek absolution
+        seek amnesty
+      ]
+      [
+        appease
+        absolve
+        grant amnesty
+      ]
+    ]
+  ]
+  kčhw: ["+qw" "ginger"]
+  kd: [ // capture/seizure/deprivation of freedom of movement
+    [
+      [
+        apprehend
+        catch
+        take over
+      ]
+      act focus
+      freedom deprivation focus
+    ]
+    [
+      [
+        confiscate
+        seize
+        usurp
+      ]
+      act focus
+      deprivation focus
+    ]
+  ]
+  kf: [ // types of hard or non-living bodily tissues
+    [
+      [
+        tooth
+        fingernail/toenail/claw
+        wart/callus/scar
+      ]
+      tissue focus
+      function focus
+    ]
+    [
+      [
+        head hair
+        facial hair
+        pubic/armpit hair
+      ]
+      tissue focus
+      function focus
+    ]
+  ]
+  kh: ["@kh" "social"]
+  khw: ["@xt'" "purple"]
+  kk: ["@kv" "solidity"]
+  kk': ["@kh" "business partnership"]
+  kkr: ["+j" "oblique"]
   kl: [ // water in natural motion
     [
       [
@@ -1756,12 +2010,38 @@
       ]
     ]
   ]
-  klw: turquoise
-  km: weight, mass
-  kn: snake
-  kp: length
-  kr: tool, instrument
-  ks: two, duality
+  klw: ["@xt'" "turquoise"]
+  km: ["@kv" "weight/mass"]
+  kn: ["@sk" "snake"]
+  kp: ["@kp" "length"]
+  kpl: [ // measurement of energy/force/pressure/power
+    [
+      [
+
+      ]
+    ]
+  ]
+  kr: [ // tool, instrument
+    [
+      [
+        tool as extension of appendage
+        tool as nature defier
+        resource for a tool
+      ]
+      thing
+      function
+    ]
+    [
+      [
+        utensil
+        motorized tool
+        fuel/input for a motorized tool
+      ]
+      thing
+      function
+    ]
+  ]
+  ks: ["@num" "2"]
   kš: [ // fool, clown
     [
       [
@@ -1782,24 +2062,179 @@
       parody
     ]
   ]
-  ksf: position between, amidst, among [volume-based 3-dimensional context, e.g., sky crowded with balloonists]
-  ksl: -X/0/+Z spatial orientation, position, direction
-  ksn: naivete/foolishness
-  ksp: -X/+Y/+Z spatial orientation, position, direction
-  kšp: -X/-Y/+Z spatial orientation, position, direction
-  ksr: 0/0/-Z spatial orientation, position, direction
-  kst: +X/+Y/+Z spatial orientation, position, direction
-  kšt: +X/-Y/+Z spatial orientation, position, direction
-  ksw: -X/0/-Z spatial orientation, position, direction
-  kt: rock, mineral-based soil, ground
-  ktr: association/deal with/treat with/face/confront
-  kţ: similarity, sameness
-  kt': pressure based or reaction-based or gravitation-based equilibrium, motion, propulsion
-  kţkl: heron
-  kţr: eagle
-  kv: quality or property of matter
-  kw: color, hue
-  ky: coffee plant
+  ksf: ["@f" "3D-between"]
+  ksl: ["@f" "left-above"]
+  ksn: [ // naivete/foolishness
+    [
+      [
+        naïve
+        clueless
+        ignorant
+      ]
+      state focus
+      consequence focus
+    ]
+    self-aware
+  ]
+  ksp: ["@f" "left-ahead-above"]
+  kšp: ["@f" "left-behind-above"]
+  ksr: ["@f" "below"]
+  kst: ["@f" "right-ahead-above"]
+  kšt: ["@f" "right-behind-above"]
+  ksw: ["@f" "left-below"]
+  ksţ: [ // lim d/dx int
+    [
+      [
+        math limit
+        math derivative
+        math integral
+      ]
+      [
+        limit of function
+        Δy
+        antiderivative
+      ]
+      [
+        limit of series
+        Δx
+        definite integral
+      ]
+    ]
+    [
+      [
+        handle limit expression
+        handle derivative expression
+        handle integral expression
+      ]
+      express
+      calculate
+    ]
+  ]
+  ksv: [ // exp/logarithm
+    [
+      [
+        exponentiation
+        logarithm
+        antilogarithm
+      ]
+      [
+        exponent base
+        logarithm base
+        antilogarithm base
+      ]
+      [
+        exponent power
+        logarithm value
+        antilogarithm value
+      ]
+    ]
+    [
+      [
+        as base-and-exponent
+        as logarithm
+        as antilogarithm
+      ]
+      express
+      calculate
+    ]
+  ]
+  kt: [ //rock, mineral-based soil, ground
+    [
+      [
+        stone
+        sand
+        clay
+      ]
+      substance
+      substrate identifier
+    ]
+    [
+      [
+        rock
+        gravel
+        lava
+      ]
+      substance
+      substrate identifier
+    ]
+  ]
+  kth: [ // atom
+    [
+      [
+        atom
+        atomic nucleus
+        atomic electron cloud
+      ]
+      physical
+      behavioral
+    ]
+    [
+      [
+        instance of chemical element
+        nuclide
+        orbital state
+      ]
+      physical
+      effect
+    ]
+  ]
+  ktr: [ // association/deal with/treat with/face/confront
+    [
+      [
+        deal with
+        confront
+        pertain to
+      ]
+      act focus
+      outcome focus
+    ]
+    [
+      [
+        engage in
+        do business with
+        affiliate with
+      ]
+      act focus
+      outcome focus
+    ]
+  ]
+  kţ: [ // similarity, sameness
+    [
+      [
+        self-similarity
+        similarity to another
+        remind of
+      ]
+      impression focus
+      purpose focus
+    ]
+    [
+      [
+        self-same
+        identical to another
+        same (copy/replacement)
+      ]
+      identity focus
+      purpose focus
+    ]
+  ]
+  kt': [ // pressure based or reaction-based or gravitation-based equilibrium, motion, propulsion
+    [
+      [
+        hover against medium
+        hover in gravity
+        orbit
+      ]
+      object
+      state
+    ]
+    artificial
+  ]
+  kţkl: ["@sk" "heron"]
+  kţr: ["@sk" "eagle"]
+  kv: ["@kv" "…"]
+  kw: ["@xt'" "colored"]
+  ky: ["+ph" "coffee"]
   l: [
     [
       [
@@ -1820,7 +2255,26 @@
       subjective
     ]
   ]
-  ļ: breathe, respiration
+  ļ: [ // breathe, respiration
+    [
+      [
+        respire
+        yawn
+        pump
+      ]
+      gas transfer focus
+      physiological focus
+    ]
+    [
+      [
+        inflate
+        blow
+        suck
+      ]
+      gas transfer focus
+      physiological focus
+    ]
+  ]
   lb: dimensional, spatio-temporal relations
   lbw: whale
   lc: proximity, distance
