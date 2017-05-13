@@ -30,7 +30,7 @@ def lexicon_lookup(root, designation, stem_and_pattern):
     return lexicon_lookup_(root, d, p, s)
 
 def lexicon_lookup_(root, d, p, s):
-    print('@@@', root, d, p, s)
+    print('lexicon_lookup_', root, d, p, s)
     dps = ''
     if (d, p, s) != (0, 0, 0):
         dps = ('-%s-P%dS%d' % (['IFL', 'FML'][d], p + 1, s + 1)).translate(SUB)
@@ -47,6 +47,9 @@ def lexicon_lookup_(root, d, p, s):
         if command.startswith('@'):
             # Template
             res = lexicon_lookup_(command, d, p, s)
+            if command == '@kh' and '/' in entry[1]:
+                res = res.replace('@ relation (dominant)', entry[1].split('/')[0].strip())
+                res = res.replace('@ relation (passive)', entry[1].split('/')[1].strip())
             return res.replace('@', entry[1])
         elif command.startswith('+'):
             # Addendum
@@ -172,7 +175,8 @@ def nice_gloss(word, full_names=False):
     except AnalysisException as e:
         return str(e)
 
-print(nice_gloss('üvôqalsâniú'))
+print(nice_gloss('elkhal'))
+print(nice_gloss('ulkhal'))
 # print(nice_gloss('qel'))
 #print(nice_gloss('ebol'))
 #print(lexicon_lookup_('çmw', 1, 1, 1))
