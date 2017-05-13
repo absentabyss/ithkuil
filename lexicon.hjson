@@ -2275,54 +2275,154 @@
       physiological focus
     ]
   ]
-  lb: dimensional, spatio-temporal relations
-  lbw: whale
-  lc: proximity, distance
-  lč: girth (=2-dimensional x-planar dimension)
-  lç: width (=slenderness)
-  lc': planarity, flatness relative to object itself
-  lč': sharpness, dullness of an edge
-  lch: upright position or orientation, veerticality, perpendicular, protrusion
-  ld: amplitude (=2-dimensional z-planar dimension)
-  ldh: reach (=2-dimensional y-planar dimension)
-  ldr: boar
-  ldw: cheetah
-  lf: depth
+  @lb: [ // dimensional, spatio-temporal relations
+    [
+      [
+        @
+        increase in @
+        decrease in @
+      ]
+      spatial
+      temporal
+    ]
+    gestalt
+  ]
+  lb: ["@lb" "dimensional property"]
+  lbw: ["@sk" "whale"]
+  lc: ["@lb" "distance"]
+  lč: ["@lb" "girth"]
+  lç: ["@lb" "width"]
+  lc': ["@lb" "planarity"]
+  lč': ["@lb" "edge sharpness"]
+  lch: [ // upright position or orientation, veerticality, perpendicular, protrusion
+    [
+      [
+        upright position
+        stick up/out
+        perpendicular
+      ]
+      position focus
+      object focus
+    ]
+    [
+      [
+        vertical
+        maximally un-reposed
+        pulled to maximum height
+      ]
+      position focus
+      object focus
+    ]
+  ]
+  ld: ["@lb" "amplitude"]
+  ldh: ["@lb" "reach"]
+  ldr: ["@sk" "boar"]
+  ldw: ["@sk" "cheetah"]
+  lf: ["@lb" "depth"]
   lfq: self-concern/selfishness
-  lfw: frog
-  lg: interval, gap
-  lgw: otter
-  lk: height (= tallness - relative to gratiy)
-  lk': straightness, linearity relative to object itself
-  lkh: master-servant
-  ļkh: ecru
-  lkhw: mint
-  lkw: friendly/vivacious
-  ll: one, unity
-  ļļ: flabiness - cohesiveness, compactness
-  lm: music
-  ļm: springiness - inertness, immobility
-  lmz: dolphin
-  ln: front [relative to directional orientation or primary interface]
-  ļn: classes of land, air animal
-  lntw: nightingale
-  lp: speed, velocity, acceleration
-  lp': volume (=3-dimensional size)
-  ļp: sponginess - stiffness, rigidity
-  ļp': buoyancy
-  ļph: ochre
-  lphw: walrus
-  lq: sharpness, dullness of a point
-  lq': rectilinear, polyhedral, straight-angled
-  ļq: tin
-  ļq': spreadability
-  lqh: classes of waterlife
-  ļqh: deformability - dentability
-  lr: sphericalness, roudness
-  lř: classes of mammal
-  ls: flatness, levelness (relative to gravity)
-  lš: periphery, cirlce, ring
-  lskw: antelope
+  lfw: ["@sk" "frog"]
+  lg: ["@lb" "gap"]
+  lgw: ["@sk" "otter"]
+  lk: ["@lb" "height"]
+  lk': ["@lb" "straightness"]
+  lkh: ["@kh" "master/servant"]
+  lkhw: ["+qw" "mint"]
+  lkw: [ // friendly/vivacious
+    [
+      [
+        friendly
+        vivacious
+        larger-than-life
+      ]
+      state focus
+      consequence focus
+    ]
+    self-aware
+  ]
+  ll: [ // one
+    [
+      [
+        one
+        alone/sole
+        unique
+      ]
+      [
+        unit (no copies)
+        alone (no copies)
+        unique (no copies)
+      ]
+      [
+        unit (indivisible)
+        alone (indivisible)
+        unique (indivisible)
+      ]
+    ]
+    [
+      [
+        singular
+        isolated
+        independent
+      ]
+      no copies
+      indivisible
+    ]
+  ]
+  lm: [ // music
+    [
+      [
+        musical note
+        consciously select musical note
+        musical beat
+      ]
+      sound
+      production
+    ]
+    sung
+  ]
+  lmz: ["@sk" "dolphin"]
+  ln: ["@g" "front"]
+  lntw: ["@sk" "nightingale"]
+  lp: ["@lb" "speed"]
+  lp': ["@lb" "volume"]
+  lphw: ["@sk" "walrus"]
+  lq: ["@lb" "point sharpness"]
+  lq': ["@lb" "straight-angledness"]
+  lqh: [ // classes of waterlife
+    [
+      [
+        vertebral waterlife
+        arthropod waterlife
+        soft-bodied waterlife
+      ]
+      [
+        jellyfish-like waterlife
+        crustacean
+        shellfish
+      ]
+      [
+        gilled/finned fish
+        weird fish
+        sea mammal
+      ]
+    ]
+    domesticated
+  ]
+  lr: ["@lb" "roundness"]
+  lř: [ // classes of mammal
+    [
+      [
+        marsupial
+        ovoviviparous mammal
+        placental mammal
+      ]
+      male
+      female
+    ]
+    domesticated
+  ]
+  ls: ["@lb" "levelness"]
+  lš: ["@lb" "periphery"]
+  lskw: ["@sk" "antelope"]
   lt: [ // write, inscribe, document
     [
       [
@@ -2351,21 +2451,86 @@
       content
     ]
   ]
+  lt': ["@lb" "perpendicularity"]
+  lth: [ // deity, spiritual entity, supernatural entity
+    [
+      [
+        spirit
+        deity
+        demon
+      ]
+      male
+      female
+    ]
+    [
+      [
+        angel
+        creator deity
+        devil
+      ]
+      male
+      female
+    ]
+  ]
+  ltw: ["@sk" "goat"]
   lţ: concavity, depression
-  lt': perpendicularity, uprightness
-  lth: deity, spiritual entity, supernatural entity
   lţr: turte
-  ltw: goat
   lv: even (=smooth-surfaced in planar context)
-  ļw: elasticity - stiffness, rigidity
   lx: convexity, rotundity
   lxh: brown
   lxw: rabbit
+  ly: [ // arithmetic
+    [
+      [
+        add/subtract
+        multiply/divide
+        arithmetical/mathematical expression
+      ]
+      [
+        add
+        multiply
+        arithmetical expression
+      ]
+      [
+        subtract
+        divide
+        mathematical expression
+      ]
+    ]
+    [
+      [
+        sum/difference
+        product/quotient
+        solve arithmetically/mathematically
+      ]
+      [
+        sum
+        product
+        calculate arithmetically
+      ]
+      [
+        difference
+        quotient
+        solve mathematically
+      ]
+    ]
+  ]
   lz: even (=smooth-edged in linear context)
   lż: specialized volitional bodily sounds
   lž: elasticity, stretch capacity
   lzw: goose
   lżw: gila monster
+  ļkh: ecru
+  ļļ: flabiness - cohesiveness, compactness
+  ļm: springiness - inertness, immobility
+  ļn: classes of land, air animal
+  ļp: sponginess - stiffness, rigidity
+  ļp': buoyancy
+  ļph: ochre
+  ļq: tin
+  ļq': spreadability
+  ļqh: deformability - dentability
+  ļw: elasticity - stiffness, rigidity
   m: [ // appearance, semblance, impression
     [
       [
@@ -2387,10 +2552,66 @@
     ]
   ]
   mb: geographical, geopolitical elements
+  mbr: [ // vectors
+    [
+      [
+        scalar
+        vector
+        tensor
+      ]
+      [
+        magnitude of vector
+        Euclidean vector
+        tensor as array
+      ]
+      [
+        direction of vector
+        non-Euclidean vector
+        tensor as linear map
+      ]
+    ]
+    [
+      [
+        scalar product
+        vector space
+        tensor field
+      ]
+      [
+        dot product
+        Euclidean vector space
+        tensor product of vector space
+      ]
+      [
+        inner product of vectors
+        non-Euclidean vector space
+        point in a tensor field
+      ]
+    ]
+  ]
   mç: durability, fragility (=capacity for being damaged)
   mf: glove
+  mft: [ // dairy product
+    [
+      [
+        milk
+        milk byproduct
+        dairy product
+      ]
+      as entity
+      as food
+    ]
+    [
+      [
+        fermented milk
+        food made with milk
+        food made with dairy
+      ]
+      as entity
+      as food
+    ]
+  ]
   mg: peach (color)
-  mj: shame, feeling of being ridiculed
+  mj: ["@pk" "shame, being ridiculed"]
   mk: aspects, methods of ingestion, feeding
   mk': silicon
   mkh: beige, tan
@@ -2399,19 +2620,75 @@
   mm: nuclear familiy member
   mn: awe, be or feel impressed, humbleness in face of something
   mp: smell, odor
+  mpr: [ // measurement of amount of substance / density
+    [
+      [
+        measurement of chemical amount
+        measurement of density
+        measurement of catalytic activity
+      ]
+      process
+      unit
+    ]
+    [
+      [
+        measurement of substance concentration
+        measurement of energy per amount of substance
+        measurement of rate of other density-related phenomena
+      ]
+      process
+      unit
+    ]
+  ]
   mp': architectural components, forms
+  mph: [ // measurement of electromagn
+    [
+      [
+        measurement of electric current
+        measurement of electrical charge
+        measurement of electric potential difference
+      ]
+      process
+      unit
+    ]
+    [
+      [
+        measurement of magnetic flux
+        measurement of electrical capacitance
+        measurement of electrical inductance
+      ]
+    ]
+  ]
   mpy: squash
   mq: romantic love relationship
   mqhw: date (fruit)
   mř: transfer of possession
   ms: value, worth, price, cost
-  msk: bodily positions (other than upright of supine)
+  msk: [ // bodily positions (other than upright or supine)
+    [
+      [
+        crouched down
+        seated
+        poised for movement
+      ]
+      position focus
+      purpose focus
+    ]
+    [
+      [
+        fetal position
+        leg pose
+        arm pose
+      ]
+    ]
+  ]
   mš: irregular, amorphous outline
   mt: parent-child relationship
   mţ: autumn, fall
   mt': classes of animal
   mth: soil, ground, dirt (mixed organic + mineral)
   mv: middle, center (as seen perpendicular to long axis of entity)
+  mvy: ["@sk" "peacock"]
   mw: tightness, slack (=tauntness)
   mx: season
   mxh: horizontal supporting surface against gravity
@@ -2430,6 +2707,26 @@
   nch: fig
   nčh: tangerine
   nchw: duck
+  ňčh: [ // measurement of secondary electromagn phenomena
+    [
+      [
+        measurement of electrical resistance
+        measurement of electrical conductance
+        measurement of magnetomotive force
+      ]
+      process
+      unit
+    ]
+    [
+      [
+        measurement of magnetic flux density
+        measurement of ratio between electromagnetic value
+        measurement of rate of electromagnetic phenomena
+      ]
+      process
+      unit
+    ]
+  ]
   ňčhw: bamboo
   nçw: swan
   nd: question/inquiry/answer/response
@@ -2458,18 +2755,105 @@
   ns: ["@num" "7"]
   nš: rear, back part of
   ňs: square/rectangle/rhombus
-  ňsp: apostasy/heresy/iconoclasm
+  ňsp: [ // apostasy/heresy/iconoclasm
+    [
+      [
+        apostasy
+        heresy
+        iconoclasm
+      ]
+      state focus
+      consequence focus
+    ]
+    self-aware
+  ]
   nst: recline/prone position/horizintality
   nsw: chicken
   ňšw: gorilla
   nt: hear(ing) / sound
-  ntr: freedom/independance/autonomy/natural right
+  ntr: [ // freedom/independance/autonomy/natural right
+    [
+      [
+        be free
+        decide own action
+        exempt
+      ]
+      state focus
+      effect focus
+    ]
+    [
+      [
+        have autonomy
+        not need permission
+        be unaffiliated
+      ]
+      state focus
+      effect focus
+    ]
+  ]
   nţ: close loving friendship
-  nţw: affective bodily sensations (internal/proprioceptive)
+  nţw: [ // affective bodily sensations (internal/proprioceptive)
+    [
+      [
+        degree of general well-being
+        degree of internal bodily ache
+        degree of subjective abnormal internal bodily sensation
+      ]
+      effect focus
+      source focus
+    ]
+    [
+      [
+        degree of vigor
+        degree of bodily involuntary movement
+        degree of hunger
+      ]
+      effect focus
+      source focus
+    ]
+  ]
   nt': lemon
   nth: pear
-  ňk': keep clear/make way/escape
-  ňsk: aspects of bodily physical capacity or physical bodily performance
+  ňk': [ // keep clear/make way/escape
+    [
+      [
+        get out of the way
+        steer clear of
+        evade via stealth
+      ]
+      act focus
+      reason focus
+    ]
+    [
+      [
+        flee from
+        refrain from
+        shirk
+      ]
+      act focus
+      reason focus
+    ]
+  ]
+  ňsk: [ //aspects of bodily physical capacity or physical bodily performance
+    [
+      [
+        degree of brute bodily strength
+        degree of resistance to pain
+        degree of resiliency
+      ]
+      faculty focus
+      effect focus
+    ]
+    [
+      [
+        degree of stamina
+        degree of immunological response
+        degree of recuperative power
+      ]
+      faculty focus
+      effect focus
+    ]
+  ]
   ňth: tropical rainy season
   nv: peach
   ňv: generic crawling bug
@@ -2522,7 +2906,26 @@
   ]
   pč: repugnance, repellant feeling, disgust
   pç: generic or oblique 3D range of motion/3D pervasive movement/movement 3D volume
-  pçk: faculty/endowment/property/quality
+  pçk: [ // faculty/endowment/property/quality
+    [
+      [
+        capacity for
+        attribute/quality
+        property
+      ]
+      abstract
+      manifest
+    ]
+    [
+      [
+        aptitude for
+        learned skill
+        virtue
+      ]
+      abstract
+      manifest
+    ]
+  ]
   pc': embarassment at being unable to perform a task or activity as expected
   pč': feeling of disappointment/let-down at one's own actions/behavior
   pch: feeling flustered at not knowing how to react or what to think
@@ -2571,8 +2974,47 @@
   phw: pink
   pj: feeling of disappointment at being letdown by another
   pk: experience/undergo a state or feeling
-  pkw: tense, on edge
-  pky: cereal grains and grain-derived foods
+  pkl: [ //
+    [
+      [
+        measurement of statistical probability
+        measurement of content of information
+        measurement of data transmission speed
+      ]
+      process
+      unit
+    ]
+    [
+      [
+        measurement of sound intensity
+        measurement of acoustic absorption
+        measurement of miscellaneous phenomenon
+      ]
+      process
+      unit
+    ]
+  ]
+  pkw: ["@pk" "on-edge"]
+  pky: [ // cereal grains and grain-derived foods
+    [
+      [
+        edible cereal grain
+        refined grain
+        parent plant of cereal grain
+      ]
+      object
+      resource
+    ]
+    [
+      [
+        flour
+        bread
+        other cereal grain derived food
+      ]
+      object
+      resource
+    ]
+  ]
   pk': bother, annoyance at self due to one's own actions/behavior
   pkh: humiliation
   pl: regret, repining, ruefulness
@@ -2598,7 +3040,18 @@
   pškh: titanium
   psl: 0/-Y/+Z spatial orientation, position, direction
   psp': selenium
-  psq: self-righteousness/hypocrisy
+  psq: [ // self-righteousness/hypocrisy
+    [
+      [
+        self-righteous
+        holier-than-thou
+        hypocritical
+      ]
+      state focus
+      consequence focus
+    ]
+    self-aware
+  ]
   psq': carbon
   pšq': zirconium
   pšqh: calcium
@@ -2607,7 +3060,7 @@
   pšt: +X/-Y/-Z spatial orientation, position, direction
   pstw: 100 million
   psw: 0/+Y/+Z spatial orientation, position, direction
-  psy: magenta
+  psy: ["@xt'" "magenta"]
   pt: feel hurt/offended
   pţ: angular structure/corner
   pt': angst/weltschmertz
@@ -2645,16 +3098,58 @@
   qfř: molybdenum
   qfw: bismuth
   qh: transcendence/spirit/religion
-  qj: hysteria/irrathionality/paranoia
+  qj: [ // hysteria/irrathionality/paranoia
+    [
+      [
+        irrational in outlook on life
+        hysterical in outlook on life
+        paranoid in outlook on life
+      ]
+      state focus
+      consequence focus
+    ]
+    self-aware
+  ]
   ql: luquid/fluid
   qly: manganese
   qm: component of body's respiratory/cardio-vasculatory system
   qn: honey
-  qp: aware/alert/suspicious
+  qp: [ // aware/alert/suspicious
+    [
+      [
+        aware of surroundings
+        mindful
+        wary/cautious
+      ]
+      state focus
+      consequence focus
+    ]
+    self-aware
+  ]
   qq: interior, inner/internal part, innards
   qr: celebratory act/ceremonial rite
   qt: degree of pleasure/fulfillment/satisfaction/hapiuness
-  qt': security/safety/protection/guardianship
+  qth: ["@kh" "teacher/student"]
+  qt': [ // security/safety/protection/guardianship
+    [
+      [
+        free from harm
+        safekeeping
+        shielding
+      ]
+      feeling focus
+      means focus
+    ]
+    [
+      [
+        invulnerable
+        secure(d)
+        defend
+      ]
+      feeling focus
+      means focus
+    ]
+  ]
   qţ: sibling
   qţl: lithium
   qţř: germanium
@@ -2729,13 +3224,44 @@
   řbg: lemur
   rbw: lepoard
   rc: arc/parabolic motion relative to gravity
+  rc': [ // trick
+    [
+      [
+        bluff/mislead
+        trick/delude
+        disguise
+      ]
+      act focus
+      effect focus
+    ]
+    [
+      [
+        deceive
+        commit fraud
+        conterfeiting
+      ]
+      act focus
+      effect focus
+    ]
+  ]
   rč: curved motion, curve
   rç: switch back, veer
   řc: hard+natural mix of smooth/rough texture (rock)
   řč: gastro-intestinal/urological component
   řc': marinade
   řč': coarse texture
-  rch: civility/peacebleness
+  rch: [ // civility/peacebleness
+    [
+      [
+        civil
+        conciliatory
+        peaceable
+      ]
+      state focus
+      consequence focus
+    ]
+    self-aware
+  ]
   řch: numbing texture
   rčp': cadminum
   rčt': boron
@@ -2766,7 +3292,46 @@
   řj: gritty texture
   řjw: elk
   rk: planar range of motion
-  rk': source, origin
+  rk': [ // source, origin
+    [
+      [
+        origin
+        beginning point
+        cause
+      ]
+      physical focus
+      manifestation focus
+    ]
+    [
+      [
+        principle
+        fundamental reason
+        axiom
+      ]
+      focus on simplicity
+      focus on irreducability
+    ]
+  ]
+  rkh: [ // area
+    [
+      [
+        measurement of planar area
+        measurement of 3D volume
+        measurement of hyperdimensional volume
+      ]
+      process
+      unit
+    ]
+    [
+      [
+        measurement of speed
+        measurement of acceleration
+        measurement of jerk/etc.
+      ]
+      process
+      unit
+    ]
+  ]
   řk: hard + semi-smooth texture (wood)
   řk': cotton-candy texture
   řkh: sandpaper texture
@@ -2800,10 +3365,50 @@
   rq': mineral
   rqhw: camel
   řqr: mettalic texture
-  rqw: nervous/anxious/anxiety
+  rqw: ["@pk" "anxiety"]
   rr: ["@sk" "cat"]
+  řř: [ // zero
+    [
+      [
+        empty set
+        additive identity 0
+        0D point
+      ]
+      abstract
+      applied
+    ]
+    [
+      [
+        0 as placeholder
+        cardinality of empty set
+        null value
+      ]
+      abstract
+      applied
+    ]
+  ]
   rs: circular motion in horizontal plane
   rš: circular motion in vertical plane
+  řš: [ // paleness
+    [
+      [
+        dim
+        pale
+        shaded
+      ]
+      state/process focus
+      effect focus
+    ]
+    [
+      [
+        dull
+        faded
+        murky
+      ]
+      state/process focus
+      effect focus
+    ]
+  ]
   rsč: maple
   ršč: elm
   rsf: ash
@@ -2837,7 +3442,26 @@
   rt: 2D external circumlative motion/movement around/along periphery or outside edge
   rţ: 2D external circumlative motion/movement around/along boundary or inside edge
   rt': summer
-  rth: consideration of a proposal
+  rth: [ // consideration of a proposal
+    [
+      [
+        be OK with
+        consent to
+        agree to
+      ]
+      process focus
+      subject focus
+    ]
+    [
+      [
+        permit
+        formally recognize
+        approve/endorse
+      ]
+      process focus
+      subject focus
+    ]
+  ]
   rthw: iridium
   řthw: ostrich
   rtk: sear
@@ -2856,6 +3480,26 @@
   rţw: walnut
   rv: pregnancy/gestation
   rvp': rubidium
+  rw: [ // expression of math value
+    [
+      [
+        number
+        variable
+        coefficient
+      ]
+      abstract
+      applied
+    ]
+    [
+      [
+        mathematical term
+        function
+        mathematical constant
+      ]
+      abstract
+      applied
+    ]
+  ]
   rx: obliquely linear motion
   rxh: component of nervous system
   rz: 3D external circumlative motion/movement around/along periphery or surface
@@ -2886,8 +3530,19 @@
     ]
   ]
   š: ["@š" "texture"]
-  sc: ecstatic contemplation of nature
-  sč: honoraable/respectable/esteemed
+  sc: ["@pk" "ecstatic contemplation of nature"]
+  sč: [ // honorable/respectable/esteemed
+    [
+      [
+        honorable
+        respectable
+        esteemed
+      ]
+      state focus
+      consequence focus
+    ]
+    self-aware
+  ]
   šč: being ultra alert
   šč': spite
   sch: gray
@@ -2895,18 +3550,75 @@
   sf: bottom, lowest part, funcdation
   šf: feeling of devilishness
   sk: generic mammal, avian, reptile
-  sk': gathering/accumulation/collection
+  sk': [ // gathering/accumulation/collection
+    [
+      [
+        gather in one location
+        pick up, gather selectively
+        growing pile of
+      ]
+      gathered entities focus
+      accumulation focus
+    ]
+    [
+      [
+        queue up
+        collect formally
+        accretion
+      ]
+      gathered entities focus
+      accumulation focus
+    ]
+  ]
   šk: arm
-  šk': narrow-mindedness/prejudice/dogmatism
+  šk': [ // narrow-mindedness/prejudice/dogmatism
+    [
+      [
+        degree of open-mindedness
+        degree of ability to see another's perspective
+        degree of ability to relativize
+      ]
+      state focus
+      consequence focus
+    ]
+    [
+      [
+        degree of zealotry
+        degree of bigotry
+        degree of principal flexibility
+      ]
+      state focus
+      consequence focus
+    ]
+  ]
   škç: pigeon
   skh: path/way/course
   škh: feeling of surprise upon discovering that no need to feel victimized
   skhw: robin
   škhw: corn
-  skl: bubbly or effervescent emotional state or personality
-  skr: laxicity/leniency/tolerance
+  skl: ["@pk" "social bubbliness"]
+  skr: [ // laxicity/leniency/tolerance
+    [
+      [
+        lax about
+        put up with
+        bear/endure
+      ]
+      state focus
+      object focus
+    ]
+    [
+      [
+        lenient twoard
+        socio-cultural tolerance
+        altruistically sustain
+      ]
+      state focus
+      object focus
+    ]
+  ]
   škţ: bicarbonate of soda
-  sky: emotionally stifled, mentally blocked
+  sky: ["@pk" "emotionally stifled"]
   šky: pea
   sl: gas/flume
   šl: humor/wit/jest
@@ -2949,13 +3661,24 @@
   šph: feeling of humor and shame when victim of joke does not get it
   sphw: lettuce
   šphw: lark
-  spl: face/visage
+  spl: [ // face/visage
+    [
+      [
+        face
+        face (interface)
+        face (recognition)
+      ]
+      physical
+      function
+    ]
+    non-animal
+  ]
   špr: marble
   sq: cook
   sq': oxygen
   šq: wait
   šq': roast
-  sqh: moved by art, speech
+  sqh: ["@pk" "being moved by art"]
   šqh: malicious glee at another's discomfort
   sqhw: cabbage
   sqw: tomato
@@ -2964,7 +3687,26 @@
   šr: discomfiture at being ill-prepared
   šř: felling resources are wasted
   ss: air
-  šš: hide/conceal/avoid/sneak
+  šš: [ // hide/conceal/avoid/sneak
+    [
+      [
+        something covered up
+        something hidden away
+        something elusive
+      ]
+      state focus
+      object focus
+    ]
+    [
+      [
+        something masked
+        something obscure
+        something sneaky
+      ]
+      state focus
+      object focus
+    ]
+  ]
   st: comparison/measurement/weight
   sţ: five
   st': metal/ore
@@ -2974,17 +3716,55 @@
   sth: boil
   šth: anticipate a negative
   sthw: sparrow
-  stl: opportunity/advantage/convinience/expedience
+  stl: [ // opportunity/advantage/convinience/expedience
+    [
+      [
+        something worthwhile
+        something opportune
+        something apropos
+      ]
+      state
+      outcome
+    ]
+    [
+      [
+        favorable circumstances
+        special opportunity
+        something convenient
+      ]
+      state
+      outcome
+    ]
+  ]
   štl: owl
   str: diamond
-  stv: cyan
+  stv: ["@xt'" "cyan"]
   stw: rice
   st:' wpeanut
   sty: bean
   sv: fear/fright
   šv: solace, grief
   sw: planetary body
-  šw: beauty
+  šw: [ // beauty
+    [
+      [
+        something pretty
+        something delicate
+        something charming
+      ]
+      entity focus
+      reaction focus
+    ]
+    [
+      [
+        something beautiful
+        something elegant
+        something sublime
+      ]
+      entity focus
+      reaction focus
+    ]
+  ]
   sx: bake/something baked
   šx: desire to solve a mystery
   sxh: disease/disorder/malady
@@ -2994,17 +3774,101 @@
   t: life
   ţ: head
   t': exteriority/position or orientation outside
-  tç: spacetime/space/passage of time
+  tç: [ // spacetime/space/passage of time
+    [
+      [
+        spacetime point
+        spacetime volume
+        flow of spacetime
+      ]
+      [
+        space of spacetime point
+        space of spacetime volume
+        expanse of space
+      ]
+      [
+        time of spacetime point
+        time of spacetime volume
+        flow of time
+      ]
+    ]
+    [
+      [
+        volume of linear spacetime (Newtonian)
+        point in space and time (Newtonion)
+        linear flow of space and time (Newtonian)
+      ]
+      [
+        volume of linear space (Newtonian)
+        point in space (Newtonion)
+        linear expanse of space (Newtonian)
+      ]
+      [
+        volume of linear time (Newtonian)
+        point in time (Newtonion)
+        linear flow of time (Newtonian)
+      ]
+    ]
+  ]
   ţb: bounce/recoil/inertness/immobility
   ţc: affective/non-volitional mental state/process
-  ţc': sympathy/pity/empathy/compassion
+  ţc': [ // sympathy/pity/empathy/compassion
+    [
+      [
+        feeling of being able to relate
+        feel sympathy for
+        feel sorry for
+      ]
+      state focus
+      target focus
+    ]
+    [
+      [
+        feel compassion for
+        feel empathy for
+        condolence/consolation
+      ]
+      state focus
+      target focus
+    ]
+  ]
   ţč: degree of pain/loss/dissatisfaction/misery
   tf: psychological manipulation/treatment
   tfř: ozone
-  ţg: motive/incentive/enticement/pursuasion
+  ţg: [ // motive/incentive/enticement/pursuasion
+    [
+      [
+        motive
+        intention
+        incentive
+      ]
+      state focus
+      content focus
+    ]
+    [
+      [
+        moral principle
+        aspiration
+        free will
+      ]
+      state focus
+      content focus
+    ]
+  ]
   th: (criminal) law/adjudication
   tk: upper half or part
-  tk': sincerity/frankness/trustworthiness
+  tk': [ // sincerity/frankness/trustworthiness
+    [
+      [
+        sincere
+        frank
+        trustworthy
+      ]
+      state focus
+      consequence focus
+    ]
+    self-aware
+  ]
   ţk: three
   ţk': commitment/loyalty
   tkç: mercury
@@ -3028,6 +3892,44 @@
   tn: large implement for countering gravity
   ţn: time period/duration
   ţny: lime
+  tp: [ // read/recite
+    [
+      [
+        read
+        read/interpret
+        erudition
+      ]
+      acquisition focus
+      physical act focus
+    ]
+    [
+      [
+        recite
+        read/interpret (arcane)
+        exposition based on erudition
+      ]
+      conveyance focus
+      physical act focus
+    ]
+  ]
+  ţp: [ // degree of cleanliness
+    [
+      [
+        degree of being dirt-free
+        degree of being unpolluted
+        degree of being pristine
+      ]
+      state focus
+      consequence focus
+    ]
+    [
+      [
+        degree of being tidy
+        degree of being hygienic
+        degree of being free from dirt from neglect/disuse
+      ]
+    ]
+  ]
   ţpf: talc
   ţph: nonchalance
   ţphw: sorghum
@@ -3035,7 +3937,7 @@
   ţpř: nitrogen
   ţpţ: fluorine
   ţpw: baking soda
-  tq: feeling of inner balance
+  tq: ["@pk" "inner balance"]
   ţq: consistency/plasticity/rheological phenomenon
   ţq': crumble/fall apart/coherence/cohesiveness
   ţqf: radon
@@ -3052,13 +3954,79 @@
   ţth: brittleness/resiliency
   ţtl: neon
   ţtř: xenon
-  tv: self/identity/character/subjectivity
+  tv: [ // self/identity/character/subjectivity
+    [
+      [
+        self
+        delineate as separate entity
+        identity
+      ]
+      referent
+      identification
+    ]
+    [
+      [
+        part of ego
+        character trait
+        subjective belief/POV
+      ]
+      itself
+      effect focus
+    ]
+  ]
   ţv: jiggliness/immobility
   tw: occupancy/residency
   ţw: weather condition
+  tx: [ // medium of exchange
+    [
+      [
+        medium of exchange
+        unit of currency
+        quasi-contractual document equivalent to currency
+      ]
+      [
+        medium of exchange as concept
+        coin
+        cheque
+      ]
+      [
+        act of exchange utilizing medium
+        banknote
+        scrip
+      ]
+    ]
+    [
+      [
+        act of financial accounting
+        item of financial capital
+        commodity
+      ]
+      [
+        process of financial accounting
+        promissory note
+        soft commodity
+      ]
+      [
+        accounting, evaluation of financial assets
+        stock certificate
+        hard commodity
+      ]
+    ]
+  ]
   ţx: compressability/stiffness
   txh: subatomic particle
-  ţxh: smugness/conceit/foppishness
+  ţxh: [ //smugness/conceit/foppishness
+    [
+      [
+        conceited
+        smug/pedantic
+        prim/foppish
+      ]
+      state focus
+      consequence focus
+    ]
+    self-aware
+  ]
   ţxhw: yam
   ty: sense of wonder/enthrallment
   ţy: benevolence
@@ -3099,13 +4067,24 @@
   vn: degree of fun/joviality
   vpţ: epsom salts
   vr: generic waterlife
-  vř: modesty/humility
-  vtr: calm, emotionally tranquil
+  vř: [ // modesty/humility
+    [
+      [
+        modest/humble
+        demure/reserved
+        unassuming/unobstrusive
+      ]
+      state focus
+      consequence focus
+    ]
+    self-aware
+  ]
+  vtr: ["@pk" "calmness"]
   vty: millet
-  vv: feeling of appreciation (benefits of a situation)
+  vv: ["@pk" "appreciation"]
   vw: heart/essence/values
   vy: good/beneficial
-  vzm: dark, consumed by morose/morbid/(self-)destructive toughts
+  vzm: ["@pk" "being consumed by morbid toughts"]
   vžř: washing soda
   vžv: zinc white
   vzy: potash
@@ -3150,19 +4129,122 @@
   xčw: fluorspar
   xč:' wgypsum
   xh: fact/know/learn/understand/expertise
-  xhč': stupidity/intelelctual failure
+  xhč': [ // stupidity/intellectual failure
+    [
+      [
+        simple-minded
+        non-analytical
+        shallow/anti-intellectual
+      ]
+      state focus
+      consequence focus
+    ]
+    self-aware
+  ]
   xhchw: teff
   xhčw: ginseng
-  xhf: intention/decision/determination/purpose
+  xhf: [ // intention/decision/determination/purpose
+    [
+      [
+        intention
+        process of decision-making
+        process of determining
+      ]
+      mental process focus
+      thing pondered focus
+    ]
+    [
+      [
+        purpose
+        judgement/verdict
+        resolution/resolve
+      ]
+      process focus
+      conclusion focus
+    ]
+  ]
   xhl: oil (petroleum)
   xhly: rare natural element
   xhm: rubber
   xhmy: saspirin
-  xhn: existencial irony
+  xhn: [ // existencial irony
+    [
+      [
+        happy-despite-ignorance irony
+        happy-despite-mean irony
+        happy-despite-oldfashioned irony
+      ]
+      focus on irony sensed
+      focus on state of subject
+    ]
+    [
+      [
+        happy-despite-anti-intellectualism irony
+        happy-despite-bigotry irony
+        happy-despite-savage irony
+      ]
+      focus on irony sensed
+      focus on state of subject
+    ]
+  ]
   xhnw: hemp
   xhny: silica
-  xhp: functional well-formedness/perfection/aesthetic satisfaction
-  xhp': potassium/closed, emotionally unavailable
+  xhp: [ // functional well-formedness/perfection/aesthetic satisfaction
+    [
+      [
+        something well-formed
+        something sensually satisfying
+        something stylish
+      ]
+      entity focus
+      reaction focus
+    ]
+    [
+      [
+        something perfect
+        soemthing exquisite
+        something ornate/splendid
+      ]
+      entity focus
+      reaction focus
+    ]
+  ]
+  xhp': [ // potassium / emotional closedness
+    [
+      [
+        potassium or chunk of potassium OR feel emotionally closed
+        derived potassium or chunk of derived potassium OR act caused by emotional closedness
+        source of potassium OR cause of emotional closedness
+      ]
+      [
+        chunk of potassium OR feeling emotionally closed (process focus)
+        chunk of derived potassium OR act caused by emotional closedness (process focus)
+        natural source of potassium OR cause of emotional closedness (process focus)
+      ]
+      [
+        potassium OR feeling emotionally closed (feeling focus)
+        derived potassium OR act caused by emotional closedness (feeling focus)
+        artificial source of potassium OR cause of emotional closedness (feeling focus)
+      ]
+    ]
+    [
+      [
+        potassium or chunk of potassium in abnormal liquid or gaseous state OR feel emotionally closed (institutionalized)
+        thing made of potassium or its function OR act caused by emotional closedness (institutionalized)
+        status of potassium being or not being solid OR cause of emotional closedness (institutionalized)
+      ]
+      [
+        potassium or chunk of potassium in abnormal liquid state OR feeling emotionally closed (process focus, institutionalized)
+        thing made of potassium OR act caused by emotional closedness (process focus, institutionalized)
+        made of solid potassium OR cause of emotional closedness (process focus, institutionalized)
+      ]
+      [
+        potassium or chunk of potassium in abnormal gaseous state OR feeling emotionally closed (feeling focus, institutionalized)
+        function of thing made of potassium OR act caused by emotional closedness (feeling focus, institutionalized)
+        made of quasi-solid potassium OR cause of emotional closedness (feeling focus, institutionalized)
+      ]
+    ]  ]
+
   xhpř: saltpeter
   xhpw: soya
   xht: plastic
@@ -3196,7 +4278,7 @@
   zb: conflict-based hostility
   żb: tar
   žb: feathery texture
-  zbr: emotionally saturated or drained
+  zbr: ["@pk" "emotional drainedness"]
   zbř: iodine
   žbř: sponge-like texture
   zbw: hairy texture
@@ -3218,8 +4300,38 @@
   žgr: dusty texture
   zgw: sheep
   žgy: ammonia
-  zj: nervousness/timidity
-  zk: guess/supposition/assumption
+  zj: [ // nervousness/timidity
+    [
+      [
+        nervous/apprehensive
+        timid/shy/bashful
+        anxiety-ridden
+      ]
+      state focus
+      consequence focus
+    ]
+    self-aware
+  ]
+  zk: [ // guess/supposition/assumption
+    [
+      [
+        guess
+        supposition
+        assumption
+      ]
+      process focus
+      conclusion focus
+    ]
+    [
+      [
+        conjecture
+        theorem
+        hypothesis
+      ]
+      process focus
+      conclusion focus
+    ]
+  ]
   żk: honeycombed texture
   żk': prickly texture
   žk': viscous texture
@@ -3243,6 +4355,7 @@
     ]
     formal
   ]
+  žl: ["@pk" "surprise"]
   žlw: plaster
   zm: ten thousand
   žm: pride/ego/respect
@@ -3270,12 +4383,43 @@
   zr: throat/gullet
   żr: bristly texture
   żř: quartz
-  žr: intelligent/astute/perspicacious
+  žr: [ // intelligent/astute/perspicacious
+    [
+      [
+        intelligent
+        quick-witted
+        have foresight
+      ]
+      state focus
+      consequence focus
+    ]
+    self-aware
+  ]
   zt: coal
   żt: pins and needle texture
   zv: romantic and/or sexual relationship
   žr: balance/equilibrium/symmetry/homeostasis
   żv: potato
+  žv: [ // balance
+    [
+      [
+        state of balance
+        state of equilibrium
+        state of homeostasis
+      ]
+      state focus
+      consequence focus
+    ]
+    [
+      [
+        state of symmetry
+        state of parity
+        state of being numerically even
+      ]
+      state focus
+      consequence focus
+    ]
+  ]
   zvw: natural chemical element
   žvw: lanthanide element
   zvy: actinide element
