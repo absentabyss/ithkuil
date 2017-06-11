@@ -461,6 +461,62 @@
       symptom focus
     ]
   ]
+  @ţq: [ // plasticity
+    [
+      [
+        @
+        material impact of @ to object
+        material impact of @ to consumer
+      ]
+      [
+        object exhibiting @
+        assumed material impact of @ to object
+        assumed material impact of @ to consumer
+      ]
+      [
+        @ itself
+        actual material impact of @ to object
+        actual material impact of @ to consumer
+      ]
+    ]
+    [
+      [
+        act to give @
+        psych. impact of @ to object
+        psych. impact of @ to consumer
+      ]
+      [
+        act designed to give @
+        assumed psych. impact of @ to object
+        assumed psych. impact of @ to consumer
+      ]
+      [
+        result of act giving @
+        actual psych. impact of @ to object
+        actual psych. impact of @ to consumer
+      ]
+    ]
+  ]
+  @mx: [ // season
+    [
+      [
+        @
+        @ weather
+        @ flora/fauna state
+      ]
+      relative to annual cycle
+      focus on season
+    ]
+    [
+      [
+        @ custom/practice
+        @ weather-determined practice
+        @ flora/fauna-related practice
+      ]
+      relative to annual cycle
+      focus on season
+    ]
+  ]
   b: [ // want
     [
       [
@@ -2473,12 +2529,12 @@
     ]
   ]
   ltw: ["@sk" "goat"]
-  lţ: concavity, depression
-  lţr: turte
-  lv: even (=smooth-surfaced in planar context)
-  lx: convexity, rotundity
-  lxh: brown
-  lxw: rabbit
+  lţ: ["@lb" "concavity"]
+  lţr: ["@sk" "turtle"]
+  lv: ["@lb" "smoothness"]
+  lx: ["@lb" "convexity"]
+  lxh: ["@xt'" "brown"]
+  lxw: ["@sk" "rabbit"]
   ly: [ // arithmetic
     [
       [
@@ -2515,22 +2571,60 @@
       ]
     ]
   ]
-  lz: even (=smooth-edged in linear context)
-  lż: specialized volitional bodily sounds
-  lž: elasticity, stretch capacity
-  lzw: goose
-  lżw: gila monster
-  ļkh: ecru
-  ļļ: flabiness - cohesiveness, compactness
-  ļm: springiness - inertness, immobility
-  ļn: classes of land, air animal
-  ļp: sponginess - stiffness, rigidity
-  ļp': buoyancy
-  ļph: ochre
-  ļq: tin
-  ļq': spreadability
-  ļqh: deformability - dentability
-  ļw: elasticity - stiffness, rigidity
+  lz: ["@lb" "smooth-edgedness"]
+  lż: [ // specialized volitional bodily sounds
+    [
+      [
+        mouth sound
+        throat sound
+        bodily sound
+      ]
+      act focus
+      sound focus
+    ]
+    [
+      [
+        consonant
+        vowel
+        phoneme
+      ]
+      act focus
+      sound focus
+    ]
+  ]
+  lž: ["@ţq" "stretchability"]
+  lzw: ["@sk" "goose"]
+  lżw: ["@sk" "gila monster"]
+  ļkh: ["@xt'" "ecru"]
+  ļļ: ["@ţq" "flabbiness"]
+  ļm: ["@ţq" "springiness"]
+  ļn: [ // classes of land, air animal
+    [
+      [
+        mammal
+        bug
+        avian/reptilian
+      ]
+      [
+        insect
+        worm
+        arthropod/arachnid
+      ]
+      [
+        mollusc
+        bird
+        reptile
+      ]
+    ]
+    domesticated
+  ]
+  ļp: ["@ţq" "sponginess"]
+  ļp': ["@ţq" "buoyancy"]
+  ļph: ["@xw'" "ochre"]
+  ļq: ["@xl" "tin"]
+  ļq': ["@ţq" "spreadability"]
+  ļqh: ["@ţq" "deformability"]
+  ļw: ["@ţq" "elasticity"]
   m: [ // appearance, semblance, impression
     [
       [
@@ -2551,7 +2645,26 @@
       focus on observer
     ]
   ]
-  mb: geographical, geopolitical elements
+  mb: [ // geographical, geopolitical elements
+    [
+      [
+        geographical feature
+        geographical area
+        natural piece of territory
+      ]
+      geophysical focus
+      as habitat
+    ]
+    [
+      [
+        geopolitical feature
+        geopolitical area
+        piece of property
+      ]
+      political entity focus
+      political boundary focus
+    ]
+  ]
   mbr: [ // vectors
     [
       [
@@ -2588,8 +2701,8 @@
       ]
     ]
   ]
-  mç: durability, fragility (=capacity for being damaged)
-  mf: glove
+  mç: ["@kv" "durability"]
+  mf: ["@gv" "glove"]
   mft: [ // dairy product
     [
       [
@@ -2610,16 +2723,116 @@
       as food
     ]
   ]
-  mg: peach (color)
+  mg: ["@xt'" "peach (color)"]
   mj: ["@pk" "shame, being ridiculed"]
-  mk: aspects, methods of ingestion, feeding
-  mk': silicon
-  mkh: beige, tan
-  mkhw: mauve
-  ml: foot
-  mm: nuclear familiy member
-  mn: awe, be or feel impressed, humbleness in face of something
-  mp: smell, odor
+  mk: [ // aspects, methods of ingestion, feeding
+    [
+      [
+        bite
+        chew
+        suck
+      ]
+      movement focus
+      food focus
+    ]
+    [
+      [
+        put in mouth
+        swallow
+        roll around on palate
+      ]
+      movement focus
+      food focus
+    ]
+  ]
+  mk': ["@xl" "silicon"]
+  mkh: ["@xt'" "beige"]
+  mkhw: ["@xt'" "mauve"]
+  ml: ["@pr" "foot"]
+  mm: [ // nuclear familiy member
+    [
+      [
+        family member
+        male family member
+        female family member
+      ]
+      [
+        parent
+        father
+        mother
+      ]
+      [
+        child
+        son
+        daughter
+      ]
+    ]
+    [
+      [
+        non-sanguine family member
+        non-sanguine male family member
+        non-sanguine female family member
+      ]
+      [
+        step-parent
+        step-father
+        step-mother
+      ]
+      [
+        step-child
+        step-son
+        step-daughter
+      ]
+    ]
+  ]
+  mn: [ // awe, be or feel impressed, humbleness in face of something
+    [
+      [
+        awe
+        humbleness
+        cause of awe
+      ]
+      process focus
+      state focus
+    ]
+    worship
+  ]
+  mp: [ // smell, odor
+    [
+      [
+        smell
+        nose
+        imagine smell
+      ]
+      [
+        to smell
+        nose (organ)
+        to imagine a smell
+      ]
+      [
+        a whiff of odor
+        nose (proboscis)
+        imagined odor
+      ]
+    ]
+    [
+      [
+        smell (examine)
+        odor detection
+        create odor
+      ]
+      [
+        examine by smelling
+        to detect an odor
+        to create an odor
+      ]
+      [
+        examined smell
+        detected odor
+        manufactured odor
+      ]
+    ]
+  ]
   mpr: [ // measurement of amount of substance / density
     [
       [
@@ -2640,7 +2853,26 @@
       unit
     ]
   ]
-  mp': architectural components, forms
+  mp': [ // architectural components, forms
+    [
+      [
+        pillar
+        wall
+        floor
+      ]
+      shape focus
+      function focus
+    ]
+    [
+      [
+        buttress
+        architectural partition
+        roof
+      ]
+      shape focus
+      function focus
+    ]
+  ]
   mph: [ // measurement of electromagn
     [
       [
@@ -2659,11 +2891,66 @@
       ]
     ]
   ]
-  mpy: squash
-  mq: romantic love relationship
-  mqhw: date (fruit)
-  mř: transfer of possession
-  ms: value, worth, price, cost
+  mpy: ["+qw" "squash"]
+  mq: ["@kh" "romantic love relationship"]
+  mqhw: ["+qw" "date"]
+  mr: [ // transfer of possession
+    [
+      [
+        give/take
+        indirect give/take
+        bring/leave with
+      ]
+      [
+        give
+        leave something
+        bring something
+      ]
+      [
+        take
+        obtain something
+        leave with something
+      ]
+    ]
+    [
+      [
+        donate/receive
+        bestow/acquire
+        deliver/take ownership
+      ]
+      [
+        donate
+        leave to heir
+        bestow
+      ]
+      [
+        receive
+        inherit
+        acquire
+      ]
+    ]
+  ]
+  mř: ["@num" "10"]
+  ms: [ // value, worth, price, cost
+    [
+      [
+        have practical value
+        have emotional value
+        have financial value
+      ]
+      intrinsic focus
+      actual value focus
+    ]
+    [
+      [
+        cost appraisal
+        cost
+        rate of payment
+      ]
+      quoted cost focus
+      actual payment focus
+    ]
+  ]
   msk: [ // bodily positions (other than upright or supine)
     [
       [
@@ -2682,94 +2969,177 @@
       ]
     ]
   ]
-  mš: irregular, amorphous outline
-  mt: parent-child relationship
-  mţ: autumn, fall
-  mt': classes of animal
-  mth: soil, ground, dirt (mixed organic + mineral)
-  mv: middle, center (as seen perpendicular to long axis of entity)
+  mš: ["@gm" "irregular outline"]
+  mt: ["@kh" "parent/child"]
+  mţ: ["@mx" "autumn"]
+  mt': [ // classes of animal
+    [
+      [
+        land/air animal
+        water animal
+        amphibian
+      ]
+      domesticable
+      undomesticable
+    ]
+    [
+      domesticated
+      pet
+      resource
+    ]
+  ]
+  mth: [ // soil, ground, dirt (mixed organic + mineral)
+    [
+      [
+        dirt/soil
+        mud
+        organic ground cover
+      ]
+      substance focus
+      firmament function focus
+    ]
+    [
+      [
+        peat
+        dirty/soiled
+        mulch/compost
+      ]
+      substance focus
+      function focus
+    ]
+  ]
+  mv: ["@g" "long-axis center"]
   mvy: ["@sk" "peacock"]
-  mw: tightness, slack (=tauntness)
-  mx: season
-  mxh: horizontal supporting surface against gravity
-  mxz: cucumber
-  my: gratitude, thankfulness, praise
-  mz: remember, recall, memory, record
-  mž: gender
-  n: exterior, outer/external part of, outside, “skin”
+  mw: ["@kv" "tautness"]
+  mx: ["@mx" "season"]
+  mxh: [ // horizontal supporting surface against gravity
+    [
+      [
+        ground
+        table-like
+        shelf-like
+      ]
+      shape focus
+      function focus
+    ]
+    [
+      [
+        floor
+        table
+        shelf
+      ]
+      shape focus
+      function focus
+    ]
+  ]
+  mxz: ["+qw" "cucumber"]
+  my: [ // gratitude, thankfulness, praise
+    [
+      [
+        thank for favor
+        thank for rescue
+        ironically thank
+      ]
+      intent-to-convey focus
+      display focus
+    ]
+    [
+      [
+        praise
+        gratefulness
+        feel beholden/obliged
+      ]
+      intent-to-convey focus
+      display focus
+    ]
+  ]
+  mz: [ // remember, recall, memory, record
+    [
+      [
+        memory/recall
+        retain
+        memorize
+      ]
+      [
+        a memory
+        a retained memory
+        thing memorized
+      ]
+      [
+        faculty of memory
+        process of retention
+        process of memorization
+      ]
+    ]
+    [
+      [
+        vestige
+        memorial
+        recording
+      ]
+      thing remembered
+      thing remembered by
+    ]
+  ]
+  mž: [ // gender
+    [
+      [
+        biological sex
+        neutral sex
+        androgynous
+      ]
+      [
+        male sex
+        sterile
+        androgynous sex
+      ]
+      [
+        female sex
+        no biological sex
+        hermaphrodite
+      ]
+    ]
+    [
+      [
+        gender
+        agender
+        sexual orientation
+      ]
+      [
+        male gender
+        celibate
+        psychological sexual orientation
+      ]
+      [
+        female gender
+        asexual
+        manifested sexual orientation
+      ]
+    ]
+  ]
+  n: ["@g" "exterior"]
   ň: ["@num" "100"]
-  nç: cherry
-  nc': banana
-  nč': coconut
-  ňc: tick
-  ňč: non-sanguine relation
-  ňç: waterbug
+  nç: ["+ph" "cherry"]
+  nc': ["+ph" "banana"]
+  nč': ["+ph" "coconut"]
   nch: fig
   nčh: tangerine
   nchw: duck
-  ňčh: [ // measurement of secondary electromagn phenomena
-    [
-      [
-        measurement of electrical resistance
-        measurement of electrical conductance
-        measurement of magnetomotive force
-      ]
-      process
-      unit
-    ]
-    [
-      [
-        measurement of magnetic flux density
-        measurement of ratio between electromagnetic value
-        measurement of rate of electromagnetic phenomena
-      ]
-      process
-      unit
-    ]
-  ]
-  ňčhw: bamboo
   nçw: swan
   nd: question/inquiry/answer/response
   ndh: pineapple
   ndr: fox
   ndw: moose
-  ňf: sliver-moon shaped
-  ňg: temporary atmospheric phenomena
-  ňgr: baboon
-  ňgw: chimpanzee
-  ňgy: sticky/adhesive material
-  ňk: architectural components (ornamental/specialized)
-  ňkh: whole number/integer
-  ňkr: lion
-  ňkw: cow
-  ňky: elementary particles/forces of physics (fermions and bosons)
   nl: hard/soft (=malleability)
   nļ: plum
   nm: olive
   nn: orange (fruit)
-  ňn: ant
-  ňqh: cockroach
   nr: circle/ellipse
   nř: spider
-  ňř: termite
   ns: ["@num" "7"]
   nš: rear, back part of
-  ňs: square/rectangle/rhombus
-  ňsp: [ // apostasy/heresy/iconoclasm
-    [
-      [
-        apostasy
-        heresy
-        iconoclasm
-      ]
-      state focus
-      consequence focus
-    ]
-    self-aware
-  ]
   nst: recline/prone position/horizintality
   nsw: chicken
-  ňšw: gorilla
   nt: hear(ing) / sound
   ntr: [ // freedom/independance/autonomy/natural right
     [
@@ -2814,6 +3184,62 @@
   ]
   nt': lemon
   nth: pear
+  nv: peach
+  nw: apple
+  ny: choice/alternative
+  nz: marriage
+  nž: lime (fruit)
+  ňc: ["@sk" "tick"]
+  ňč: non-sanguine relation
+  ňç: waterbug
+  ňčh: [ // measurement of secondary electromagn phenomena
+    [
+      [
+        measurement of electrical resistance
+        measurement of electrical conductance
+        measurement of magnetomotive force
+      ]
+      process
+      unit
+    ]
+    [
+      [
+        measurement of magnetic flux density
+        measurement of ratio between electromagnetic value
+        measurement of rate of electromagnetic phenomena
+      ]
+      process
+      unit
+    ]
+  ]
+  ňčhw: bamboo
+  ňf: sliver-moon shaped
+  ňg: temporary atmospheric phenomena
+  ňgr: baboon
+  ňgw: chimpanzee
+  ňgy: sticky/adhesive material
+  ňk: architectural components (ornamental/specialized)
+  ňkh: whole number/integer
+  ňkr: lion
+  ňkw: cow
+  ňky: elementary particles/forces of physics (fermions and bosons)
+  ňn: ant
+  ňqh: cockroach
+  ňř: termite
+  ňs: square/rectangle/rhombus
+  ňsp: [ // apostasy/heresy/iconoclasm
+    [
+      [
+        apostasy
+        heresy
+        iconoclasm
+      ]
+      state focus
+      consequence focus
+    ]
+    self-aware
+  ]
+  ňšw: gorilla
   ňk': [ // keep clear/make way/escape
     [
       [
@@ -2855,15 +3281,10 @@
     ]
   ]
   ňth: tropical rainy season
-  nv: peach
   ňv: generic crawling bug
-  nw: apple
   ňw: flexibility/rigidity
   ňx: temporary or youthful romantic dalliance/lovers
   ňxh: spring
-  ny: choice/alternative
-  nz: marriage
-  nž: lime (fruit)
   ňz: oil (fatty liquid derived from plants/animals)
   ňž: beetle
   p: carrier root

@@ -81,15 +81,18 @@ defaults = (
 def nice_level(deg, typ):
     return '= > < OPT MIN SPL IFR ≥ ≤'.split()[deg - 1] + {1: 'ᵣ', 2: 'ₐ', 3: '₃'}[typ]
 
-def nice_suffix(s):
+def nice_suffix(s, t3_adjunct=False):
+    if t3_adjunct:
+        print(s)
+
     if s['code'] == 'LVL':
         return nice_level(int(s['degree'][-1]), int(s['degree'][5]))
 
+    typ = {'1': '', '2': '₂', '3': '₃'}[s['degree'][5]]
     if s['code'] in suffixes:
         # TODO: ₁ ₂?
-        return suffixes[s['code']][int(s['degree'][-1]) - 1].join('‘’')
+        return suffixes[s['code']][int(s['degree'][-1]) - 1].join('‘’') + typ
     deg = s['degree'][-1].translate(SUP)
-    typ = {'1': '', '2': '₂', '3': '₃'}[s['degree'][5]]
     return s['code'] + typ + deg
 
 def nice_code(key, full_names=False):
@@ -137,7 +140,6 @@ def nice_gloss(word, full_names=False):
                     tags.append(nice_code(desc[k], full_names))
             return desc['type'] + ': ' + '-'.join(tags)
 
-
         tags = []
         #pprint.pprint(desc)
         root = desc.pop('Root')
@@ -167,7 +169,8 @@ def nice_gloss(word, full_names=False):
         if ir:
             res += '-[%s]' % ir
         if 'suffixes' in desc:
-            res += ' + ' + ', '.join(nice_suffix(s) for s in desc['suffixes'])
+            t3_adjunct = all(s['degree'][5] == '3' for s in desc['suffixes'])
+            res += ' + ' + ', '.join(nice_suffix(s, t3_adjunct) for s in desc['suffixes'])
 
         return res
     except arpeggio.NoMatch as e:
@@ -175,9 +178,9 @@ def nice_gloss(word, full_names=False):
     except AnalysisException as e:
         return str(e)
 
-print(nice_gloss('elkhal'))
-print(nice_gloss('ulkhal'))
-# print(nice_gloss('qel'))
+print(nice_gloss('gmalouk'))
+#print(nice_gloss('ulkhal'))
+#print(nice_gloss('qel'))
 #print(nice_gloss('ebol'))
 #print(lexicon_lookup_('çmw', 1, 1, 1))
 #exit()
