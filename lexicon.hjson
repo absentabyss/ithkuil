@@ -3122,25 +3122,114 @@
   nç: ["+ph" "cherry"]
   nc': ["+ph" "banana"]
   nč': ["+ph" "coconut"]
-  nch: fig
-  nčh: tangerine
-  nchw: duck
-  nçw: swan
-  nd: question/inquiry/answer/response
-  ndh: pineapple
-  ndr: fox
-  ndw: moose
-  nl: hard/soft (=malleability)
-  nļ: plum
-  nm: olive
-  nn: orange (fruit)
-  nr: circle/ellipse
-  nř: spider
+  nch: ["+ph" "fig"]
+  nčh: ["+ph" "tangerine"]
+  nchw: ["@sk" "duck"]
+  nçw: ["@sk" "swan"]
+  nd: [ // question/inquiry/answer/response
+    [
+      [
+        question and answer
+        query/investigate + discovery
+        ponder/introspect + conclusion
+      ]
+      [
+        question
+        query
+        ponder/introspect
+      ]
+      [
+        answer
+        answer to query
+        conclusion after introspection
+      ]
+    ]
+    [
+      [
+        inquiry and answer
+        research + findings
+        analyze + results
+      ]
+      [
+        inquire
+        research
+        analyze
+      ]
+      [
+        answer to inquiry
+        findings of research
+        results of analysis
+      ]
+    ]
+  ]
+  ndh: ["+ph" "pineapple"]
+  ndr: ["@sk" "fox"]
+  ndw: ["@sk" "moose"]
+  nl: ["@kv" "hardness"]
+  nļ: ["+ph" "plum"]
+  nm: ["+ph" "olive"]
+  nn: ["+ph" "orange"]
+  nr: ["@gm" "ellipse"]
+  nř: ["@fţ" "spider"]
   ns: ["@num" "7"]
-  nš: rear, back part of
-  nst: recline/prone position/horizintality
-  nsw: chicken
-  nt: hear(ing) / sound
+  nš: ["@g" "rear"]
+  nst: [ // recline/prone position/horizintality
+    [
+      [
+        recline
+        recumbent position
+        lay flat
+      ]
+      position focus
+      thing focus
+    ]
+    [
+      [
+        horizontal
+        maximum repose position
+        flattened
+      ]
+      position focus
+      thing focus
+    ]
+  ]
+  nsw: ["@sk" "chicken"]
+  nt: [ // hear(ing) / sound
+    [
+      [
+        hear + sound heard
+        ear
+        imagine sound + sound imagined
+      ]
+      [
+        hear
+        ear (organ)
+        imagine sound
+      ]
+      [
+        sound heard
+        ear (body part)
+        sound imagined
+      ]
+    ]
+    [
+      [
+        listen + sound listened to
+        aural instrument + sound detected
+        make sound + sound made
+      ]
+      [
+        listen
+        aural instrument
+        make sound
+      ]
+      [
+        sound listened to
+        sound detected
+        sound made
+      ]
+    ]
+  ]
   ntr: [ // freedom/independance/autonomy/natural right
     [
       [
@@ -3161,7 +3250,7 @@
       effect focus
     ]
   ]
-  nţ: close loving friendship
+  nţ: ["@kh" "loving friendship"]
   nţw: [ // affective bodily sensations (internal/proprioceptive)
     [
       [
@@ -3182,16 +3271,70 @@
       source focus
     ]
   ]
-  nt': lemon
-  nth: pear
-  nv: peach
-  nw: apple
-  ny: choice/alternative
-  nz: marriage
-  nž: lime (fruit)
-  ňc: ["@sk" "tick"]
-  ňč: non-sanguine relation
-  ňç: waterbug
+  nt': ["+ph" "lemon"]
+  nth: ["+ph" "pear"]
+  nv: ["+ph" "peach"]
+  nw: ["+ph" "apple"]
+  ny: [ // choice/alternative
+    [
+      [
+        choose/choice
+        prefer(ence)
+        settle for
+      ]
+      act focus
+      choice made focus
+    ]
+    [
+      [
+        select/pick
+        alternative/option
+        vote
+      ]
+      act focus
+      choice made focus
+    ]
+  ]
+  nz: ["@kh" "marriage"]
+  nž: ["+ph" "lime"]
+  ňc: ["@fţ" "tick"]
+  ňč: [ // non-sanguine relation
+    [
+      [
+        member of godparent–godchild relationship
+        male member of godparent–godchild relationship
+        female member of godparent–godchild relationship
+      ]
+      [
+        godparent
+        godfather
+        godmother
+      ]
+      [
+        godchild
+        godson
+        goddaughter
+      ]
+    ]
+    [
+      [
+        adoptive family member
+        male adoptive family member
+        female adoptive family member
+      ]
+      [
+        adoptive parent
+        adoptive father
+        adoptive mother
+      ]
+      [
+        adoptive child
+        adoptive son
+        adoptive daughter
+      ]
+    ]
+  ]
+  ňç: ["@fţ" "waterbug"]
   ňčh: [ // measurement of secondary electromagn phenomena
     [
       [
@@ -3212,21 +3355,148 @@
       unit
     ]
   ]
-  ňčhw: bamboo
-  ňf: sliver-moon shaped
-  ňg: temporary atmospheric phenomena
-  ňgr: baboon
-  ňgw: chimpanzee
-  ňgy: sticky/adhesive material
-  ňk: architectural components (ornamental/specialized)
-  ňkh: whole number/integer
-  ňkr: lion
-  ňkw: cow
-  ňky: elementary particles/forces of physics (fermions and bosons)
-  ňn: ant
-  ňqh: cockroach
-  ňř: termite
-  ňs: square/rectangle/rhombus
+  ňčhw: ["+qw" "bamboo"]
+  ňf: ["@gm" "sliver-moon shaped"]
+  ňg: [ // temporary atmospheric phenomena
+    [
+      [
+        short atmospheric phenomenon
+        flash of lightning + peal of thunder
+        cloud
+      ]
+      [
+        physical short atmospheric phenomenon
+        flash of lightning
+        physical cloud
+      ]
+      [
+        effect of short atmospheric phenomenon
+        peal of thunder
+        effect of cloud
+      ]
+    ]
+    [
+      [
+        low/high pressure zone
+        cold/warm air front
+        eye of a storm
+      ]
+      [
+        low pressure zone
+        cold air front
+        physical eye of a storm
+      ]
+      [
+        high pressure zone
+        warm air front
+        calm in the eye of a storm
+      ]
+    ]
+  ]
+  ňgr: ["@sk" "baboon"]
+  ňgw: ["@sk" "chimpanzee"]
+  ňgy: [ // sticky/adhesive material
+    [
+      [
+        sticky substance
+        goo/slime
+        sap/resin
+      ]
+      organic
+      synthetic
+    ]
+    [
+      [
+        adhesive substance
+        glue
+        cement/mortar
+      ]
+      organic
+      synthetic
+    ]
+  ]
+  ňk: [ // architectural components (ornamental/specialized)
+    [
+      [
+        tower
+        dome
+        spire
+      ]
+      physical focus
+      function focus
+    ]
+    [
+      [
+        window opening
+        doorway
+        balcony
+      ]
+      physical focus
+      function focus
+    ]
+  ]
+  ňkh: [ // whole number/integer
+    [
+      [
+        whole number
+        multifaceted
+        numerical series
+      ]
+      [
+        multiply
+        multiple instances
+        exponential/logarithmic progression
+      ]
+      [
+        divide
+        non-unified
+        negative exponential/logarithmic progression
+      ]
+    ]
+    formal
+  ]
+  ňkr: ["@sk" "lion"]
+  ňkw: ["@sk" "cow"]
+  ňky: [ // elementary particles/forces of physics (fermions and bosons)
+    [
+      [
+        (anti-)fermion
+        (anti-)quark
+        (anti-)lepton
+      ]
+      [
+        fermion
+        quark
+        lepton
+      ]
+      [
+        anti-fermion
+        anti-quark
+        anti-lepton
+      ]
+    ]
+    [
+      [
+        boson + fundamental force
+        string theory string + vibration
+        acceleron + dark energy
+      ]
+      [
+        boson
+        string theory string
+        acceleron
+      ]
+      [
+        fundamental force of boson
+        vibration in string theory
+        dark energy
+      ]
+    ]
+  ]
+  ňn: ["@fţ" "ant"]
+  ňqh: ["@fţ" "cockroach"]
+  ňř: ["@fţ" "termite"]
+  ňs: ["@gm" "rhombus"]
   ňsp: [ // apostasy/heresy/iconoclasm
     [
       [
@@ -3239,7 +3509,7 @@
     ]
     self-aware
   ]
-  ňšw: gorilla
+  ňšw: ["@sk" "gorilla"]
   ňk': [ // keep clear/make way/escape
     [
       [
@@ -3280,14 +3550,33 @@
       effect focus
     ]
   ]
-  ňth: tropical rainy season
-  ňv: generic crawling bug
-  ňw: flexibility/rigidity
-  ňx: temporary or youthful romantic dalliance/lovers
-  ňxh: spring
-  ňz: oil (fatty liquid derived from plants/animals)
-  ňž: beetle
-  p: carrier root
+  ňth: ["@mx" "tropical rainy season"]
+  ňv: ["@fţ" "generic crawling bug"]
+  ňw: ["@kv" "flexibility"]
+  ňx: ["@kh" "youthful romance"]
+  ňxh: ["@mx" "spring"]
+  ňz: ["@xl" "oil"]
+  ňž: ["@fţ" "beetle"]
+  p: [ // carrier root
+    [
+      [
+        carrier root (animate)
+        carrier root (inanimate)
+        carrier root (abstract)
+      ]
+      [
+        carrier root (human)
+        carrier root (tangible entity)
+        carrier root (place name)
+      ]
+      [
+        carrier root (non-human animate)
+        carrier root (intangible entity)
+        carrier root (abstract concept)
+      ]
+    ]
+    formal
+  ]
   p': seek/search
   pc: [ // marital relationship
     [
