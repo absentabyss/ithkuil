@@ -183,8 +183,7 @@ def nice_gloss(word, full_names=False):
         return str(e)
 
 #print(nice_gloss('esxal'))
-#print(nice_gloss('gmalouk'))
-exit()
+print(nice_gloss('gmalouk'))
 #print(nice_gloss('ulkhal'))
 #print(nice_gloss('qel'))
 #print(nice_gloss('ebol'))
