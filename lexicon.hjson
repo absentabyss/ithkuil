@@ -4326,47 +4326,47 @@
   rph: ["@mx" "dry season"]
   rpţ: ["@sx" "sauté" "sautéd food" "stove for sautéing" "pan for sautéing"]
   rpth: ["@sx" "simmer" "simmered food" "stove for simmering" "pot for simmering"]
-  rpv: sun-dry
-  rpx: slow-cook
+  rpv: ["@sx" "sun-dry" "sun-dried food" "equipment for sun-drying" "equipment for sun-drying"]
+  rpx: ["@sx" "slow-cook" "slow-cooked food" "slow-cooker" "slow-cooker crock"]
   rq: ["@xl" "silver"]
-  rq': mineral
+  rq': ["@xl" "mineral"]
   rqhw: ["@sk" "camel"]
   rqw: ["@pk" "anxiety"]
   rr: ["@sk" "cat"]
-  rs: circular motion in horizontal plane
-  rš: circular motion in vertical plane
-  rsč: maple
-  ršč: elm
-  rsf: ash
-  ršf: poplar
-  rsk: cypress
-  ršk: alder
-  rsl: beech
-  ršl: yew
-  rsm: mahogany
-  ršm: almond
-  rsn: flax
-  ršn: chestnut
-  rsp: eucalyptus
-  ršp: spruce
-  rsph: barbecue
-  rsq: magnolia
-  ršq: broil
-  rsqh: nickel
-  ršqh: stew
-  rst: redwood
-  rst': flash-fry
-  ršt: parboil
-  ršţ: poach
-  ršt': grill
-  ršth: steam-cooked
-  rstr: gazelle
-  rsv: larch
-  ršv: toast
-  rsx: pressure-cook
-  rt: 2D external circumlative motion/movement around/along periphery or outside edge
-  rţ: 2D external circumlative motion/movement around/along boundary or inside edge
-  rt': summer
+  rs: ["+k" "horizontal circle"]
+  rš: ["+k" "vertical circle"]
+  rsč: ["+ph" "maple"]
+  ršč: ["+ph" "elm"]
+  rsf: ["+ph" "ash"]
+  ršf: ["+ph" "poplar"]
+  rsk: ["+ph" "cypress"]
+  ršk: ["+ph" "alder"]
+  rsl: ["+ph" "beech"]
+  ršl: ["+ph" "yew"]
+  rsm: ["+ph" "mahogany"]
+  ršm: ["+ph" "almond"]
+  rsn: ["+ph" "flax"]
+  ršn: ["+ph" "chestnut"]
+  rsp: ["+ph" "eucalyptus"]
+  ršp: ["+ph" "spruce"]
+  rsph: ["@sx" "to barbecue" "barbecued food" "barbecue grill" "barbecue grill surface"]
+  rsq: ["+ph" "magnolia"]
+  ršq: ["@sx" "broil" "broiled food" "broiler" "broiler surface"]
+  rsqh: ["@xl" "nickel"]
+  ršqh: ["@sx" "to stew" "a stew" "stove for stewing" "pot for stewing"]
+  rst: ["+ph" "redwood"]
+  rst': ["@sx" "flash-fry" "flash-fried food" "deep fryer" "deep fryer basket"]
+  ršt: ["@sx" "parboil" "parboiled food" "stove for parboiling" "pot for parboiling"]
+  ršţ: ["@sx" "poach" "poached food" "stove for poaching" "pot for poaching"]
+  ršt': ["@sx" "to grill" "grilled food" "a grill" "grill surface"]
+  ršth: ["@sx" "steam-cook" "steam-cooked food" "steam cooker" "steam cooker pot"]
+  rstr: ["@sk" "gazelle"]
+  rsv: ["+ph" "larch"]
+  ršv: ["@sx" "to toast" "toasted food" "toaster" "inside of toaster?"]
+  rsx: ["@sx" "pressure-cook" "pressure-cooked food" "pressure cooker" "pressure cooker pot"]
+  rt: ["+k" "around edge"]
+  rţ: ["+k" "around edge (inside)"]
+  rt': ["@mx" "summer"]
   rth: [ // consideration of a proposal
     [
       [
@@ -4387,23 +4387,34 @@
       subject focus
     ]
   ]
-  rthw: iridium
-  rtk: sear
-  rţk: birch
-  rtļ: orangutan
-  rţl: toad
-  rţm: cedar
-  rtn: brew
-  rţn: oak
-  rtp: smoke cooked
-  rţq: pine
-  rţq': gallium
-  rţt': phosphorus
-  rţv: palm
+  rthw: ["@xl" "iridium"]
+  rtk: ["@sx" "sear" "seared food" "stove for searing" "pan for searing"]
+  rţk: ["+ph" "birch"]
+  rtļ: ["@sk" "orangutan"]
+  rţl: ["@sk" "toad"]
+  rţm: ["+ph" "cedar"]
+  rtn: ["@sx" "brew" "brewed ale" "brewing equipment" "brewing equipment"]
+  rţn: ["+ph" "oak"]
+  rtp: ["@sx" "to smoke (food)" "smoked food" "food smoker" "food smoker support"]
+  rţq: ["+ph" "pine"]
+  rţq': ["@xl" "gallium"]
+  rţt': ["@xl" "phosphorus"]
+  rţv: ["+ph" "palm"]
   rtw: ["@sk" "horse"]
-  rţw: walnut
-  rv: pregnancy/gestation
-  rvp': rubidium
+  rţw: ["+ph" "walnut"]
+  rv: [ // pregnancy/gestation
+    [
+      [
+        pregnancy
+        morning sickness
+        contraction during labor
+      ]
+      state
+      effect/impact
+    ]
+    human
+  ]
+  rvp': ["@xl" "rubidium"]
   rw: [ // expression of math value
     [
       [
@@ -4424,17 +4435,36 @@
       applied
     ]
   ]
-  rx: obliquely linear motion
-  rxh: component of nervous system
-  rz: 3D external circumlative motion/movement around/along periphery or surface
-  rż: sari
-  rž: 3D external circumlative motion/movement around/along internal boundary
-  rzd: alligator
-  rzw: yak
-  rżw: lizard
+  rx: ["+k" "obliquely linear"]
+  rxh: [ // component of nervous system
+    [
+      [
+        CNS component
+        neurological process
+        peripheral nervous system component
+      ]
+      tissue focus
+      neurological focus
+    ]
+    [
+      [
+        brain
+        spinal cord
+        nerve
+      ]
+      tissue focus
+      neurological focus
+    ]
+  ]
+  rz: ["+k" "around 3D surface"]
+  rż: ["@gv" "sari"]
+  rž: ["+k" "inside 3D boundary"]
+  rzd: ["@sk" "alligator"]
+  rzw: ["@sk" "yak"]
+  rżw: ["@sk" "lizard"]
   řb: lumpy texture/sensation
-  řbg: lemur
-  rbw: lepoard
+  řbg: ["@sk" "lemur"]
+  rbw: ["@sk" "lepoard"]
   řc: hard+natural mix of smooth/rough texture (rock)
   řč: gastro-intestinal/urological component
   řc': marinade
@@ -4707,7 +4737,7 @@
   st: comparison/measurement/weight
   sţ: five
   st': metal/ore
-  št: fry
+  št: ["@sx" "fry" "fried food" "deep fryer" "deep fryer basket"]
   šţ: discovering a new option
   št': attraction
   sth: boil
