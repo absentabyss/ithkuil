@@ -1,0 +1,2160 @@
+{
+// 7.4.1 Demonstrative Suffixes.
+// These suffixes correspond to various determiners and modifying adjectives in English having to do with denoting or identifying a noun within a larger context or discourse.
+
+  DEF: [ // Degree Of Definiteness // -kt
+    "any (number of) [random selection - NOT quantitative/partitive “any”]; in any manner"
+    "almost any; in almost any (number of) way(s)"
+    "some X or other; in some way or other"
+    "some certain X ; in some certain way [identity unknown]"
+    "this X or that; a certain X or more; in this way or that [identity almost known &#8211; choices limited]"
+    "a certain / a particular; in a certain or particular way [identity ascertainable]"
+    "presumably this/that; apparently this X ; in that way presumably [tentatively identified]"
+    "this/that/said; in said manner/(in) that way [identity known]"
+    "at hand/under discussion/this one now/instant; in this manner [identity = present context]"
+  ]
+  DSR: [ // Degree Of Discretion // -q’;
+    "announced/advertised/heralded; w/ public disclosure"
+    "open &amp; well-known; with full public knowledge"
+    "open/public; for all to see/publicly/openly"
+    "shown, open, or available by request/ by request"
+    "semi-public(ly), exclusive(ly)"
+    "own/personal; personally"
+    "own private; privately"
+    "secret; secretly"
+    "confidential/classified"
+  ]
+  INL: [ // Degree Of Inclusion // -qh
+    "not a(ny), not one, no X whatsoever, none of X; in no such manner"
+    "hardly any, barely any X; in hardly any such manner"
+    "some few/a few certain ... ; in a few certain ways"
+    "some (of)/certain ... in certain ways"
+    "several / more than a few / various / in various ways / in several different ways"
+    "a significant portion of/a fair number of; in a fair number of ways"
+    "most/in most ways"
+    "almost every; in almost every way"
+    "each/every; in each way"
+  ]
+  EXT: [ // Exactness of Identity / Identity As a Referent Or Standard // -r&#355; / -&#355;r
+    "nothing like that X; nothing like that ; in no way similar"
+    "somewhat like that X; somewhat so"
+    "nearly or almost that X; nearly or almost so"
+    "just about ... / for all intents and purposes"
+    "kind of / type of / this sort of; typically"
+    "such (a); in such a manner"
+    "clear (case of); clearly / certainly / indeed[in negative sentences = no way / at all]"
+    "just like that; just so, thus(ly)"
+    "the exact X / the very (one); exactly thus / exactly so"
+  ]
+  FAM: [ // Degree Of Familiarity // -&#328;s
+    "unknowable / alien; unable to even try X-ing"
+    "totally unfamiliar; totally unaccustomed to X-ing"
+    "unfamiliar; unaccustomed to X-ing"
+    "somewhat unfamiliar; somewhat unaccustomed to X-ing"
+    "only just (recently) familiar; only just recently familiar to X-ing"
+    "somewhat familiar; somewhat accustomed to X-ing"
+    "familiar/known; accustomed to X-ing"
+    "well-known / utterly familiar with / ingrained; inherently accustomed or used to X-ing"
+    "intimate with; intimately involved with / intimately accustomed to"
+  ]
+  SIM: [ // Degree Of Similarity // -p
+    "opposite; as different as possible / at the other extreme"
+    "completely different/dissimilar; in a totally different or dissimilar way"
+    "rather different / barely similar / almost completely different or dissimilar; in an almost completely different way"
+    "other [=different]; in another [=different] way"
+    "somewhat different, only superficially similar; somewhat differently"
+    "similar in the ways that count/similar down deep, some sort of X; similarly at deep level"
+    "(somewhat) similar, only superficially different, sort of like, something like, X-like; similarly"
+    "very similar; very similarly"
+    "[exactly the] same, indistinguishable from; in the [exactly] same way"
+  ]
+    
+    
+// 7.4.2 Deictic Suffixes
+// Deictic suffixes refer to the grammatical process of deixis, the act of pointing to or pointing out. The suffixes correspond to the different variants of the concepts of ‘here’; and ‘there.’; In Ithkuil, distinctions are made in these suffixes as to whether a referent is near the speaker, near the listener, distant from both, whether it is observable or accessible, and in some case, whether it is alienable or inalienable (i.e., whether the entity can be separated from the associated person).
+
+  DEX: [ // Deixis Categories // -&#269;’;
+    "yonder / way over there somewhere / a long way away (not near anyone) [inaccessible or unobservable]"
+    "over there somewhere (by third party) [inaccessible or observable]"
+    "there somewhere (by listener) [inaccessible or observable]"
+    "here somewhere (by speaker] [inaccessible or observable]"
+    "here (by speaker and accessible]"
+    "here with us (by speaker and listener and accessible]"
+    "there [by listener and accessible]"
+    "there (by third party, but accessible to speaker and listener)"
+    "yonder / way over there [not near any party but accessible]"
+  ]
+  DXX: [ // Additional Deixis Categories // -&#269;h
+    "spread out/ everywhere / scattered yonder / all over out there [inaccessible]"
+    "spread out/ everywhere / scattered all about listener / all over the place around listener [inaccessible]"
+    "spread out/ everywhere / scattered all about speaker / all over the place / here and there [inaccessible]"
+    "spread out/ everywhere / scattered all about speaker / all over / here &amp; there [observable but inaccessible]"
+    "spread out/ everywhere / scattered all throughout speaker / enveloping speaker [inalienable]"
+    "spread out/ everywhere / scattered all throughout speaker / enveloping speaker [alienable]"
+    "spread out/ everywhere / scattered all about speaker/all over the place / here and there [accessible]"
+    "spread out/ everywhere / scattered all about listener / all over the place around listener [accessible]"
+    "spread out/ everywhere / scattered yonder / all over out there [accessible]"
+  ]
+  
+  
+// 7.4.3 Sequential Suffixes
+
+  SEQ: [ // Numerical Sequence // -nn
+    "first / initial; first(ly) / first of all"
+    "second; secondly"
+    "third; thirdly"
+    "still near the beginning / not yet halfway"
+    "the middle one, in between (sequentially)/ just about halfway there"
+    "nearing the end"
+    "third from last; antepenultimately"
+    "next to last; penultimately"
+    "last / final; last(ly) / finally (in terms of sequence)"
+  ]
+  SQT: [ // Sequence Relative to Present Context // -n&scaron; / -&scaron;n
+    "immediately beforehand / first"
+    "one before preceding"
+    "the former; primarily"
+    "two before preceding"
+    "current/at hand; now/currently / at the moment [in sequence of events]"
+    "second one after next"
+    "the latter; secondarily"
+    "one after next"
+    "next / following; then / next"
+  ]
+  SQC: [ // Sequence of Cause and Effect // -c’;
+    "originating; originally / in the first place / initially / at the outset"
+    "preliminary; preliminarily"
+    "preparatory / in preparation for / getting ready to"
+    "awaited; waiting to/ waiting for [focus on imminency or sequential position, NOT on anticipation]"
+    "precursor to; but just beforehand"
+    "based on the preceding and setting the stage for what follows"
+    "eventual / at last; at last / finally (result)"
+    "following /...which follows; then subsequent to that / following that..."
+    "subsequent / consequent; then / so / thus / therefore"
+  ]
+    
+    
+// 7.4.4 Coordinative Suffixes
+
+  COO: [ // Adjunctive Coordination // -&#328;
+    "in conjunction with / combined with / including X"
+    "and / also / additionally/ furthermore/ moreover/ what’;s more"
+    " ... and so forth / and so on / and all that/ and whatever else"
+    "and at the same time / and simultaneously"
+    "and [all in a series]"
+    "or [potentially inclusive] = and/or"
+    "either ... or [exclusive or] / or else"
+    "... or something else / or whatever / or whatever else"
+    "either ... or [exclusive or in a series]"
+  ]
+  CTR: [ // Contrastive Coordination // -&#328;&#328;
+    "still / nevertheless / however — (despite seemingly inherent conflict or contradiction)"
+    "besides / not just ... but also / in addition to X... also"
+    "even / or even / ... still [e.g., thicker still]"
+    "or [= otherwise]"
+    "as opposed to / but not"
+    "but [qualifying]"
+    "however / on the other hand — (simple difference in expected outcome, no inherent conflict)"
+    "but (rather) [= substitute]"
+    "just in case / should the need arise"
+  ]
+  DST: [ // Distributive Coordination // -nz / -zn
+    "applying to each equally [unfairly]"
+    "applied selectively by decision/preference [unfairly]"
+    "respectively (=to each) but in differing amounts [unfairly]"
+    "selectively at random [unfairly]"
+    "respectively [= applied in the sequentially spoken order]"
+    "selectively at random [fairly]"
+    "respectively (=to each) but in differing amounts [fairly]"
+    "applied selectively by decision/calculation [fairly]"
+    "applying to each equally [fairly]"
+  ]
+    
+    
+//  7.4.5 Temporal Suffixes
+
+  TPI: [ // Impact or Duration Over Time // -th
+    "immediate / at this instant / for this moment; momentary"
+    "temporary / for right now / for the moment; temporarily / in the meantime [duration of context. recent]"
+    "short term/for now; in the short term/for now/ / for the immediate future [hours to days]"
+    "for the meantime / for the meanwhile [days to weeks to months]"
+    "for a while / for some time to come [months to several years]"
+    "for the foreseeable future [years to decades]"
+    "long term/in the long run; over the course of time [over the course of a lifetime, decades to centuries]"
+    "through the ages / over the course of the ages [centuries to millenia]; permanent"
+    "ever-present / eternal / constant / incessant / neverending; from now on / eternally / all the time / for all time"
+  ]
+  TPD: [ // Temporary Duration // -r&#269;
+    "brief, momentary (lasting a few seconds)"
+    "for a &quot;minute&quot;"
+    "for a few minutes (e.g., &quot;while you wait&quot;)"
+    "for a little while (i.e., up to an hour approximately)"
+    "for a while (i.e., from one to several hours)"
+    "for today (i.e., from several hours to 24 hours approximately)"
+    "for one or two days"
+    "from two to four days"
+    "up to a week"
+  ]
+  FRQ: [ // Degree Of Frequency // -ll
+    "never"
+    "rare / hardly ever / once in a great while; rarely / almost unheard of"
+    "infrequent; seldom / infrequently"
+    "now and then / from time to time / off and on / every so often / now and again occasionally / sometimes"
+    "frequent; frequently / often"
+    "usual; usually / customarily / generally"
+    "almost always / rarely fail to / routinely"
+    "ever-faithful / unwavering; always / every time / without fail / like clockwork / never fail to"
+    "constant / continuous; constantly / continuously / all the time"
+  ]
+  TPR: [ // Temporal Placement/Reaction/Viewpoint // -z
+    "wistfully looking back / in the (good) old days [with longing]"
+    "in hindsight / looking back"
+    "upon further consideration/upon reflection"
+    "initial; at first/initially / at first blush / at first glance"
+    "now that the moment has come / now that the time is here / now that the deed or event is at hand"
+    "any moment now; on the verge of; just about to"
+    "imminent(ly) ; very soon"
+    "soon [w/ anticipation]"
+    "someday... / one day [with longing]"
+  ]
+  TPP: [ // Temporal Position Relative to Present // -kk
+    "in the remote past, once upon a time"
+    "past/former/previous; once [e.g., I was young once], a long time ago"
+    "recent; recently"
+    "... just past / just (happened)"
+    "present/current/present day; now / at present / presently / currently"
+    "imminent; just about to / about to / on the verge of"
+    "forthcoming / soon to arrive; soon"
+    "future / -- to be / --to come / eventual(ly); someday..."
+    "in the remote future / far in the future / long after we’;re gone"
+  ]
+  ATC: [ // Degree Of Anticipation // -p&#355;
+    "long-awaited / long looked for"
+    "eagerly awaited; can’;t wait for / dying to"
+    "anticipated / awaited; in anticipation of / look forward to"
+    "up for / up to"
+    "await / wait to / wait for / waiting to"
+    "ambivalent about ; could take or leave it"
+    "not looking forward to"
+    "dreaded; dread X-ing"
+    "long-dreaded; dread the day when"
+  ]
+  LAT: [ // Degree Of Lateness/Earliness // -n&#382; / -&#382;n
+    "way too early / way too soon"
+    "too early / too soon"
+    "a little early / a bit soon"
+    "almost late / not a moment too soon"
+    "just in time / sharp / on the dot"
+    "a little late"
+    "late"
+    "too late"
+    "way too late"
+  ]
+  ITN: [ // Degree Of Iteration // -nt / -tn
+    "just once / once only"
+    "again / once more / one more time / re-"
+    "again and again / keep X-ing over and over [focus on habit, not periodicity]"
+    "again and again / keep X-ing over and over [focus on periodicity, not habit]"
+    "irregular, unpredictable ; at irregular or unpredictable intervals"
+    "[cyclic] return of... / ...once again; return to / ...back again [e.g., summer’;s back]"
+    "intermittent; intermittently / at regular intervals"
+    "repetitive / repeating; repeatedly"
+    "constantly cycling or repeating / continuously or perpetually repeating / constant, eternal, perpetual repetition of -k&#355;"
+  RPN
+  Pattern of Spatio-Temporal Repetition or Distribution of Set Members
+    "slow-paced repetition at regular intervals"
+    "slow-paced repetition at irregular intervals"
+    "slow-paced repetition at mixed intervals"
+    "mid-paced repetition at irregular intervals"
+    "mid-paced repetition at regular intervals"
+    "mid-paced repetition at mixed intervals"
+    "fast-paced repetition at mixed intervals"
+    "fast-paced repetition at irregular intervals"
+    "fast-paced repetition at regular intervals"
+  ]
+  CAL: [ // Calendrical Sequencing (used with numerical stems to indicate calendrical concepts) // -rl
+    "[sequential number +] day of the week"
+    "[sequential number +] day of the month"
+    "[sequential number +] day of the year"
+    "[sequential number +] week of the month"
+    "[sequential number +] month of the year"
+    "[sequential number +] year"
+    "[sequential number +] decade of the century"
+    "[sequential number +] century"
+    "[sequential number +] millenium"
+  ]
+    
+// The V1 value of these suffixes merely indicates sequential position on the calendar, e.g., llalirl 'the first day of the week,' whereas V2 values  give the names of the days of the weeks, days of the month, months of the year, etc., e.g., llaluarl 'Sunday,'  ksaluarl 'Monday,' ksal&acirc;rl 'February,' llal&ouml;kearl 'the 21st Century', m&#345;alik (&#328;ial) xmalukeorl 'the year 1999.'
+// Note: the   CAL suffix inherently conveys Functional (FNC) Context, since  calendrical notions  are, of course, societal conventions as opposed to being natural ontological concepts. Therefore, for formatives carrying the CAL suffix it is not necessary to inflect for FNC Context.
+
+
+// 7.4.6 Quantifying Suffixes
+
+  DGR: [ // Exactness of Degree // -lz / -zl
+    "unknowable degree or amount of"
+    "unknown degree or amount of"
+    "almost impossible to determine degree of"
+    "nowhere near the desired degree of"
+    "hard to pinpoint / hard to determine / difficult to determine"
+    "fluctuating, ever-changing (amount of); to changing/fluctuating degree or extent of"
+    "vaguely around / vaguely in the range of / somewhere around / loosely in the vicinity of"
+    "approximate(ly) / somewhere around / just about; or something like that / ...or so"
+    "exact/specific; exactly / specifically / on the dot / sharp / to the letter"
+  ]
+  PTW: [ // Contiguous Portion of the Whole // -ss
+    "no amount of / none (of)"
+    "a very few / a tiny amount of / a tiny number of; only a tiny bit / a tiny bit"
+    "few / a little / a bit; a little / a bit"
+    "some, any [= some of] / some of or any of the / a portion; partially / to some extent"
+    "a fair number of / a fair amount of / pretty (+adj.) / fairly (+adj.) / rather / somewhat; more or less / to a fair extent"
+    "much / many / (such) a lot of / very / quite (a); quite; a lot / very much / to a large extent"
+    "a whole lot of / a verly large amount or number of / immensely, in an incredible amount / so much...; so"
+    "most of / mostly"
+    "every / all (of)/whole; entirely/in its entirety"
+  ]
+  PTT: [ // Non-Contiguous (i.e., Intermixed) Portion of the Whole // -ns / -sn
+    "no amount of / none (of)"
+    "a very few / a tiny amount of / a tiny number of; only a tiny bit / a tiny bit"
+    "few/a little / a bit; a little / a bit"
+    "some, any [= some of] / some of or any of the / a portion; partially / to some extent"
+    "a fair number of / a fair amount of / pretty (+adj.) / fairly (+adj.) / rather / somewhat; more or less / to a fair extent"
+    "much / many / (such) a lot of / very / quite (a); quite /; a lot / very much / to a large extent"
+    "a whole lot of / a very large amount or number of / immensely, in an incredible amount / so much...; so"
+    "most of / mostly"
+    "every / all (of) / whole; entirely / in its entirety"
+  ]
+  CNM: [ // Type of Container/Packaging/Conveyance/Holder // -mt / -tm
+    "jar/pot of X [storage + containment]"
+    "dispensor-type container/package, e.g., tube, barrel, bottle for multiple use"
+    "can/tin/bottle/sealed pouch [= storage + packaging + protection/preservation]"
+    "carton/box/basket [= temporary containment]"
+    "natural or generic mass containment/packaging/holder (e.g., a loaf of bread, a lump of clay)"
+    "satchel, pack of [= for personal conveyance/moving]"
+    "pile of, load of [= in context of conveyance/moving or bulk storage]"
+    "X-ful of [+ Partitive], e.g., a roomful of clowns, a skyful of clouds, a treeful of leaves, a spoonful"
+    "embodiment/manifestation of abstract essence, e.g., a life form [= an embodiment of life]"
+  ]
+  SUF: [ // Degree Of Sufficiency // -d
+    "none at all; not...at all"
+    "way too little / woefully insufficient / way too few; not...anywhere enough / totally under-[+verb]"
+    "not enough / insufficient / too few; not...enough / insufficiently / under-[+verb]"
+    "not quite enough / slightly insufficient; not...quite enough / a bit insufficiently / slightly under-[+verb]"
+    "enough (of) / sufficient; enough / sufficiently"
+    "a little too / a little too much; a little too much / slightly over- [+verb]"
+    "too / toomuch; too much / too many / over- [+verb]"
+    "way too / way too much; way too much / totally over- [+verb]"
+    "inundated with; to the exclusion of all else / to the point that X overwhelms or takes over"
+  ]
+  EXN: [ // Degree or Extent // -b
+    "none (at all); to no extent at all"
+    "tiniest part of / a bit of; to smallest extent / hardly / barely"
+    "only a part of / only some of; to some extent / partially / partly / somewhat"
+    "less than usual / below normal; less so than usual/ to a lesser degree or extent than usual"
+    "the normal, expected or usual amount (of)"
+    "more than usual / above normal; more so than usual; to a greater degree or extent than normal"
+    "way more than usual / way above normal or expected; to a much greater degree or extent than normal"
+    "almost as much as possible / near(ly) maximum"
+    "total, -ful; to greatest extent / maximum / maximal; maximally / at full capacity, e.g., She bought out the store."
+  ]
+  EXD: [ // Dynamically Changing Degree or Extent // -rd / -dr
+    "less and less / fewer and fewer / ongoing decrease in; decreasingly"
+    "a lot fewer / a lot less (of); a lot less"
+    "fewer / less (of); less"
+    "a little less (of) / a bit less (of); a little less / a bit less"
+    "a fluctuating amount or degree of; to a fluctuating degree or extent"
+    "a little more (of) / a bit more (of); a little more / a bit more"
+    "more (of); more"
+    "a lot more (of); a lot more"
+    "more and more / continuing increase in / increasingly more / ever-increasing"
+  ]
+    
+ // This suffix is used with all vector-like or gradient concepts. When used with the COMPLETIVE version, degrees 1 and 9 imply attainment of a change in state, e.g., sleepiness &rarr; sleep.
+ 
+ 
+//  7.4.7 Modulative Suffixes
+
+  RCO: [ // Recoil in place (spring back; snap back; fall back into place) // -zb
+    "not enough"
+    "hardly at all"
+    "to a small degree"
+    "to a less than normal degree"
+    "to the normal / standard / usual degree"
+    "to a greater than normal degree"
+    "to a large degree"
+    "to a very large degree"
+    "too much / overly"
+  ]
+  TFI: [ // Back &amp; forth; to &amp; fro in place (e.g., pendulum, wagging tail) // -zg
+    "not enough"
+    "hardly at all"
+    "to a small degree"
+    "to a less than normal degree"
+    "to the normal / standard / usual degree"
+    "to a greater than normal degree"
+    "to a large degree"
+    "to a very large degree"
+    "too much / overly"
+  ]
+  TFV: [ // Back &amp; forth over linear vector (e.g., snake-like; zig-zag) // -&#382;d
+    "not enough"
+    "hardly at all"
+    "to a small degree"
+    "to a less than normal degree"
+    "to the normal / standard / usual degree"
+    "to a greater than normal degree"
+    "to a large degree"
+    "to a very large degree"
+    "too much / overly"
+  ]
+  CRI: [ // Cycle or circular motion in place (spin, revolve) // -zd
+    "not enough"
+    "hardly at all"
+    "to a small degree"
+    "to a less than normal degree"
+    "to the normal / standard / usual degree"
+    "to a greater than normal degree"
+    "to a large degree"
+    "to a very large degree"
+    "too much / overly"
+  ]
+  CRV: [ // Cycle or circular motion over linear vector (e.g., train wheels, bike wheels) // -&#382;b
+    "not enough"
+    "hardly at all"
+    "to a small degree"
+    "to a less than normal degree"
+    "to the normal / standard / usual degree"
+    "to a greater than normal degree"
+    "to a large degree"
+    "to a very large degree"
+    "too much / overly"
+  ]
+  MDL: [ // Random pattern of modulation (unpredictable/irregular movement pattern) // -&#382;g
+    "not enough"
+    "hardly at all"
+    "to a small degree"
+    "to a less than normal degree"
+    "to the normal / standard / usual degree"
+    "to a greater than normal degree"
+    "to a large degree"
+    "to a very large degree"
+    "too much / overly"
+  ]
+  ICR: [ // Increase // -f
+    "so slowly as to seem immovable"
+    "very slowly"
+    "slowly"
+    "somewhat slower than normal"
+    "normal/usual/standard speed"
+    "somewhat faster than normal"
+    "fast/quickly"
+    "very rapidly"
+    "so rapidly as to be unable to follow"
+  ]
+  DCR: [ // Decrease // -ft
+    "so slowly as to seem immovable"
+    "very slowly"
+    "slowly"
+    "somewhat slower than normal"
+    "normal/usual/standard speed"
+    "somewhat faster than normal"
+    "fast/quickly"
+    "very rapidly"
+    "so rapidly as to be unable to follow"
+  ]
+  ICD: [ // Increase then Decrease // -pf
+    "so slowly as to seem immovable"
+    "very slowly"
+    "slowly"
+    "somewhat slower than normal"
+    "normal/usual/standard speed"
+    "somewhat faster than normal"
+    "fast/quickly"
+    "very rapidly"
+    "so rapidly as to be unable to follow"
+  ]
+  DCI: [ // Decrease then Increase // -kf
+    "so slowly as to seem immovable"
+    "very slowly"
+    "slowly"
+    "somewhat slower than normal"
+    "normal/usual/standard speed"
+    "somewhat faster than normal"
+    "fast/quickly"
+    "very rapidly"
+    "so rapidly as to be unable to follow"
+  ]
+  IDR: [ // Random/Varying Increases and Decreases // -q&#355;
+    "so slowly as to seem immovable"
+    "very slowly"
+    "slowly"
+    "somewhat slower than normal"
+    "normal/usual/standard speed"
+    "somewhat faster than normal"
+    "fast/quickly"
+    "very rapidly"
+    "so rapidly as to be unable to follow"
+  ]
+  FLS: [ // Degree of Fluctuation/Stability // -g
+    "inherently and consistently unstable and random to a high degree"
+    "highly variable/random fluctuation or instability"
+    "moderately variable/random fluctuation or instability"
+    "increasing fluctuation or destabilization in pattern"
+    "tending toward fluctuations and periods of instability"
+    "decreasing fluctuation or instability in pattern = increasing stability"
+    "moderately stable and lacking in fluctuations"
+    "complete lack of fluctuation or instability; highly stable"
+    "inherently and consistently stable  "
+  ]
+  MVT: [ // Degree of Stillness/Movement // -fs
+    "unmovable &#8211; integrated"
+    "unmovable due to mass"
+    "not easily moved"
+    "inclined to stillness"
+    "holding still"
+    "moving around slightly, stirring"
+    "moving around in one place"
+    "moving around, agitated"
+    "highly agitated, unable to keep still"
+  ]
+    
+    
+ // 7.4.8 Qualifying Suffixes
+ 
+  SIZ: [ // Degree of Size // -x
+    "too small"
+    "very small/ very little/ miniscule/ tiny/ itty-bitty;in a very small manner; barely/hardly"
+    "small/little"
+    "a little on the small size / undersized / petite"
+    "a little on the large size / oversized / jumbo"
+    "big/large; in a large manner"
+    "very big/very large; in a very large manner"
+    "enormous(ly) / huge(ly) / humoungous(ly) / gigantic(ally)"
+    "too big / too large / too huge; in too large a manner"
+  ]
+  SCO: [ // Dynamic Change of Size // -xh
+    "smallest single manifestation of / particle of"
+    "runaway shrinkage of / rapid disappearance or diminishment of"
+    "solitary / only / sole / lone / unaccompanied; alone / by -self / on his own / unaccompanied / solely"
+    "decreasing / de-escalating / shrinking"
+    "compact/concentrated; in efficient or compact way [e.g., canyon &rarr; gorge]"
+    "expanded/enhanced; in expanded or enhanced way [e.g., canyon &rarr; rift valley]"
+    "growing, increasing, escalating"
+    "runaway / runaway growth, increase or expansion of"
+    "synergistic expansion e.g., hit (+ RCP valence) &rarr; fight"
+  ]
+  AFT: [ // Degree of Affect // -&ccedil;
+    "cute/darling / in a cute or darling manner"
+    "too cute / schmaltzy / in a maudlin way"
+    "kitschy / quaint(ly)"
+    "dear, endearing(ly)"
+    "lovely / elegant"
+    "esteemed"
+    "imperious / royal / most high / most excellent / revered"
+    "too grand / too imperious"
+    "great / grand; in a great / grand / grandiose manner"
+  ]
+  QUA: [ // Degree of Quality, Effectiveness or Adequacy // -&#269;
+    "too poor(ly); too badly"
+    "very bad(ly) / very poor(ly) / very inadequate(ly) / intolerable / intolerably / terrible / terribly"
+    "bad / poor / inadequate; badly / poorly / inadequately / wanting / lacking"
+    "not-so-good / could be better; somewhat poor(ly) or bad(ly) / somewhat wanting or lacking / below average"
+    "not-so-bad / average; could be worse; so-so / somewhat well / OK, I guess / adequate(ly) / acceptably"
+    "good/effective; well/effectively/ more than adequate / above-average"
+    "very good / very effective(ly) / very well"
+    "excellent(ly) / superb(ly) / outstanding(ly)"
+    "astounding(ly) / amazing(ly) great or well / unbelievably excellent / absolutely superb(ly) / unsurpassable(ly)"
+  ]
+  UNQ: [ // Degree of Specialness or Uniqueness // -c
+    "vulgar, trashy, too cheap / in a vulgar or trashy manner"
+    "cheap, tasteless, gaudy, gauche / in a cheap, gaudy, gauche or tasteless manner"
+    "run of the mill / unexceptional / average / commonplace / ordinary; in a commonplace or unexceptional manner"
+    "somewhat ordinary / somewhat common(place)"
+    "somewhat special / somewhat out of the ordinary / interesting(ly) / intriguing(ly) / eye-catching / appealing(ly)"
+    "special; epecially"
+    "extraordinary / highly unusual; extraordinarily"
+    "(one and) only/unique; in the only way / uniquely / unparallelled"
+    "marvelous / wonderful / wondrous / awesome / awe-inspiring"
+  ]
+  IPT: [ // Degree of Importance/Impact/Signficance // -r&#328;
+    "utterly unimportant, insignficant, unnecessary, irrelevant"
+    "hardly necessary, seemingly unimportant, essentially insignificant, essentially irrelevant"
+    "third-string / no remaining alternative but X"
+    "back-up / understudy / second-string"
+    "secondary"
+    "fairly significant, somewhat important"
+    "importan t/ significant / considerable"
+    "primary / foremost / very significant"
+    "Indispensable/crucial/critical"
+  ]
+  CNQ: [ // Degree of Consequentiality, Finality or Irrevocability // -kh
+    "inconsequential/sham/having no effect; like it didn’;t even happen/with no effect"
+    "relatively inconsequential / having little effect / easily reversible or undone / to little effect / minor / to minor degree"
+    "somewhat inconsequential/having only some effect/reparable/reversible/to some effect / somewhat minor"
+    "not so minor / somwhat significant degree / reversible with effort / having a somewhat significant impact or effect"
+    "consequential / having a fair effect / reversible only with concerted effort / to good effect"
+    "overall / signifcant degree of; all in all / for the most part/to great effect / on the whole"
+    "virtually total/near total; nearly for good/almost completely"
+    "utter / complete / total; altogether / completely / for good / utterly / irrevocably for all intents and purposes"
+    "for all time / forever / finally"
+  ]
+  NTR: [ // Degree of Notoriety, Acceptance, Respect, Honor // -q
+    "pariah-like / ostracized; in an alienating or self-ostracizing manner"
+    "infamous; infamously"
+    "frowned-upon / disapproved ; in a manner guaranteed to arouse disapproval"
+    "tolerated; in a tolerated manner"
+    "common / customary / expected / accepted; in an common, customary, expected, or accepted manner"
+    "notorious(ly)"
+    "well-known / well-liked / well thought of; in a totally appropriate way / in a manner befitting a gentleman or lady"
+    "respected / honored; respectfully / honorably"
+    "highly praised / highly honored / highly esteemed / highly respected / most excellent / most honorable"
+  ]
+  BEH: [ // Degree of Subjective Effect or Behavioral Appropriateness // -rg
+    "grotesque, gross, nauseating, sickening"
+    "repugnant, revolting, repulsive"
+    "despicable, deplorable, detestable"
+    "lurid, spectacle-inducing"
+    "offensive, ill-mannered, in poor taste"
+    "lewd"
+    "spectacular, showy, larger-than-life"
+    "well-mannered, polite"
+    "classy, dignified, in good taste"
+  ]
+  APR: [ // Degree of Contextual Appropriateness // -xht
+    "contemptable(-ly) / utterly inappropriate(ly)"
+    "scandalous(ly) / trashy(-ly) / inappropriate(ly)"
+    "ill-mannered / boorish(ly) / improper(ly) / tasteless(ly)"
+    "eyebrow-raising / questionable(-ly)"
+    "somewhat improper(ly) / unorthodox(ically)"
+    "acceptable(-ly) / adequate(ly)"
+    "appropriate(ly) / proper(ly) / correct(ly)"
+    "utterly appropriate(ly), very proper(ly); strictly correct(ly)"
+    "stuffy / orthodox / old-fashioned; utterly predictable(ly)"
+  ]
+  HRC: [ // Position on Social, Occupational, or (Para-) Military Hierarchy // -t&#316;
+    "bottom rung / the “dregs”"
+    "rank &amp; file"
+    "lower echeleon"
+    "lower-mid"
+    "mid-level"
+    "upper mid"
+    "upper echeleon"
+    "senior"
+    "head / chief / top / executive"
+
+// This suffix, for example, would be used to distinguish the names of the various ranks within a military or paramilitary organization such as private, corporal, sergeant, lieutenant, etc. all the way up to general and supreme commander.
+
+  ]
+  FRM: [ // Degree of Formality // -&#380;
+    "too casual / overly casual"
+    "very casual"
+    "casual"
+    "somewhat casual"
+    "neither casual nor formal"
+    "somewhat formal"
+    "formal"
+    "very formal"
+    "too formal / overly formal"
+  ]
+  TYP: [ // Degree of Typicalness // -j
+    "unique / never-before-seen / one of a kind / shocking"
+    "original / avante-garde; surprising(ly) / innovative(ly)"
+    "atypical(ly) / unusual(ly)"
+    "somewhat atypical(ly) or unusual(ly)"
+    "garden variety / run-of-the-mill / typical(ly)"
+    "expected / common; in a commonplace manner"
+    "disappointingly typical; very typically"
+    "unoriginal / mundane; in an uninspired way"
+    "stereotyped / stereotypical(ly)"
+  ]
+  PTY: [ // Degree of Prototypicalness // -&#328;x
+    "very dissimilar to prototype, very atypical member, closer to members of different set"
+    "dissimilar to prototype, atypical member"
+    "having noticeable dissimilarities from prototype"
+    "somewhat dissimilar to prototype"
+    "having unknown degree of closeness or similarity to prototype"
+    "adequately similar to prototype"
+    "as close to prototype as is typically found"
+    "as close to prototype as possible"
+    "prototype/archetype/model"
+  ]
+  ITG: [ // Degree of Intelligence Manifested // -m&#382; / -&#382;m
+    "dumb / stupid / assinine; idiotic(ally) / moronic(ally)"
+    "foolhearty / foolish(ly)"
+    "ill-conceived(ly) / (in a) poorly thought out (way)"
+    "na&iuml;ve(ly) / simplistic(ally)"
+    "well-intentioned but ill-conceived / reckless(ly); risky"
+    "well-reasoned / intelligent(ly)"
+    "innovative(ly) / daring [based on analysis and judgement]"
+    "ingenious / brilliant"
+    "wise(ly); [V2 = ‘philosophical(ly)]"
+  ]
+  MDN: [ // Degree of Age or Modernity // -&#316;
+    "prehistoric / proto-"
+    "ancient"
+    "old (first) / archaic"
+    "classic(al)"
+    "old-fashioned; in the old-fashioned way"
+    "“yesteryear”; in the era just passed; in the previous zeitgeist"
+    "modern, contemporary, present-day"
+    "innovative / trailblazing; innovatively, trailblazingly, cutting-edge"
+    "avant-garde "
+  ]
+
+
+// 7.4.9 Modifying Suffixes
+
+  NA1: [ // Negation/affirmation of all morphological components // -r
+    "on the contrary...most cerainly does NOT/is NOT [absolute negation]; no X whatsoever; absolutely not = emphatic negation/denial"
+    "on the contrary...does NOT or is NOT [absolute negation contrary to expectation]"
+    "on the contrary...does NOT or is NOT [relative negation contrary to expectation]"
+    "no; not [absolute negation] = e.g., I will not win the race (because I’;m not in the race)"
+    "no; not [relative negation] = e.g., I will not win the race (although I am in the race)"
+    "almost / near(ly)"
+    "hardly / barely"
+    "...does (too) / is (too) [= simple affirmation contrary to expectation]"
+    "...is indeed / does indeed / most certainly is / most certainly does [emphatic affirmation]"
+  ]
+  NA2: [ // Negation/affirmation of stem + affixes but not adjunct information // -l
+    "on the contrary...most cerainly does NOT/is NOT [absolute negation]; no X whatsoever; absolutely not = emphatic negation/denial"
+    "on the contrary...does NOT or is NOT [absolute negation contrary to expectation]"
+    "on the contrary...does NOT or is NOT [relative negation contrary to expectation]"
+    "no; not [absolute negation] = e.g., I will not win the race (because I’;m not in the race)"
+    "no; not [relative negation] = e.g., I will not win the race (although I am in the race)"
+    "almost / near(ly)"
+    "hardly / barely"
+    "...does (too) / is (too) [= simple affirmation contrary to expectation]"
+    "...is indeed / does indeed / most certainly is / most certainly does [emphatic affirmation]"
+  ]
+  NA3: [ // Negation/affirmation of all morphological components except Modality // -&#345;
+    "on the contrary...most cerainly does NOT/is NOT [absolute negation]; no X whatsoever; absolutely not = emphatic negation/denial"
+    "on the contrary...does NOT or is NOT [absolute negation contrary to expectation]"
+    "on the contrary...does NOT or is NOT [relative negation contrary to expectation]"
+    "no; not [absolute negation] = e.g., I will not win the race (because I’;m not in the race)"
+    "no; not [relative negation] = e.g., I will not win the race (although I am in the race)"
+    "almost / near(ly)"
+    "hardly / barely"
+    "...does (too) / is (too) [= simple affirmation contrary to expectation]"
+    "...is indeed / does indeed / most certainly is / most certainly does [emphatic affirmation]"
+  ]
+  NA4: [ // Negation/affirmation of all but aspectual or Modality information // -&#345;&#345;
+    "on the contrary...most cerainly does NOT/is NOT [absolute negation]; no X whatsoever; absolutely not = emphatic negation/denial"
+    "on the contrary...does NOT or is NOT [absolute negation contrary to expectation]"
+    "on the contrary...does NOT or is NOT [relative negation contrary to expectation]"
+    "no; not [absolute negation] = e.g., I will not win the race (because I’;m not in the race)"
+    "no; not [relative negation] = e.g., I will not win the race (although I am in the race)"
+    "almost / near(ly)"
+    "hardly / barely"
+    "...does (too) / is (too) [= simple affirmation contrary to expectation]"
+    "...is indeed / does indeed / most certainly is / most certainly does [emphatic affirmation]"
+  ]
+  PLV: [ // Polarity / Logical valence values // -rr
+    "false/negative [bivalent polarity or logic]"
+    "false/negative [trivalent polarity or logic]"
+    "superpositional &ndash; neither true/positive nor false/negative"
+    "unknown polarity or logical state/value [trivalent polarity  or logic]"
+    "neutral [trivalent polarity or logic]"
+    "unknown polarity or logical state/value [bivalent polarity  or logic]"
+    "superpositional &ndash; both true/positive and false/negative"
+    "true/positive [trivalent polarity or logic]"
+    "true/positive [bivalent polarity or logic]"
+  ]
+  DEV: [ // Degree of Development // -&#355;
+    "reversal or undoing of process = ‘un-’; / ‘de-’; / ‘dis-’;"
+    "reversal/undoing of process in large chunks = ‘un-’; / ‘de-’; / ‘dis-’;"
+    "reversal little by little / a little at a time = entropic change in / slowly falling apart / unravelling"
+    "moribund / stagnant; in a moribund or stagnant manner"
+    "well-maintained / well-kept / “healthy”; keep X going / maintain X-ing"
+    "one by one / one at a time / one after another"
+    "little by little / a little at a time / bit by bit / a piece at a time"
+    "by leaps and bounds / in large amounts at a time"
+    "complete achievement now irreversible / set in stone"
+  ]
+  REA: [ // Degree of Genuineness or Veracity // -pt
+    "real / actual / true / genuine; truly, genuinely, really, actually, indeed [affirmation contrary to suggestion otherwise]"
+    "real / actual / true / genuine; truly, genuinely, really, actually, indeed"
+    "apparent / seeming / looks like a; apparently / appears to have / seems to have"
+    "suspicious-looking / ”fishy” seeming; presumably /allegedly / gives the appearance of having"
+    "ersatz / facsimile; as an equivalent to"
+    "substitute / replacement / proxy / fill-in / placeholder; as a substitue or proxy for"
+    "fake / pretend / mock; pretend to, fake X-ing"
+    "imaginary / unreal / made-up ; imagine X-ing, not really X-ing"
+    "imaginary / unreal / made-up ; imagine X-ing, not really X-ing [contrary to suggestion otherwise]"
+  ]
+  SCS: [ // Degree of Success versus Failure // -rk / -kr
+    "total failure in; completely fail to"
+    "failed, would-be; unsuccessfully, fail to"
+    "= INEFFECTUAL or INCOMPLETIVE version (see Sec. 5.8)"
+    "certain to be a failed / certain to fail in"
+    "marginally successful(ly) / barely, hardly [in terms of adequacy or success]"
+    "certain to be a successful ; certain to succeed in"
+    "= POSITIVE or EFFECTIVE version (see Sec. 5.8)"
+    "successful(-ly completed); successfully"
+    "overwhelmingly successful(ly)"
+  ]
+  CAP: [ // Degree of Potential or Capability // -v
+    "utterly incapable / completely lacking in all necessary abilities or capacities"
+    "underqualified; almost totally lacking in necessary abilities or capacities"
+    "lacking in certain key capabilities; mostly inadequate to task"
+    "possible but less than likely due to underdeveloped capabilities"
+    "unknown if capable or not"
+    "somewhat capable / has possible potential to perform"
+    "sufficiently capable / adequate potential to perform"
+    "fully capable; well within abilities"
+    "overly qualified; more capable than necessary or required"
+  ]
+  PRB: [ // Degree of Probability or Likelihood // -&ccedil;q
+    "impossible / hopeless / lost cause"
+    "almost no chance of / virtually impossible"
+    "highly unlikely"
+    "unlikely / improbable(ly)"
+    "possible; possibly"
+    "hopeful(ly)"
+    "probable; probably"
+    "highly probable / highly likely / certain to be a... certain to"
+    "forgone conclusion that / in the can / done deal"
+  ]
+
+
+// 7.4.10 Adverbial Suffixes
+
+  STR: [ // Degree of Physical Strength Possible or Used // -n&#355; / -&#355;n
+    "barely / hardly / very weak(ly)"
+    "weak(ly) / to small degree"
+    "soft(ly) / guarded(ly)"
+    "measured(ly)"
+    "somewhat strong(ly) / somewhat powerful(ly)"
+    "adequately strong; with adequate strength"
+    "strong(ly) / powerful(ly)"
+    "very strong(ly) / very powerful(ly)"
+    "with maximum power"
+  ]
+  FRC: [ // Degree of Physical Force Exerted // -k&ccedil;
+    "too light(ly) / too soft(ly) / too delicate(ly)"
+    "light as a feather/ baby soft; extremely delicately or lightly or softly"
+    "light/soft/hardly a; softly / lightly / delicately / gingerly"
+    "somewhat on the light or soft side; somewhat softly / lightly / delicately / gingerly"
+    "neither soft(ly) nor forceful(ly); with the right touch"
+    "somewhat violent(ly) / somewhat forceful(ly)"
+    "violent/forceful / rough; violently / with force / roughly"
+    "very violent(ly) / very forceful(ly) / very rough(ly)"
+    "too violent(ly) / too forceful(ly) / too rough(ly)"
+  ]
+  ITY: [ // Degree of Speed (i.e., Intensity of Movement or Change) // -sk
+    "too slow(ly)"
+    "very slow(ly)"
+    "slow(ly)"
+    "somewhat slow(ly)"
+    "at just the right speed or intensity"
+    "somewhat fast / somewhat quick(ly) / somewhat rapid(ly)"
+    "fast / quick(ly) / rapid(ly); at fast pace"
+    "very fast / very quick(ly) / very rapid(ly); at fast pace"
+    "too fast / too quick(ly) / too rapid(ly); at fast pace"
+  ]
+  SPD: [ // Degree of Speed (i.e., Velocity = Distance Over Time) // -st
+    "too slow(ly)"
+    "very slow(ly)"
+    "slow(ly)"
+    "somewhat slow(ly)"
+    "at just the right speed"
+    "somewhat fast / somewhat quick(ly) / somewhat rapid(ly)"
+    "fast / quick(ly) / rapid(ly); at fast pace"
+    "very fast / very quick(ly) / very rapid(ly)/; at fast pace"
+    "too fast / too quick(ly) / too rapid(ly); at fast pace"
+  ]
+  CFD: [ // Degree of Forthrightness, Confidence or Humility // -lt / -tl
+    "too meek(ly) / too submissive(ly) / too obedient(ly) / too docile(ly)"
+    "very meek(ly) / very submissive(ly) / very obedient(ly) / very docile(ly)"
+    "meek(ly) / submissive(ly) / obedient(ly) / docile(ly)"
+    "somewhat meek(ly) / somewhat submissive(ly) / somewhat obedient(ly) / somewhat docile(ly)"
+    "properly humble / properly forthright ; with proper degree of humility or forthrightness"
+    "somewhat confident(ly) / somewhat strong(ly) / somewhat definite(ly) / somewhat definitive(ly) or authoritative(ly)"
+    "confident(ly) /strong(ly) / definite(ly)/ definitive(ly) / authoritative(ly)"
+    "very confident(ly) / very strong(ly) / very definite(ly) / very definitive(ly) / very authoritative(ly)"
+    "over-confident(ly) / too strong(ly) / too definite(ly) / too definitive(ly) / too authoritative(ly)"
+  ]
+  EFI: [ // Degree of Efficiency or Efficacy // -dh
+    "destructively wasteful / disastrous(ly) / accomplishing the opposite of intention / making things worse"
+    "very wasteful / accomplishing nothing / making a mess of it"
+    "wasteful / accomplishing little"
+    "somewhat wasteful / accomplishing somewhat less than expected"
+    "adequate(ly) [in terms of efficiency]"
+    "rather efficient(ly) / fairly efficient(ly) / accomplishing somewhat more than expected"
+    "efficient(ly) / with little or no waste(d effort)"
+    "extremely efficient(ly) / with no waste(d effort) whatsoever"
+    "a synergy of... / sum beyond total of parts / a synergistic composite of ; to X synergistically"
+  ]
+  ERR: [ // Degree of Correctness versus Error // -&scaron;q
+    "totally wrong / totally mis- or mal-; totally in error / erroneous(ly) / incorrect(ly)"
+    "wrong/incorrect(ly) / mis- / mal- ; in error / erroneous(ly) / incorrect(ly)"
+    "fairly wrong / fairly incorrect(ly)"
+    "somewhat wrong / more wrong than right"
+    "so-so; barely adequate(ly) / barely correct(ly)"
+    "somewhat right / more right than wrong"
+    "fairly right / fairly correct(ly)"
+    "right / correctly"
+    "totally right / totally correct(ly) / totally well-X’;d"
+  ]
+  MAT: [ // Degree of Maturation // -ph
+    "undeveloped / immature(ly) / seed / embryo"
+    "under-developed / newborn [stage, not age] / seedling / baby"
+    "growing / budding / youthful / young"
+    "maturing / developing / getting stronger or bigger or more complex or sophisticated"
+    "fully developed / fully mature(d) / robust / ripe"
+    "overly developed / overripe / showing signs of wear and tear / stressed / under stress / fatigued"
+    "declining/fading; trail off/fade / getting softer or weaker / faded / decrepit / has-been / past one’;s prime"
+    "disintegrating / utterly deteriorated / beyond repair or rehabilitation / irreparable / dying"
+    "dead / defunct / disintegrated"
+  ]
+  SBT: [ // Degree of Subtlety // -&#328;z
+    "too subtle(ly)"
+    "very subtle(ly)"
+    "subtle(ly)"
+    "somewhat subtle(ly)"
+    "somewhat unsubtle(ly)"
+    "unsubtle(ly) / lumbering(ly) rather obvious/ fairly blatant / belabored ; belabor / lumber along X-ing"
+    "obvious(ly) / blatant(ly) / exaggerated(ly)"
+    "very obvious(ly) / very blatant(ly)"
+    "over-the-top / in-your-face / to obvious(ly) / too blatant(ly)"
+  ]
+  DRC: [ // Degree of Directness // -k&#353;
+    "too indirect(ly)"
+    "very indirect(ly)"
+    "indirect(ly)"
+    "somewhat indirect(ly)"
+    "somewhat direct(ly)"
+    "fairly direct(ly) / rather direct(ly)"
+    "direct(ly) / straightforward"
+    "very direct(ly) / very straightforward"
+    "too direct(ly) / painfully straightforward"
+  ]
+  SUD: [ // Degree of Suddenness // -m&#353; / -&#353;m
+    "too slow(ly) in happening, too long in X-ing, overdue, delayed"
+    "very slow(ly) in happening or developing"
+    "slow(ly) ; long in developing or happening"
+    "somewhat slow(ly) ; somewhat long in developing or happening"
+    "taking just the right amount of time to develop or occur"
+    "somewhat immediate / somewhat sudden; somewhat imediately / somewhat suddenly"
+    "immediate / sudden; imediately / suddenly"
+    "very immediate / very sudden; very imediately / very suddenly"
+    "too immediate / too sudden; too imediately / too suddenly"
+  ]
+  PCN: [ // Degree of Care, Precision or Scrutiny // -p&ccedil;
+    "utterly sloppy(ily) / totally careless(ly)"
+    "very sloppy(ily) / very careless(ly)"
+    "sloppy(ily) / careless(ly) / with poor attention to detail"
+    "somewhat sloppy(ily) / somewhat careless(ly)"
+    "less than careful(ly) / with only some degree of care"
+    "somewhat careful(ly) / fairly precise(ly)"
+    "precise(ly) / careful(ly) / detailed"
+    "extremely precise(ly) / with great care or precision or scrutiny / meticulous(ly)"
+    "overly precise(ly) / ‘nit-picky’; / with too much scrutiny / overly meticulous(ly)"
+  ]
+  CNC: [ // Degree of Concern or Consideration // -ch
+    "...the hell...! / what the hell ... / ... who cares"
+    "self-centered(ly) / without thought or concern for others"
+    "at the very least / at the least level of concern required"
+    " without concern / indifferent(ly) / without consideration / unconcerned(ly) / thoughtless(ly)"
+    "reluctant(ly)"
+    "at best / with the most concern one can muster"
+    "concerned(ly) / with concern / with consideration for others"
+    "very concerned(ly) / highly concerned(ly) / with great concern or consideration for others"
+    "overly concerned(ly) / worrisome(ly) / with too much concern or consideration for others / altruistically"
+  ]
+  SPH: [ // Degree of Sophistication // -lk / -kl
+    "too crude(ly) / too primitive(ly)"
+    "very crude(ly) / very primitive(ly)"
+    "crude(ly) / primitive(ly)"
+    "somewhat crude(ly) / somewhat primitive(ly)"
+    "with expected/normal degree or level of sophistication"
+    "somewhat sophisticated or refined"
+    "sophisticated or refined"
+    "very sophisticated or refined"
+    "too sophisticated or refined"
+  ]
+  CVT: [ // Degree of Covertness versus Overtness // -&ccedil;t
+    "too secretive(ly) / overly covert(ly)"
+    "very secretive(ly) / highly covert(ly) / hidden / well behind the scenes"
+    "secretive(ly) / covert(ly) / behind the scenes / between the lines / under the table / “back-room”"
+    "somewhat secretive(ly) / somewhat covert(ly)"
+    "not too secretive(ly) / not so open(ly)"
+    "somewhat open(ly) / somewhat “up front”"
+    "open(ly) / overt(ly) / “up front” / out in the open / honest / forthcoming(ly)"
+    "very open(ly) / very overt(ly) / very “up front” / flaunting(ly) / brutally honest"
+    "too open(ly) / too overt(ly) / overly flaunting(ly) / vulgar(ly)"
+  ]
+  EFT: [ // Degree of Effort // -rt / -tr
+    "too difficult / overly difficult"
+    "very difficult / so difficult"
+    "strained / difficult; strain to / with difficulty / struggle to / to work at X-ing / to X hard"
+    "somewhat difficult / not that easy"
+    "neither easy nor difficult"
+    "somewhat easy; not so difficult"
+    "easy / certain / unhindered / with ease / without resistance / effortlessly"
+    "very easy / so easy"
+    "too easy / overly easy"
+  ]
+  DSG: [ // Degree of Design or Purposefulness // -&#328;&#382;
+    "purposeless(ly) /random(ly) / utterly unorganized / chaotic(ally)"
+    "haphazard(ly) / without plan or guidance/ disorganized(ly) / poorly planned"
+    " fairly haphazard(ly) / not well-planned / not well-organized"
+    "somewhat haphazard(ly) / somewhat disorganized"
+    "slightly disorganized / less than well-planned"
+    "somewhat organized / somewhat well-planned"
+    "organized(ly) / purposeful(ly) / well-planned"
+    "very organized / very structured"
+    "too organized / overly structured / “anal(ly)”"
+  ]
+  DCS: [ // Degree of Decisiveness, Commitment or Emphasis // -sq
+    "indecisive / meandering; indecisively / first one way then another"
+    "wishy washy / flaky"
+    "some sort of / some kind of / sort of (like) / ”kind of”; in a way / halfway / does and doesn’;t"
+    "apparent(ly); seeming(ly)"
+    "mere(ly) / only (a); merely / only"
+    "deliberate / decisive; deliberately / decisively / purposefully"
+    "a real / certainly a ; really / certainly [emphasis, not genuineness or veracity]"
+    "the (one); in the only way that counts"
+    "what (a) ...!; how ...! ; Boy! Did (does) X ever ..."
+  ]
+  CTN: [ // Degree of Contrariness to Expectation(s) or Shift in Subject // -&#353;t
+    "but X would... / if things were otherwise X WOULD... / on the contrary, X WOULD [affirmation of hypothetical contrary to statement/suggestion otherwise"
+    "but / X DOES/IS ... / on the contrary ... [affirmation of fact contrary to suggestion or statement otherwise]"
+    "like it or not.../ well, as much as we didn’;t want to think it would happen..."
+    "against expectation or belief ‘... after all’; ‘well, what do you know...X!’;"
+    "a genuine / real / true ; really do, [contrary to expectation]"
+    "as a matter of fact"
+    "‘at least/at any rate’;"
+    "‘by the way/ just to mention’;"
+    "not to change the subject but.../ sorry to change the subject, but.../ I don’;t mean to change the subject, but..."
+  ]
+  PHY: [ // Degree of Physical Control // -&ccedil;k
+    "uncontrolled/helpless(ly) ; without control/ out of control"
+    "almost completely out of control / almost totally helpless"
+    "losing control / losing the ability to..."
+    "insufficiently trained in..."
+    "amateur(ishly) / superficially able to..."
+    "learn(ing) to... / begin(ning) to be able to..."
+    "w/ growing proficiency or expertise (in)"
+    "proficient(ly)"
+    "in full control / expert(ly)"
+  ]
+
+
+// 7.4.11 Modality Suffixes
+// Many of these correspond to the  modality suffixes used in valence/modality adjuncts (see Chapter 6). The nine degrees associated with each suffix allow a speaker control over the extent to which the modality category should apply to the utterance. These suffix forms function, then, as an alternative to adjunct forms for greater nuance in the applicability of the modality category and to apply them to nouns.
+
+  MD01: [ //  resigned to // -&#345;b
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  ]
+  MD02: [ //  devoted; committed to / devoted to // -&#345;d
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  ]
+  MD03: [ //  desired / sought-after; want to // -&#345;&#269;
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  ]
+  MD04: [ //  attempted, attempt at a ...; try to, attempt to // -&#345;&#355;
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  -&#345;&ccedil; MD05
+  capable, able; can / able to / capable of
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  ]
+  MD06: [ //  knowledgeable; can = know how to / familiar with // -&#345;c
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  ]
+  MD07: [ //  mandatory; must / have to // -&#345;f
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  ]
+  MD08: [ //  required; should / be to // -&#345;xh
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  ]
+  MD09: [ //  expected; be supposed to // -&#345;k
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  ]
+  MD10: [ //  intended; mean to / intend to / shall // -nd
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  ]
+  MD11: [ //  chosen, selected; choose to / elect to // -&#345;g
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  ]
+  MD12: [ //  ...on impulse; feel like X-ing // -&#345;q
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  ]
+  MD13: [ //   promised; promise to // -&#345;&#380;
+    " not at all"
+    " to too little a degree; to an insufficient degree"
+    " hardly at all"
+    " to a small degree"
+    " to a fair degree/somewhat"
+    " fairly much/more so than not"
+    " very much so / decidedly so / to a great degree"
+    " too much so / to too great a degree"
+    " to the exclusion of all else / without consideration for anything else"
+  ]
+  MD14: [ //  well-liked; like (to) // -&#345;j
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  ]
+  MD15: [ //  feared; fear (to) // -&#345;t&#316;
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  ]
+  MD16: [ //  willing; willing to // -&#345;s
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  ]
+  MD17: [ //  prepared / ready; prepared to/ready to // -&#345;&scaron;
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  ]
+  MD18: [ //  necessary / needed; need to -&#345;&#328; // -&#345;v
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  MD19
+  Daring; dare to
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  ]
+  MD20: [ //  decided-upon; decide to // -&#345;dh
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  ]
+  MD21: [ //  offered/offer of; offer to // -&#345;z
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  ]
+  MD22: [ //  aided / assisted; help to / aid in X-ing // -&#345;&#382;
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  ]
+  MD23: [ //  not unexpected; be prone to / be apt to / tend to // -&#345;n
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  -rm MD24
+  agreed-upon; agree to
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  -&#345;l MD25
+  responsible for/in charge of
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  ]
+  MD26: [ //  remember to // -&#345;p
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  ]
+  MD27: [ //  feel a need to / feel one should / feel one must / feel driven to // -md
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  ]
+  MD28: [ //  to guess or think [that]... // -qf
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  ]
+  MD29: [ //  available; available to/for // -tf
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  ]
+  MD30: [ //  potential; can = have potential to // -mv
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  ]
+  MD31: [ //  permitted; can = permitted to // -&#345;t
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  ]
+  MD32: [ //  hoped-for; hope/wish to // -&#328;g
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  ]
+  MD33: [ //  X by inclination; be inclined to // -mf
+    "not at all"
+    "to too little a degree; to an insufficient degree"
+    "hardly at all"
+    "to a small degree"
+    "to a fair degree/somewhat"
+    "fairly much/more so than not"
+    "very much so / decidedly so / to a great degree"
+    "too much so / to too great a degree"
+    "to the exclusion of all else / without consideration for anything else"
+  ]
+
+
+// 7.4.12 Agential/Participant Suffixes
+
+  AGC: [ // Degree of Agency // -n
+    "[AGENT] = one who forces/causes"
+    "[ENABLER] = one who enables to happen"
+    "[INFLUENCE] = one who persuades/influences"
+    "ENABLER BY PERMISSION] = one who permits/allows/lets happen"
+    "[PATIENT] = one who does/is made to do"
+    "[EXPERIENCER] = one who undergoes/experiences"
+    "[INSTRUMENT] = instrument which causes"
+    "[STIMULUS] = one whose status is as stimulus of affective experience"
+    "[SOURCE] = that which gives rise to, provides underlying reason for, source of"
+    
+//This suffix and the following identify a formative as filling a specific semantic role corresponding in many cases to the semantic roles discussed in Sections 4.1.1 and 4.1.2. In several instances, these suffixes would translate the English “agentive” suffixes -er, or -or.
+
+  ]
+  ROL: [ // Role // -m
+    "that which contains or functions as the enclosure / container / house / shelter of or for"
+    "that which results from"
+    "[RECIPIENT] = one who receives / has / &quot;-ee&quot;"
+    "one who is / acts as / functions as"
+    "one who is characterized by / described by..."
+    "one who is similar to/functions or acts similarly to"
+    "one whose responsibility is / who is responsible for / runs the business of (operationally speaking)"
+    "one who constructs / makes / creates"
+    "one who manages / oversees / supervises / coordinates / runs the business of (managerially speaking)"
+  ]
+  UTE: [ // Utilitative or Enabling Means // -p&scaron;
+    "tool/device/apparatus specifically designed for X-ing"
+    "medium by/through which one X’;s"
+    "conduit-like tool/apparatus for X-ing"
+    "natural/standard body part for X-ing"
+    "object employed circumstantially as implement for X-ing"
+    "covering/protective element employed to allow/permit X-ing"
+    "enabling element/device/apparatus to allow/foster X-ing"
+    "environment/situaton/circumstances/setting which allows/fosters X-ing"
+    "FORCE which causes/permits X-ing"
+  ]
+  CNS: [ // Degree of Consent // -&#158;
+    "deliberately without consent of knowledge"
+    "without consent or knowledge as a precaution or “for their own good”"
+    "without consent or knowledge due to circumstances"
+    "with their knowledge but w/o consent; against their will"
+    "consent obtained under pressure, threat, coercion"
+    "w/ reluctant consent"
+    "willingly; with full consent"
+    "with enthusiastic approval and support"
+    "at their request"
+  ]
+  MEC: [ // Type of Mechanical Instrumentality = ‘by means of’; // -t
+    "the body’;s natural method of doing so (e.g., on foot, by hand, etc.)"
+    "a manually manipulated generic tool or implement"
+    "a specialized tool for that specific purpose or activity"
+    "a machine or via mechanical means or process"
+    "a virtual, electronic means or via engineering"
+    "mental power, force of will, concentration"
+    "a redirection or collation of energy specially applied"
+    "a collective pooling of manual labor resources"
+    "a collective pooling of electronic/mechanical/engineering resources"
+  ]
+  BOD: [ // Bodily Instrumentality = ‘by means of’; // -rx / -xr
+    "a hand"
+    "an arm"
+    "a foot"
+    "a leg"
+    "one’;s eyes"
+    "both legs"
+    "both feet"
+    "both arms"
+    "both hands"
+  ]
+  DBI: [ // Additional Bodily Instrumentality = ‘by means of’; // -mp
+    "a finger"
+    "a thumb"
+    "a knee"
+    "one’;s head"
+    "one’;s teeth"
+    "one’;s lips"
+    "one’;s tongue"
+    "one’;s elbow"
+    "one’;s fingers"
+  ]
+  SOC: [ // Type of Social Instrumentality = ‘by means of’; // -ld / -dl
+    "via lackeys, grunt labor, go-fors or henchmen"
+    "by coercion, threat, blackmail"
+    "“fronts”, or disguised go-betweens"
+    "indirectly through actions of others (unbeknownst to them)"
+    "indirectly through actions of others (with their knowledge)"
+    "by leveraging existing resources / personnel (deploying existing methods in a new application)"
+    "via a proxy or proxies"
+    "hired help or staff"
+    "by delegation of task to experts"
+  ]
+  OAU: [ // Origin/Association/Utilization // -&#328;q
+    "entity/thing/phenomenon that hails from X"
+    "entity/thing/phenomenon associated with X"
+    "entity/thing/phenomenon that utilizes X"
+    "person that hails from X"
+    "person associated with X"
+    "person that utilizes X"
+    "idea/practice/custom that hails from X"
+    "idea/practice/custom associated with X"
+    "idea/practice/custom that utilizes X"
+  ]
+  AUT: [ // Authorization // -ndh
+    "by being granted a personal privilege / via the generosity or largess of another or others"
+    "by inalienable human right / by natural right"
+    "by right of a legal claim / by right of statute or law"
+    "by right of custom or social convention / by right of general agreement or common knowledge"
+    "by granting of a personal favor or claim on a favor owed"
+    "by making of a threat or via a quid-pro-quo agreement"
+    "by one's own formal authority, rank, or formal position"
+    "by authority of one's social position, class, or position in informal or subjective hierarchy"
+    "as authorized by a governing entity or formal collective authority"
+  ]
+  RSN: [ // Reason for an Emotional State or Motivation for an Action // -&#353;&#353;
+    "for evil or perverse reasons"
+    "for foolish or na&iuml;ve reason"
+    "due to deception by another"
+    "due to faulty information provided by another [no deception intended]"
+    "due to or based on faulty perception or misinterpretation of information or evidence"
+    "despite negative circumstances or reasons not to"
+    "for no reason"
+    "for appropriate reasons / for good reason"
+    "for virtuous, healthy reasons"
+  ]
+  MTA: [ // Additional Motivation for an Action or State // -ps
+    "in anger"
+    "in repugnance/revulsion"
+    "in irritation"
+    "in defense/for protection"
+    "in fear"
+    "out of curiosity/to see what happens"
+    "to provoke/elicit reaction"
+    "to entice"
+    "to show appreciation"
+  ]
+  XPT: [ // Expectation of Outcome // -&#328;t
+    "shockingly unexpected; without precedent or rumour"
+    "surprise X / unexpected X; completely by surprise/ completely unexpected(ly)"
+    "manage to X despite inadequacy of preparation or effort"
+    "manage to X despite misguided or misdirected preparation or effort"
+    "managed to X despite hindrance(s) or obstacles; hard-won"
+    "manage to X due to hindrances or obstacles being overestimated; easier than thought to be"
+    "manage to X due to excellent preparation / planning / execution"
+    "completely as expected / totally as anticipated / as predicted"
+    "pat; outcome pre-ordained or predetermined"
+  ]
+  DLB: [ // Degree of Deliberateness/Agency // -sp
+    "accidental(ly) / inadvertent(ly) and unaware of consequences"
+    "unintended / unintentional(ly) / without meaning to and unaware of consequences"
+    "accidental(ly) / inadvertent(ly) but now aware of consequences"
+    "unintended / unintentional(ly) / without meaning to but now aware of consequences"
+    "unforseeable / unpredictable; unforeseeably / unpredictably"
+    "without realizing or considering potential consequences"
+    "thinking one can get away without reaping consequences / furtive(ly)"
+    "realizing potential risks or consequences / cognizant of potential risks or consequences"
+    "intentional(ly) / deliberate(ly) / on purpose / by choice; choose to"
+  ]
+  MOT: [ // Degree of Self-Conscious Deliberation or Motivation // -mz / -zm
+    "affected, ostentatious; affectedly/ostentatiously"
+    "self-conscious(ly)"
+    "guilty / guiltily"
+    "half-hearted(ly)"
+    "against better judgement / can’;t help but / can’;t help it"
+    "ingrained, by upbringing"
+    "learned / habitual; by habit / trained to"
+    "natural(ly) / un-self-conscious(ly)"
+    "autonomic / unaware, automatic"
+  ]
+  ENB: [ // Degree of Enablement // -ls / -sl
+    "by inadvertent gesture/word/sign taken as order or permission"
+    "by granting of permission"
+    "by cajoling or persuasion"
+    "by direct request or imploring"
+    "by direct order based on one’;s real or perceived authority"
+    "by inadvertent removal of hindrance"
+    "by inadvertent action that initiates a chain of events"
+    "by deliberate removal of hindrance"
+    "by deliberate action that initiates a chain of events"
+  ]
+  AGN: [ // Degree of Agency, Intent or Effectiveness // -ms / -sm
+    "with the anticipated max. resulting effect possible"
+    "with the anticipated resulting effect to a high degree"
+    "with the anticipated resulting effect to a moderate degree"
+    "with the anticipated resulting effect but only to a marginal, superficial or baredly noticable degree"
+    "with no noticeable effect or resulting change"
+    "with only marginal, superficial, or barely noticeable effect or resulting change unanticipated"
+    "with moderate effect or resulting change — unanticipated"
+    "with the resulting effect to a high degree — unanticipated"
+    "with the max. resulting effect possible — unanticipated"
+  ]
+  IMP: [ // Degree of Impact on Patient/Target or Enablement of Outcome // -rz / -zr
+    "target can do nothing - utterly inevitable"
+    "target chooses to do nothing - resigned to fate"
+    "target tries to prevent/avoid but fails"
+    "target tries to prevent/avoid and does so partially or mitigates impact somewhat"
+    "target tries to prevent/avoid and succeeds"
+    "target helps/enables outcome inadvertently"
+    "target helps/enables outcome against own interest (i.e., without thinking)"
+    "target helps/enables outcome intentionally despite negative consequences"
+    "target helps/enables outcome intentionally for own benefit"
+  ]
+    
+
+// 7.4.13 Miscellaneous Suffixes
+
+  TPF: [ // Topic, Frame and Focus // -t’;
+    "[sentence topic]"
+    "[end of frame]"
+    "[head of relative clause]"
+    "[sentence topic + head of relative clause]"
+    "[end of frame + head of relative clause]"
+    "[sentence topic + end of frame]"
+    "[sentence focus + end of frame + head of rel. clause]"
+    "[sentence focus]"
+    "[sentence focus + end of frame]"
+
+//The various functions of the above suffix are explained in Sec. 5.4 on Frames, and Sec. 9.1 on  Topic and Focus.
+
+  ]
+  SWR: [ // Switch Reference &amp; Obviative Specification // (For an explanation and illustration of this suffix, see Sec. 8.1.4 and Sec. 8.1.1.7) // -rm / -mr
+    "nearest preceding referent"
+    "2nd to nearest preceding referent"
+    "3rd party not previously mentioned"
+    "referring to sentence focus"
+    "first referent mentioned"
+    "referring to sentence topic"
+    "3rd party non-transrelative referent"
+    "2nd order transrelative referent"
+    "higher order transrelative referent"
+  ]
+  PLA: [ // Place, State, Setting Where... // -s
+    "place where one learns to"
+    "place where one does, performs, carries out X"
+    "place where one obtains"
+    "place where one stores or inventories"
+    "place where one keeps or shelters"
+    "place where one sees or views"
+    "natural habitat or environment of"
+    "place where one deals with/ treats/ confronts"
+    "place where one feels affected by"
+  ]
+  APT: [ // Aspects // -mm
+    "yet, still"
+    "‘even’; as in “I don’;t even like them” = in the least bit, to the slightest extent"
+    "Contemplative. upon reflection/ in hindsight"
+    "upon deep introspection / following careful consideration or meditation on the matter"
+    "on first blush / at first / upon initial impression / [my] first thought is/was..."
+    "natural(ly) / obvious(ly) / clear(ly) [in terms of naturalness, not blatancy]"
+    "Experiential. ever"
+    "Regressive. return to previous state"
+    "Protractive. over a long period of time / long-delayed"
+  ]
+  TEM: [ // Alternative Temporal Aspects // -&#328;&scaron;
+    "Inceptive. begin to / start to"
+    "Resumptive. begin again / start again / resume"
+    "Continuative. keep on / still / continue / stay / yet"
+    "Incessative. to X away / not stop"
+    "tire of X-ing / get tired of X-ing / become weary of X-ing"
+    "Cessative. stop / discontinue / cease"
+    "Pausal. take a break from [stop with intention to re-sume]"
+    "Recessative. stop again"
+    "Terminative. finish / complete"
+  ]
+  PTF: [ // Part/Whole Functional Metaphors // -rs / -sr
+    "engine / motor / heart / pump / core / driver mechanism"
+    "brain / computer / chip / instruction set"
+    "input / feeder / access point"
+    "exit point / anus / exhaust / tailpipe / smokestack / vent"
+    "wing/ arm / branch / extensor / manipulator"
+    "support / leg / stand / base"
+    "skeleton / frame"
+    "wiring / conduits / plumbing"
+    "sensor / eye / ear / antennae"
+  ]
+  PTG: [ // Part/Whole Gestalt Componential Metaphors // -&#353;
+    "“base”portion (e.g., upper arm)"
+    "“extension” portion (e.g., forearm) or “flange”"
+    "“trunk” or central bulk portion"
+    "middle or divisional segment or joint"
+    "top/upper component relative to gravity or natural vector of movement"
+    "bottom/lower component relative to gravity or natural vector of movement"
+    "side/flank/ lateral component"
+    "“head” extension or main interface area"
+    "extension/”arm”"
+  ]
+  MET: [ // Metonymic Categories // -qt
+    "part for whole"
+    "producer for product"
+    "object used or owned for user/owner"
+    "controller for controlled"
+    "institution for people responsible"
+    "place for inhabitants/occupants"
+    "place for event"
+    "place for institution"
+    "attribute or characteristic for owner"
+    
+// Metonymy is the reference to an entity via one of its attributes, associations or activities, as in The ham-and-cheese wants fries with his order or The White House has its nose in our business.
+
+  ]
+  SSD: [ // Stem-Specific Derivatives // -k
+    "derivative 1"
+    "derivative 2"
+    "derivative 3"
+    "derivative 4"
+    "derivative 5"
+    "derivative 6"
+    "derivative 7"
+    "derivative 8"
+    "derivative 9"
+ 
+// This suffix is used to distinguish particular instantiations of a more generic entity; their meaning is semantically specific to the particular stem.
+
+  ]
+  SBS: [ // Subset of Configurative Set // -k’;
+    "single specific member (random, i.e., any given member)"
+    "natural first level subset, e.g., a cell among a network, a clique within a club, a row of an orchard"
+    "natural 2nd level subset, e.g., a section of a network, a subcommittee within a club, a section of an orchard"
+    "complex natural system or pattern within a set (e.g., the circulatory system, the heating system)"
+    "subset of set (unknown if natural or select subconfiguration)"
+    "complex/circumstantial select pattern/arrangement within a set (e.g., the parts/things of a house damaged by fire)"
+    "2nd level subset (externally determined), e.g., select section of trees of an orchard"
+    "first level subset (externally determined), e.g., select rocks from a pile, select trees of an orchard"
+    "single select member (externally determined)"
+  ]
+  SPS: [ // Supersets/Multi-Level Gestalts // (e.g., musical note --&gt; melody --&gt; movement of musical piece --&gt; symphony/suite, etc.) // -rq
+    "3rd-level superset/gestalt based on number nodes"
+    "3rd-level superset/gestalt based on new layer of infrastructure"
+    "3rd-level superset/gestalt based on complexity leading to the appearance/manifestaton of emergent properties"
+    "2nd-level superset/gestalt based on number nodes"
+    "2nd-level superset/gestalt based on new layer of infrastructure"
+    "2nd-level superset/gestalt based on complexity leading to the appearance/manifestaton of emergent properties"
+    "4th-level superset/gestalt based on number nodes"
+    "4th-level superset/gestalt based on new layer of infrastructure"
+    "4th-level superset/gestalt based on complexity leading to the appearance/manifestaton of emergent properties"
+  ]
+  ATN: [ // Degree of Attention or Determination // -p’;
+    "concentrate fully upon; pay utmost attention to"
+    "concentrate to point of distraction, to be ‘lost’; in X-ing"
+    "pay strict attention to"
+    "determined to"
+    "pay attention to; attend to; be careful that you...; heed"
+    "keep an eye on"
+    "take some notice of"
+    "barely notice; take little notice of"
+    "ignore completely"
+  ]
+  DPR: [ // Dispersion or Separability of a Configurative Set // -&#353;k
+    "in total contact / contiguous mass of; pile, “ball of...”"
+    "non-contiguous but closely connected, interlinked, each linked to adjacent via connecting medium (like web); cluster"
+    "connected via intervening central medium (like a vine or branches); bunch"
+    "not physically connected but with immediate accessibility and knowledge of other member actions"
+    "scattered - contact with nearest member possible but less possible with others"
+    "“virtual” association only"
+    "temporal (iterative) set &#8211; iteration at long intervals"
+    "temporal (iterative) set &#8211; iteration at frequent intervals"
+    "temporal (iterative) set &#8211; iteration at very short, immediate intervals / one after another"
+  ]
+  SEP: [ // Spatio-Temporal Separability of a Configurative Set // -mb
+    "Logical connectedness only (spatial)"
+    "Loosely integrated spatially &#8211; one positioned far away from another"
+    "Loosely integrated spatially &#8211; one positioned a little ways away from another"
+    "Well-integrated spatially &#8211; one positioned right next to or behind another"
+    "Both spatially and temporally well-integrated (one right after another)"
+    "Well-integrated temporally &#8211; one right after the other"
+    "Loosely integrated temporally &#8211; one a little while after the other"
+    "Loosely integrated temporally &#8211; one a long while after the other"
+    "Logical connectedness only (temporal)"
+  ]
+  SDP: [ // Subset of Duplex Set // -&#328;k
+    "first, top, front, lefthand or lead “half” of duplex set or pair (e.g., upper lip, inhale/inhalation, left hand)"
+    "beginning or leading “edge” of the first, top, front, lefthand or lead “half” of a duplex event or object"
+    "middle section of the first, top, front, lefthand or lead “half” of a duplex event or object"
+    "ending or trailing “edge” of the first, top, front, lefthand or lead “half” of a duplex event or object"
+    "midpoint, peak, or lull between the 2 halves of a duplex set or pair"
+    "beginning or leading “edge” of 2nd, bottom, back, righthand or trailing “half” of a duplex event or object"
+    "middle section of 2nd, bottom, back, righthand or trailing “half” of a duplex event or object"
+    "ending or trailing “edge” of 2nd, bottom, back, righthand or trailing “half” of a duplex event or object"
+    "2nd, bottom, back, righthand or trailing “half” of duplex set or pair (e.g., lower lip, exhale/exhalation, right hand)"
+  ]
+  NEW: [ // Degree of Newness/Revision // -xt
+    "new = original + new, i.e., never before seen"
+    "new = never before seen within current context, e.g., a new student"
+    "new = role, i.e., never functioning/existing in this capacity/manner before"
+    "new/other = replacement + new"
+    "new/other = additional instance + new"
+    "new/other = revision + additional"
+    "new/other = revision + replacement"
+    "new/other/different = different, not seen/used before within current context; status as addition/replacement unknown or inapplicable"
+    "new/other/different = different + new; status as addition/replacement unknown or inapplicable"
+  ]
+  COS: [ // Comparison Specifications // (Used with Levels ) - see Section 6.2 and Section 6.2.5 // -ks
+    "“more”/“less” = extent/amount/volume"
+    "“harder”/“weaker” = degree of intensity or effort"
+    "“longer”/“shorter” = duration; time spent being/doing"
+    "“better”/“worse” = quality / style"
+    "“more  efficiently”/“less efficiently” = efficiency / effort relative to outcome"
+    "“greater”/“poorer” = relevant outcome / bottom-line result"
+    "combo of 4, 5, and 6"
+    "combo of 1, 2, and 3"
+    "combo of 1 through 6"
+  ]
+  WAK: [ // Spread/wake/trail/area/expanse created by passage of entity // -ln / -nl
+    "quasi-linear “trail” or wake left behind on path of linear movement; trail or wake is not composed of the moving entity itself but shows effect of its passage (e.g., slime trail left by snail, footprints left on snow, mowed down foliage left by moving convoy, etc.)"
+    "quasi-linear spread of entity stretching behind linearly moving “head” (e.g., a line of soldiers put in place to create a front, a line left on a piece of paper as written by an ink pen, path of a ball of string or skein of yarn as it unravels while rolling down an incline)"
+    "quasi-linear trail/wake/spread left behind passage as line of demarcation/boundary/barrier"
+    "2-d quasi-planar wake left behind on path of movement; wake is not composed of the moving entity itself but shows effect of its passage (e.g., aftermath of a forest fire, cleaned area of dirty floor or wall after it has been wiped by a mop or dustcloth)"
+    "2-d quasi-planar spread stretching behind moving front (e.g., area of spreading flames in a forest fire, area being inundated by a flood, area of a wall being covered up by plaster by workmen, coating of an apple dipped in chocolate, area of floor covered up by a rug)"
+    "2-d quasi-planar wake/spread left behind passage as area of demarcation/zone/restricted area"
+    "3-d volume left behind a moving front; volume is not composed of or inundated with the moving entity itself but shows effect of its passage (e.g., area left behind the passage of a tidal wave, column of superheated air left behind the passage of a rocket"
+    "3-d volume inundated by spread of moving front (e.g., spread of a gas within a room, area inundated by fog, volume of a container taken up by substance placed/poured/stuffed into it)"
+    "3-d volume left behind passage of moving front as volume/spatial area of demarcation/zone/restricted space"
+
+// The above affix distinguishes movement of  an entity from the “trail” or spread left behind, e.g., movement which leaves behind  a wake or affected area; used with motion roots as well as roots  designating shapes/forms. Use of the above suffixes in  conjunction with the various roots pertaining to paths of translative movement  allows for very nuanced translations of English words such as surround, cover,  inundate, enclose, expand, spread out, encompass, etc.
+
+  ]
+  SCT: [ // Degree of  Shift/Change/Transition (used for both spatial and temporal contexts) // -&scaron;p
+    "sharp break, sudden shift from one state/form/shape/set of circumstances to another with no discernible transition period/zone (i.e., point-like/instantaneous transition)"
+    "disjointed/non-contiguous/non-continuous break/shift from one state/form/shape/set of circumstances to another"
+    "extremely brief/small/barely discernible transition period or zone from one state/form/shape/set of circumstances to another"
+    "somewhat brief/small/discernible transition period or zone from one state/form/shape/set of circumstances to another"
+    "normal/standard/expected transition period or zone from one state/form/shape/set of circumstances to another"
+    "somewhat variable/changing/fluctuating transition period/zone from one state/form/shape/set of circumstances to another"
+    "highly variable/chaotic transition period/zone from one state/form/shape/set of circumstances to another"
+    "smooth, gradual transition period/zone from one state/form/shape/set of circumstances to another"
+    "very gradual/almost imperceptible rate/degree of change/transition from one state/form/shape/set of circumstances to another"
+  ]
+  NNN: [ // n-numbered angles/facets/faces/sides/points/forms // -lm / -ml
+    "uneven /assymmetrical n&ndash;sided 2-D obtusely angled form (e.g., quadrilateral, pentagonoid, hexagonoid"
+    "uneven/assymetrical n-pointed 2-D acutely angled “star” formation"
+    "uneven/assymetrical n-faceted 3-D solid"
+    "uneven/assymmetrical n-faced 3-D solid (e.g., n-hedron-like solid)"
+    "having n number of 3-D projections/spikes/pointed surfaces"
+    "symmetrical n-faced 3-D solid (e.g., tetrahedron, dodecahedron)"
+    "symetrical n-faceted 3-D solid"
+    "symetrical n-pointed 2-D acutely angled “star” formation (can be used with numbers as low as 2, which would refer to an elongated diamond shape)"
+    "symmetrical n&ndash;sided 2-D form (e.g., square, pentagon, hexagon)"
+    
+// The above affix is used with the number stems (see Chapter 12) to provide words for forms, shapes, and solids bearing a distinct number of angles, points, sides, facets, etc.
+
+  ]
+  LVL: [ // Alternate forms of Comparison Operators // (Levels) (see Section 6.2.3) - V1C forms correspond to relative comparison, V2C forms to absolute comparison. // -m&#316;
+    "EQU EQUATIVE"
+    "SUR SURPASSIVE"
+    "DFC DEFICIENT"
+    "OPT OPTIMAL"
+    "MIN MINIMAL"
+    "SPL SUPERLATIVE"
+    "IFR INFERIOR"
+    "SPQ SUPEREQUATIVE"
+    "SBE SUBEQUATIVE"
+  ]
+  FNS: [ // Material States/Forms (non-solid / quasi-solid) // -l&#355;
+    "X as liquid"
+    "X as goo or slime-like substance"
+    "X as powder or dust-like substance"
+    "X as gravel or sand-like substance"
+    "X as gas"
+    "X as wax(y) or clay-like substance"
+    "X as rubber(y) or eslastic substance"
+    "X as flexible subtance like cotton or cloth"
+    "X as flaky subtance or shavings"
+  ]
+  FMS: [ // Material States/Forms (solids) // -lf
+    "X as frozen"
+    "X as carvable substance (like wood or soap)"
+    "X as chalk-like, friable substance"
+    "X as rock or cement-like substance"
+    "X as solid"
+    "X in natural chunks or randomly-shaped solid pieces"
+    "X as block-like or formed pieces"
+    "X as hardened/durable subtance"
+    "X as metal(lic)"
+  ]
+  TRF: [ // Transformation for Use // -lv
+    "Cured (transformed by natural chemical process)"
+    "Treated"
+    "Processed (transformed by artificial/man-made  process)"
+    "Transformed via exposure to or saturation w/  other substance(s)"
+    "Cooked"
+    "Soaked/saturated/marinated with liquid(s)"
+    "Derived (chemically or processually) from  something else"
+    "Fermented"
+    "Pickled/Brined"
+  ]
+  CVY: [ // Means of Transportation/Conveyance // -lb
+    "holder / stabilizer for (transporting/holding) X"
+    "mystical/magical/supernatural means for (transporting/holding) X"
+    "automatic or separately controlled vehicle/vessel used for (transporting/holding) X"
+    "automated/electronic means for (transporting/holding) X"
+    "manually operated vessel/vehicle used for (transporting/holding) X"
+    "jury-rigged means for (transporting/holding) X"
+    "method/practice used for (transporting/holding) X"
+    "device used for (transporting/holding) X"
+    "rule/regulation/by-law for (transporting/holding) X"
+  ]
+  FEA: [ // Featural Properties // -l&scaron;
+    "functional mainfestation/portion/piece of X"
+    "container(ful) of X"
+    "a sample of X"
+    "a display(ing) of X"
+    "an instance of X"
+    "an aspect/characteristic/trait of X"
+    "a feature/function of X"
+    "a highlight / key feature of X"
+    "an example of X"
+  ]
+  STG: [ // Stage of a Process // -n&#316;
+    "onset/initiation/birth of X"
+    "development/build-up of X"
+    "point of no return/iminent transition of X"
+    "plateau stage, rest or pause before next stage of X"
+    "(at) peak / in prime / mature stage"
+    "abrupt or premature termination of X"
+    "gradual decline of X"
+    "end stage / final state / terminal or last stage"
+    "cessation / finished / over / dead"
+  ]
+  CGL: [ // Motive/Reason for Conglomeration/Coming Together of Gestalt Entity // -lc
+    "by voluntary/volitional association"
+    "by appointment to the task"
+    "by custom/societal convention/expectation"
+    "by random chance"
+    "by being forced to"
+    "by being pressured"
+    "by reluctant volunteering"
+    "for pragmatic/utilitarian reasons"
+    "by eager/enthusiastic volunteering"
+  ]
+  INB: [ // Inability/Incapacity to [perform/achieve/realize] X due to // -lq
+    " (absence/loss of resource(s)"
+    " (absence/loss of physical means"
+    " (absence/loss of skill/knowledge"
+    " (blockage/prevention of access to resource(s)"
+    " (blockage/prevention of access to physical means"
+    " (blockage/prevention of access to skill/knowledge"
+    " (psychological trauma"
+    " (physical trauma"
+    " (loss/absence of desire"
+  ]
+  PLE: [ // Degree of (Un-)Pleasantness (of Effect or Result) // -ff
+    "maximally unpleasant, horrible, ghastly, terrible"
+    "very unpleasant, awful"
+    "unpleasant, mildly awful"
+    "somewhat unpleasant, disagreeable"
+    "neutral, neither pleasant nor unpleasant, bland"
+    "somewhat pleasant, agreeable"
+    "pleasant, a nice experience"
+    "very pleasant, pleasureable"
+    "maximally pleasant, very pleasureable, exstacy"
+  ]
+  ACQ: [ // Acquisition // -rc
+    "acquired by chance/whim/having stumbled upon"
+    "acquired by mental effort/learning/study/creation"
+    "acquired by informal, spur-of-the-moment search"
+    "acquired by trickery/subterfuge"
+    "innate/inherent"
+    "acquired by formal search"
+    "acquired by informal agreement/negotiation"
+    "acquired by formally negotiated trade or deal"
+    "acquired by purchase"
+  ]
+  TAL: [ // Degree of Capacity or Talent for... // -rf
+    "no capacity/talent for X(-ing)"
+    "almost no capacity/talent for X(-ing)"
+    "poor/little capacity/talent for X(-ing)"
+    "capacity/talent for X(-ing)"
+    "capacity/talent for X(-ing)"
+    "above average/good capacity/talent for X(-ing)"
+    "very good capacity/talent for X(-ing)"
+    "excellent capacity/talent for X(-ing)"
+    "outstanding capacity/talent for X(-ing)"
+  ]
+  RNC: [ // Renunciation // -rt&#316;
+    "give up X-ing / give up on X"
+    "lose faith/belief in X(-ing)"
+    "stop trying to X"
+    "undermine (efforts to) X"
+    "refuse to X"
+    "lose sense of resolve/commitment to X"
+    "no longer have passion for X / lose passion for X"
+    "lose ability to do/be/make X"
+    "lack means/ability to X"
+  ]
+  DPT: [ // Depiction/Representation/Record // -mx
+    "symbol/emblem/logo representing/standing for X"
+    "allegorical reference to X"
+    "stand-in/substitute for X"
+    "symptom/consequence of X"
+    "representation/depiction/illustration of X"
+    "trace/clue/vestige of X"
+    "record of X"
+    "pointer to/indicator of X"
+    "map/blueprint/schematic diagram of X"
+  ]
+  ENG: [ // Degree of Engagement/Involvement // -l&#269;
+    "avoiding X(-ing) at all costs; run away from X(-ing)"
+    "averse to X(-ing); fear X(-ing)"
+    "shirk involvement in X(-ing); not be/get involved in"
+    "to X for appearance' sake only; to X solely for show"
+    "lackluster interest/involvement in X(-ing)"
+    "marginal interest/involvement in X(-ing)"
+    "limited/partial involvement in X(-ing)"
+    "fully involved/engrossed in X(-ing)"
+    "irreversibly involved/engrossed in X(-ing)"
+  ]
+  OPF: [ // Degree of Operational Functionality // -lg
+    "disintegrated, in pieces, shattered"
+    "irreparably damaged, ruined"
+    "badly damaged, non-operational, non-functional (with possibilty of being repaired)"
+    "damaged -- only partially functional (i.e., some parts/aspects are functional while others are not)"
+    "something wrong with X, not functioning properly, something not right with X"
+    "impaired -- functional but not performing to full extent of output or efficiency"
+    "in fair working order/condition"
+    "in good working order/condition"
+    "in optimum working order / in excellent condition"
+  ]
+  MLR: [ // Meta-level representation/coordination/analysis // -r&ccedil;
+    "formal theory explaining/coordinating X"
+    "plan explaining/coordinating X"
+    "idea explaining/coordinating X"
+    "folk theory or accepted societal convention  explaining/coordinating X"
+    "illustration/picture/graphic representation  explaining/coordinating X"
+    "physical model explaining/coordinating X"
+    "mathematical model explaining/coordinating X"
+    "logical model explaining/coordinating X"
+    "metaphorical representation of X"
+  ]
+  HG1: [ // Linguistic Hedges (1st group) // -rp
+    "more or less"
+    "for all practical purposes / to all intents and purposes / practically / virtually / all but technically"
+    "sort of / kind of"
+    "strictly speaking"
+    "essentially / in essence / basically"
+    "might as well be"
+    "in one sense"
+    "in some sense"
+    "par excellence"
+  ]
+  HG2: [ // Linguistic Hedges (2nd group) // -lp
+    "in a sense / in a way"
+    "in a manner of speaking"
+    "more of a ___ than anything else"
+    "(what can be looked at (as) / (what) can be viewed as / (what) one thinks of (as) / one might say that"
+    "loosely speaking"
+    "so-called"
+    "in name only"
+    "so to say"
+    "for all I know / for all one knows"
+  ]
+  PHS: [ // Alternative suffix forms for Phase categories // (see Sec. 5.5) // -rn
+    "Contextual"
+    "Punctual"
+    "Iterative"
+    "Repetitive"
+    "Intermittent"
+    "Recurrent"
+    "Frequentative"
+    "Fragmentative"
+    "Fluctuative"
+  ]
+
+
+//  7.4.14 Locational Suffixes
+
+  LCT: [ // Locational Octant Markers for Object Being Located (see Section 10.3.3) // -r&scaron; / -&scaron;r
+    "+X / +Y / +Z = “right / ahead / above” = Octant 1"
+    "+X / +Y / -Z = “right / ahead / below” = Octant 2"
+    "+X / -Y / +Z = “right / behind / above” = Octant 3"
+    "+X / -Y / -Z = “right / behind / below” = Octant 4"
+    "object at rest relative to other object"
+    "-X / +Y / +Z = “left / ahead / above” = Octant 5"
+    "-X / +Y / -Z = “left / ahead / below” = Octant 6"
+    "-X / -Y / +Z = “left / behind / above” = Octant 7"
+    "-X / -Y / -Z = “left / behind / below” = Octant 8"
+  ]
+  PXM: [ // Degree of Proximity // -bz
+    "too close"
+    "as close as possible without contact"
+    "very close to"
+    "close to"
+    "somewhat close to"
+    "not very close to / somewhat far from"
+    "far from / distant from"
+    "far away / very far from"
+    "too far away"
+  ]
+  CTC: [ // Degree of Contact // -gz
+    "melded with / blended with / fused"
+    "inseparable(ly) / locked together / bonded"
+    "linked / attached / connected / joined"
+    "touching intimately / touching all over / flush with / in close contact with"
+    "deliberately touching at several spots or places or over a fair area"
+    "deliberately touching at one spot or place"
+    "casually or incidentally touching at several spots or places or over a fair area"
+    "casually or incidentally touching at one spot or place"
+    "barely touching / hardly touching at all / touching at one small spot"
+  ]
+  VWP: [ // From Viewpoint/Perspective of // -rb
+    "speaker"
+    "3rd party visible/near to speaker"
+    "the last-mentioned argument/referent"
+    "a party other than one under discussion"
+    "3rd party under discussion"
+    "an as-yet-undetermined 3rd party"
+    "the first-mentioned argument/referent"
+    "3rd party visible/near to listener"
+    "listener"
+  ]
+  
+  
+// 7.4.15   Format Expansion Suffixes
+
+  M-UNI-DPX-DCT: [ // -tt
+  
+  ]
+  M-AGG-SEG-CPN: [ // -st’
+  
+  ]
+  M-COH-CST-MLT: [ // -&scaron;t’
+  
+  ]
+  U-UNI-DPX-DCT: [ // -pk
+  
+  ]
+  U-AGG-SEG-CPN: [ // sp’
+  
+  ]
+  U-COH-CST-MLT: [ // -&scaron;p’
+  
+  ]
+  N-UNI-DPX-DCT: [ // -qq
+  
+  ]
+  N-AGG-SEG-CPN: [ // -sq’
+  
+  ]
+  N-COH-CST-MLT: [ // -&scaron;q’
+  
+  ]
+  A-UNI-DPX-DCT: [ // -tk
+  
+  ]
+  A-AGG-SEG-CPN: [ // -sk’
+  
+  ]
+  A-COH-CST-MLT: [ // -&scaron;k’
+  
+  ]
+}
