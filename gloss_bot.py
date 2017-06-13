@@ -50,6 +50,10 @@ def lexicon_lookup_(root, d, p, s):
             if command == '@kh' and '/' in entry[1]:
                 res = res.replace('@ relation (dominant)', entry[1].split('/')[0].strip())
                 res = res.replace('@ relation (passive)', entry[1].split('/')[1].strip())
+            elif len(entry) > 2:
+                for i in range(1, len(entry)):
+                    res = res.replace('@' + str(i), entry[i])
+                return res
             return res.replace('@', entry[1])
         elif command.startswith('+'):
             # Addendum
@@ -178,7 +182,9 @@ def nice_gloss(word, full_names=False):
     except AnalysisException as e:
         return str(e)
 
-print(nice_gloss('gmalouk'))
+#print(nice_gloss('esxal'))
+#print(nice_gloss('gmalouk'))
+exit()
 #print(nice_gloss('ulkhal'))
 #print(nice_gloss('qel'))
 #print(nice_gloss('ebol'))

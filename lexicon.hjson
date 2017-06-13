@@ -3577,7 +3577,26 @@
     ]
     formal
   ]
-  p': seek/search
+  p': [ // seek/search
+    [
+      [
+        search
+        look for something lost
+        inspect
+      ]
+      act focus
+      thing sought focus
+    ]
+    [
+      [
+        hunt
+        track down
+        quest
+      ]
+      act focus
+      thing sought focus
+    ]
+  ]
   pc: [ // marital relationship
     [
       [
@@ -3614,8 +3633,8 @@
       ]
     ]
   ]
-  pč: repugnance, repellant feeling, disgust
-  pç: generic or oblique 3D range of motion/3D pervasive movement/movement 3D volume
+  pč: ["@pk" "repugnance"]
+  pç: ["+k" "3D"]
   pçk: [ // faculty/endowment/property/quality
     [
       [
@@ -3636,15 +3655,15 @@
       manifest
     ]
   ]
-  pc': embarassment at being unable to perform a task or activity as expected
-  pč': feeling of disappointment/let-down at one's own actions/behavior
-  pch: feeling flustered at not knowing how to react or what to think
-  pčh: frustration, feeling of angry helplessness
-  pčhw: cork
-  pçt: cotton
-  pçw: melon
-  pf: depression, be or feel depressed
-  pg: swooning, feeling of faitness due to emotional overload
+  pc': ["@pk" "embarassment at inability"]
+  pč': ["@pk" "disappointment in own actions"]
+  pch: ["@pk" "flusteredness"]
+  pčh: ["@pk" "frustration"]
+  pčhw: ["+qw" "cork"]
+  pçt: ["+qw" "cotton"]
+  pçw: ["+qw" "melon"]
+  pf: ["@pk" "depression"]
+  pg: ["@pk" "swooning"]
   ph: [ // tree
     [
       [
@@ -3681,8 +3700,8 @@
       ]
     ]
   ]
-  phw: pink
-  pj: feeling of disappointment at being letdown by another
+  phw: ["@xt'" "pink"]
+  pj: ["@pk" "disappointment in another"]
   pk: experience/undergo a state or feeling
   pkl: [ //
     [
@@ -3725,31 +3744,47 @@
       resource
     ]
   ]
-  pk': bother, annoyance at self due to one's own actions/behavior
-  pkh: humiliation
-  pl: regret, repining, ruefulness
-  pļ: shirt, blouse
-  plw: burgundy
-  pm: agitation, disquietude
-  pn: woe, despair, desolation
-  pny: grape
-  pp: hysteria, loss of control
-  pp': sexual partners
-  pph: winter
-  pq: worry, feel preoccupied
-  pq': shock, reeling (from bad news)
-  pqh: embarassment due to a social faux pas, behavior misstep or others seeing through one's facade or airs
-  pr: leg
-  př: blue
-  ps: sorrow, lamentation
-  pš: happen/occur(ence)/manifest/event
-  psb: aluminum
-  psf: intertwined, intermingled, intermixed position, state (individual components permanently combined)
-  psk: -X/+Y/-Z spatial orientation, position, direction
-  pšk: -X/-Y/-Z spatial orientation, position, direction
-  pškh: titanium
-  psl: 0/-Y/+Z spatial orientation, position, direction
-  psp': selenium
+  pk': ["@pk" "annoyance at self"]
+  pkh: ["@pk" "humiliation"]
+  pl: ["@pk" "regret"]
+  pļ: ["@gv" "shirt"]
+  plw: ["@xt'" "burgundy"]
+  pm: ["@pk" "agitation"]
+  pn: ["@pk" "despair"]
+  pny: ["+qw" "grape"]
+  pp: ["@pk" "hysteria"]
+  pp': ["@kh" "sexual partnership"]
+  pph: ["@mx" "winter"]
+  pq: ["@pk" "worry"]
+  pq': ["@pk" "shock from bad news"]
+  pqh: ["@pk" "faux pas embarrassment"]
+  pr: [ // leg
+    [
+      [
+        leg (entity)
+        leg (support)
+        leg (limb)
+      ]
+      [
+        leg (physical body part)
+        leg (balance)
+        leg (extension)
+      ]
+      [
+        leg (manipulating)
+        leg (support function)
+        leg (ambulator)
+      ]
+    ]
+    non-animal
+  ]
+  př: ["@xt'" "blue"]
+  ps: ["@pk" "sorrow"]
+  psb: ["@xl" "aluminum"]
+  psf: ["@f" "intertwined"]
+  psl: ["@f" "behind-above"]
+  psk: ["@f" "left-ahead-below"]
+  psp': ["@xl" "selenium"]
   psq: [ // self-righteousness/hypocrisy
     [
       [
@@ -3762,23 +3797,45 @@
     ]
     self-aware
   ]
-  psq': carbon
-  pšq': zirconium
-  pšqh: calcium
-  psr: 0/+Y/-Z spatial orientation, position, direction
-  pst: +X/+Y/-Z spatial orientation, position, direction
-  pšt: +X/-Y/-Z spatial orientation, position, direction
+  psq': ["@xl" "carbon"]
+  psr: ["@f" "ahead-below"]
+  pst: ["@f" "right-ahead-below"]
   pstw: 100 million
-  psw: 0/+Y/+Z spatial orientation, position, direction
+  psw: ["@f" "ahead-above"]
   psy: ["@xt'" "magenta"]
-  pt: feel hurt/offended
-  pţ: angular structure/corner
-  pt': angst/weltschmertz
-  pth: stoicism/repression
-  pw: material lust, avarice, greed
+  pš: happen/occur(ence)/manifest/event
+  pšk: ["@f" "left-behind-below"]
+  pškh: ["@xl" "titanium"]
+  pšq': ["@xl" "zirconium"]
+  pšqh: ["@xl" "calcium"]
+  pšt: ["@f" "right-behind-below"]
+  pt: ["@pk" "offended"]
+  pţ: [ // angular structure/corner
+    [
+      [
+        2D angle
+        3D vertex
+        angle-based constraint
+      ]
+      [
+        interior 2D angle
+        interior 3D vertex
+        corner as constraint
+      ]
+      [
+        exterior 2D angle
+        exterior 3D vertex
+        corner as opportunity
+      ]
+    ]
+    formal
+  ]
+  pt': ["@pk" "angst"]
+  pth: ["@pk" "stoicism"]
+  pw: ["@pk" "greed"]
   px: ["@num" "4"]
-  pxh: stress, feel pressured
-  py: bittersweet longing
+  pxh: ["@pk" "stress"]
+  py: ["@pk" "bittersweet longing"]
   q: [
     [
       [
@@ -3799,15 +3856,44 @@
       female
     ]
   ]
-  q': interiority/position or orientation inside
-  qc: spice, herb, seasoning
-  qč: respiratory paroxysm
-  qch: chalk
-  qf: footwear
-  qfr: radium
-  qfř: molybdenum
-  qfw: bismuth
-  qh: transcendence/spirit/religion
+  qc: ["@xl" "spice"]
+  qč: [ // respiratory paroxysm
+    [
+      [
+        cough
+        sneeze
+        hiccup
+      ]
+      act
+      sound
+    ]
+    volitional
+  ]
+  qch: ["@xl" "chalk"]
+  qf: ["@gv" "footwear"]
+  qfr: ["@xl" "radium"]
+  qfř: ["@xl" "molybdenum"]
+  qfw: ["@xl" "bismuth"]
+  qh: [ // transcendence/spirit/religion
+    [
+      [
+        transcendent soul
+        universal oneness
+        quest for ultimate purpose
+      ]
+      ontological
+      belief therein
+    ]
+    [
+      [
+        religious belief
+        religious zeal
+        religious quest for redemption
+      ]
+      ontological
+      belief therein
+    ]
+  ]
   qj: [ // hysteria/irrathionality/paranoia
     [
       [
@@ -3820,10 +3906,64 @@
     ]
     self-aware
   ]
-  ql: luquid/fluid
-  qly: manganese
-  qm: component of body's respiratory/cardio-vasculatory system
-  qn: honey
+  ql: [ // liquid/fluid
+    [
+      [
+        (drop of) liquid
+        (drop of) derived liquid
+        source of liquid
+      ]
+      [
+        drop of liquid
+        drop of derived liquid
+        natural source of liquid
+      ]
+      [
+        liquid itself
+        derived liquid
+        artificial source of liquid
+      ]
+    ]
+    [
+      [
+        substance in abnormal non-liquid state
+        object made of liquid + function
+        state of substance being liquid or not
+      ]
+      [
+        frozen liquid
+        object made of liquid
+        liquid state
+      ]
+      [
+        vapor
+        function of object made of liquid
+        viscous state
+      ]
+    ]
+  ]
+  qly: ["@xl" "manganese"]
+  qm: [ // component of body's respiratory/cardio-vasculatory system
+    [
+      [
+        heart
+        vascular component
+        blood
+      ]
+      physical
+      function
+    ]
+    [
+      [
+        lung
+        respiratory system component
+        oxygen
+      ]
+      physical
+      function
+    ]
+  ]
+  qn: ["@xl" "honey"]
   qp: [ // aware/alert/suspicious
     [
       [
@@ -3836,9 +3976,63 @@
     ]
     self-aware
   ]
-  qq: interior, inner/internal part, innards
-  qr: celebratory act/ceremonial rite
-  qt: degree of pleasure/fulfillment/satisfaction/hapiuness
+  qq: ["@g" "interior"]
+  qr: [ // celebratory act/ceremonial rite
+    [
+      [
+        act/reason of jubilation
+        act/reason of celebration
+        (reason for) joyful/celebratory rite
+      ]
+      [
+        act of jubilation
+        act of celebration
+        joyful/celebratory rite
+      ]
+      [
+        reason for act of jubilation
+        reason for act of celebration
+        reason for joyful/celebratory rite
+      ]
+    ]
+    [
+      [
+        act/reason of solemn memorial
+        act/reason of solemn recognition
+        (reason for) solemn ceremonial rite
+      ]
+      [
+        act of solemn memorial
+        act of solemn recognition
+        solemn ceremonial rite
+      ]
+      [
+        reason for act of solemn memorial
+        reason for act of solemn recognition
+        reason for solemn ceremonial rite
+      ]
+    ]
+  ]
+  qt: [ // degree of pleasure/fulfillment/satisfaction/hapiuness
+    [
+      [
+        degree of sensual pleasure
+        degree of emotional pleasure
+        degree of physical satisfaction
+      ]
+      state focus
+      cause focus
+    ]
+    [
+      [
+        degree of spiritual pleasure
+        degree of happiness
+        degree of emotional fulfillment
+      ]
+      state focus
+      cause focus
+    ]
+  ]
   qth: ["@kh" "teacher/student"]
   qt': [ // security/safety/protection/guardianship
     [
@@ -3860,11 +4054,85 @@
       means focus
     ]
   ]
-  qţ: sibling
-  qţl: lithium
-  qţř: germanium
-  qv: resilience/delicateness (=capacity for recovery)
-  qw: food plant
+  qţ: [ // sibling
+    [
+      [
+        sibling
+        brother
+        sister
+      ]
+      [
+        half-sibling (shared mother)
+        half-brother (shared mother)
+        half-sister (shared mother)
+      ]
+      [
+        half-sibling (shared father)
+        half-brother (shared father)
+        half-sister (shared father)
+      ]
+    ]
+    [
+      [
+        step-sibling
+        step-brother
+        step-sister
+      ]
+      [
+        step-sibling through mother
+        step-brother through mother
+        step-sister through mother
+      ]
+      [
+        step-sibling through father
+        step-brother through father
+        step-sister through father
+      ]
+    ]
+  ]
+  qţl: ["@xl" "lithium"]
+  qţř: ["@xl" "germanium"]
+  qv: ["@kv" "resilience"]
+  qw: [ // food plant
+    [
+      [
+        food plant
+        vegetable
+        fruit
+      ]
+      plant itself
+      edible
+    ]
+    [
+      [
+        plant dish
+        vegetable dish
+        fruit dish
+      ]
+      itself
+      ingestion thereof
+    ]
+  ]
+  q': [ // interiority/position or orientation inside
+    [
+      [
+        position inside
+        position inside area
+        position inside volume
+      ]
+      interior position focus
+      surface position focus
+    ]
+    [
+      [
+        interior space
+        interior surface
+        interior volume
+      ]
+      interior position focus
+      surface position focus
+    ]
+  ]
   r: [ // thought/idea/reason
     [
       [
@@ -3929,11 +4197,8 @@
       ]
     ]
   ]
-  rb: spiral motion along vertical plane
-  řb: lumpy texture/sensation
-  řbg: lemur
-  rbw: lepoard
-  rc: arc/parabolic motion relative to gravity
+  rb: ["+k" "spiral vertically"]
+  rc: ["+k" "gravity arc"]
   rc': [ // trick
     [
       [
@@ -3954,12 +4219,8 @@
       effect focus
     ]
   ]
-  rč: curved motion, curve
-  rç: switch back, veer
-  řc: hard+natural mix of smooth/rough texture (rock)
-  řč: gastro-intestinal/urological component
-  řc': marinade
-  řč': coarse texture
+  rč: ["+k" "curve"]
+  rç: ["+k" "switch back, veer"]
   rch: [ // civility/peacebleness
     [
       [
@@ -3972,36 +4233,22 @@
     ]
     self-aware
   ]
-  řch: numbing texture
-  rčp': cadminum
-  rčt': boron
-  rd: generic or oblique spiral motion
-  řd: gastronomic paroxysm
-  rdh: belt
-  řdh: liquidy texture
-  rdhř: magnesium
-  rdhv: cobalt
-  rdhw: gull
-  řdř: krypton
-  řdw: soggy/waterlogged/moist texture
-  rf: circular vector motion
-  řf: gooey texture
-  rfq: griddle
-  rfž: antimony
-  rg: spiral motion along horizontal plane
-  řg: tunic
-  řgl: plastic-like texture
-  řgr: panther (puma)
-  řgř: downy texture
-  řgw: panther (jaguar)
-  rgy: chromium
-  řgz: giraffe
-  rgzd: iguana
-  rgzw: crocodile
-  rj: paint
-  řj: gritty texture
-  řjw: elk
-  rk: planar range of motion
+  rčp': ["@xl" "cadminum"]
+  rčt': ["@xl" "boron"]
+  rd: ["+k" "spiral motion"]
+  rdh: ["@gv" "belt"]
+  rdhř: ["@xl" "magnesium"]
+  rdhv: ["@xl" "cobalt"]
+  rdhw: ["@sk" "gull"]
+  rf: ["+k" "corkscrew"]
+  rfq: ["@sx" "to griddle" "griddled food" "griddle stove" "griddle"]
+  rfž: ["@xl" "antimony"]
+  rg: ["+k" "horizontal spiral"]
+  rgy: ["@xl" "chromium"]
+  rgzd: ["@sk" "iguana"]
+  rgzw: ["@sk" "crocodile"]
+  rj: ["@xl" "paint"]
+  rk: ["+k" "horizontal planar"]
   rk': [ // source, origin
     [
       [
@@ -4042,83 +4289,52 @@
       unit
     ]
   ]
-  řk: hard + semi-smooth texture (wood)
-  řk': cotton-candy texture
-  řkh: sandpaper texture
-  rkr: tiger
-  řkw: turkey
-  rl: linear/horizontal motion along Y-axis relative to topical referent
-  rļ: spiral vector motion
-  řl: ice-cold texture
-  řļ: chewy texture
-  rm: linear/horizontal motion along X-axis relative to topical referent
-  řm: silk
-  rmkh: palladium
-  řmn: osmium
-  rmq': zinc
-  rmst: sea lion
-  rmxh: beryllium
-  rn: generique or oblique circular motion
-  řn: gummy texture
-  rnr: arsenic
-  rntr: seal
-  rp: vertical range of motion
-  rp': body part
-  rpc': vanadium
-  rpč': tungsten
-  rph: tropical dry season
-  rpţ: sautee
-  rpth: simmer
+  rkr: ["@sk" "tiger"]
+  rl: ["+k" "relative Y-axis"]
+  rļ: ["+k" "corkscrew spiral"]
+  rm: ["+k" "relative X-axis"]
+  rmkh: ["@xl" "palladium"]
+  rmq': ["@xl" "zinc"]
+  rmst: ["@sk" "sea lion"]
+  rmxh: ["@xl" "beryllium"]
+  rn: ["+k" "circular"]
+  rnr: ["@xl" "arsenic"]
+  rntr: ["@sk" "seal"]
+  rp: ["+k" "vertical planar"]
+  rp': [ // body part
+    [
+      [
+        body part
+        bodily organ
+        bone
+      ]
+      physical
+      function
+    ]
+    [
+      [
+        flesh/sinew
+        gland
+        bodily fluid/secretion
+      ]
+      physical
+      function
+    ]
+  ]
+  rpc': ["@xl" "vanadium"]
+  rpč': ["@xl" "tungsten"]
+  rph: ["@mx" "dry season"]
+  rpţ: ["@sx" "sauté" "sautéd food" "stove for sautéing" "pan for sautéing"]
+  rpth: ["@sx" "simmer" "simmered food" "stove for simmering" "pot for simmering"]
   rpv: sun-dry
   rpx: slow-cook
-  rq: silver
+  rq: ["@xl" "silver"]
   rq': mineral
-  rqhw: camel
-  řqr: mettalic texture
+  rqhw: ["@sk" "camel"]
   rqw: ["@pk" "anxiety"]
   rr: ["@sk" "cat"]
-  řř: [ // zero
-    [
-      [
-        empty set
-        additive identity 0
-        0D point
-      ]
-      abstract
-      applied
-    ]
-    [
-      [
-        0 as placeholder
-        cardinality of empty set
-        null value
-      ]
-      abstract
-      applied
-    ]
-  ]
   rs: circular motion in horizontal plane
   rš: circular motion in vertical plane
-  řš: [ // paleness
-    [
-      [
-        dim
-        pale
-        shaded
-      ]
-      state/process focus
-      effect focus
-    ]
-    [
-      [
-        dull
-        faded
-        murky
-      ]
-      state/process focus
-      effect focus
-    ]
-  ]
   rsč: maple
   ršč: elm
   rsf: ash
@@ -4147,7 +4363,6 @@
   rstr: gazelle
   rsv: larch
   ršv: toast
-  řsw: lavender
   rsx: pressure-cook
   rt: 2D external circumlative motion/movement around/along periphery or outside edge
   rţ: 2D external circumlative motion/movement around/along boundary or inside edge
@@ -4173,7 +4388,6 @@
     ]
   ]
   rthw: iridium
-  řthw: ostrich
   rtk: sear
   rţk: birch
   rtļ: orangutan
@@ -4217,8 +4431,81 @@
   rž: 3D external circumlative motion/movement around/along internal boundary
   rzd: alligator
   rzw: yak
-  řzw: buffalo
   rżw: lizard
+  řb: lumpy texture/sensation
+  řbg: lemur
+  rbw: lepoard
+  řc: hard+natural mix of smooth/rough texture (rock)
+  řč: gastro-intestinal/urological component
+  řc': marinade
+  řč': coarse texture
+  řch: numbing texture
+  řdh: liquidy texture
+  řd: gastronomic paroxysm
+  řdř: krypton
+  řdw: soggy/waterlogged/moist texture
+  řf: gooey texture
+  řg: tunic
+  řgl: plastic-like texture
+  řgr: panther (puma)
+  řgř: downy texture
+  řgw: panther (jaguar)
+  řgz: giraffe
+  řj: gritty texture
+  řjw: elk
+  řk: hard + semi-smooth texture (wood)
+  řk': cotton-candy texture
+  řkh: sandpaper texture
+  řkw: turkey
+  řl: ice-cold texture
+  řļ: chewy texture
+  řm: silk
+  řmn: osmium
+  řn: gummy texture
+  řqr: mettalic texture
+  řř: [ // zero
+    [
+      [
+        empty set
+        additive identity 0
+        0D point
+      ]
+      abstract
+      applied
+    ]
+    [
+      [
+        0 as placeholder
+        cardinality of empty set
+        null value
+      ]
+      abstract
+      applied
+    ]
+  ]
+  řš: [ // paleness
+    [
+      [
+        dim
+        pale
+        shaded
+      ]
+      state/process focus
+      effect focus
+    ]
+    [
+      [
+        dull
+        faded
+        murky
+      ]
+      state/process focus
+      effect focus
+    ]
+  ]
+  řsw: lavender
+  řthw: ostrich
+  řzw: buffalo
   s: [ // change
     [
       [
@@ -4475,7 +4762,27 @@
       reaction focus
     ]
   ]
-  sx: bake/something baked
+  @sx: [ // bake/something baked
+    [
+      [
+        @1/@2
+        @3
+        @4
+      ]
+      [
+        @1
+        @3 (as environment)
+        @4 (as support)
+      ]
+      [
+        @2
+        @3 (as means)
+        @4 (as means)
+      ]
+    ]
+    commercial
+  ]
+  sx: ["@sx" "bake" "baked food" "oven" "baking pan"]
   šx: desire to solve a mystery
   sxh: disease/disorder/malady
   šxh: feeling of being on edge
