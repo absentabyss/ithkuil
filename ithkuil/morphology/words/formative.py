@@ -122,11 +122,13 @@ class Formative(Word):
             desc.update(vals)
 
         def suffix(suf):
+            degree_num = int(self.atom(self.morpheme('VxC', suf['degree'])).values[0].code[2])
+            v3c_adjunct = suf['type'] + 'â î ê ô û ëi öi au öe'.split()[degree_num - 1]
             if 'suffixes' not in desc:
                 desc['suffixes'] = []
             deg = self.atom(self.morpheme('VxC', suf['degree'])).values[0].name
             suf = self.atom(self.morpheme('VxC', suf['type'])).values[0]
-            desc['suffixes'].append({'code': suf.code, 'name': suf.name, 'degree': deg})
+            desc['suffixes'].append({'code': suf.code, 'name': suf.name, 'degree': deg, 'v3c_adjunct': v3c_adjunct})
 
         self.fillResult(add, suffix)
 

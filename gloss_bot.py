@@ -9,6 +9,10 @@ with open('lexicon.hjson') as f: lexicon = hjson.load(f)
 with open('suffixes.hjson') as f: suffixes = hjson.load(f)
 with open('biases.hjson') as f: biases = hjson.load(f)
 
+# print(sum(1 for v in lexicon.values() if isinstance(v, str)))
+# print(sum(1 for v in lexicon.values() if isinstance(v, list)))
+# print(len(lexicon))
+
 def asciify(s):
     s = s.replace('\N{left single quotation mark}', "'")
     s = s.replace('\N{right single quotation mark}', "'")
@@ -85,9 +89,9 @@ defaults = (
 def nice_level(deg, typ):
     return '= > < OPT MIN SPL IFR ≥ ≤'.split()[deg - 1] + {1: 'ᵣ', 2: 'ₐ', 3: '₃'}[typ]
 
-def nice_suffix(s, t3_adjunct=False):
+def nice_suffix(s, full_names=False, t3_adjunct=False):
     if t3_adjunct:
-        print(s)
+        return nice_gloss(s['v3c_adjunct'], full_names)
 
     if s['code'] == 'LVL':
         return nice_level(int(s['degree'][-1]), int(s['degree'][5]))
@@ -137,6 +141,13 @@ def nice_gloss(word, full_names=False):
             code = desc['Bias']['code']
             return nice_code(desc['Bias'], full_names)
 
+        if desc['type'] == 'Personal adjunct':
+            tags = []
+            for k in desc['categories']:
+                if k in desc and desc[k]['code'] not in defaults:
+                    tags.append(nice_code(desc[k], full_names))
+            return '-'.join(tags)
+
         if desc['type'] != 'Formative':
             tags = []
             for k in desc['categories']:
@@ -174,7 +185,7 @@ def nice_gloss(word, full_names=False):
             res += '-[%s]' % ir
         if 'suffixes' in desc:
             t3_adjunct = all(s['degree'][5] == '3' for s in desc['suffixes'])
-            res += ' + ' + ', '.join(nice_suffix(s, t3_adjunct) for s in desc['suffixes'])
+            res += ' + ' + ', '.join(nice_suffix(s, full_names, t3_adjunct) for s in desc['suffixes'])
 
         return res
     except arpeggio.NoMatch as e:
@@ -183,7 +194,8 @@ def nice_gloss(word, full_names=False):
         return str(e)
 
 #print(nice_gloss('esxal'))
-print(nice_gloss('gmalouk'))
+print(nice_gloss('kau'))
+print(nice_gloss('rraliet'))
 #print(nice_gloss('ulkhal'))
 #print(nice_gloss('qel'))
 #print(nice_gloss('ebol'))
