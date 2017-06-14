@@ -3723,7 +3723,7 @@
       unit
     ]
   ]
-  pkw: ["@pk" "on-edge"]
+  pkw: ["@pk" "on-edgeness at threat"]
   pky: [ // cereal grains and grain-derived foods
     [
       [
@@ -4462,37 +4462,83 @@
   rzd: ["@sk" "alligator"]
   rzw: ["@sk" "yak"]
   rżw: ["@sk" "lizard"]
-  řb: lumpy texture/sensation
+  řb: ["@š" "lumpy texture"]
   řbg: ["@sk" "lemur"]
   rbw: ["@sk" "lepoard"]
-  řc: hard+natural mix of smooth/rough texture (rock)
-  řč: gastro-intestinal/urological component
-  řc': marinade
-  řč': coarse texture
-  řch: numbing texture
-  řdh: liquidy texture
-  řd: gastronomic paroxysm
-  řdř: krypton
-  řdw: soggy/waterlogged/moist texture
-  řf: gooey texture
-  řg: tunic
-  řgl: plastic-like texture
-  řgr: panther (puma)
-  řgř: downy texture
-  řgw: panther (jaguar)
-  řgz: giraffe
-  řj: gritty texture
-  řjw: elk
-  řk: hard + semi-smooth texture (wood)
-  řk': cotton-candy texture
-  řkh: sandpaper texture
-  řkw: turkey
-  řl: ice-cold texture
-  řļ: chewy texture
-  řm: silk
-  řmn: osmium
-  řn: gummy texture
-  řqr: mettalic texture
+  řc: ["@š" "rock texture"]
+  řč: [ // gastro-intestinal/urological component
+    [
+      [
+        gastrointestinal component + function
+        gastrointestinal process + function
+        feces
+      ]
+      [
+        gastrointestinal component
+        gastrointestinal process
+        feces (itself)
+      ]
+      [
+        gastrointestinal component function
+        gastrointestinal process function
+        feces (function)
+      ]
+    ]
+    [
+      [
+        urological component + function
+        urological process + function
+        urine
+      ]
+      [
+        urological component
+        urological process
+        urine (itself)
+      ]
+      [
+        urological component function
+        urological process function
+        urine (function)
+      ]
+    ]
+  ]
+  řc': ["@sx" "marinate" "marinated food" "container for marinating" "container for marinating"]
+  řč': ["@š" "coarse texture"]
+  řch: ["@š" "numbing texture"]
+  řdh: ["@š" "liquidy texture"]
+  řd: [ //gastronomic paroxysm
+    [
+      [
+        burp
+        vomit
+        fart
+      ]
+      act
+      sound
+    ]
+    volitional
+  ]
+  řdř: ["@xl" "krypton"]
+  řdw: ["@š" "soggy/waterlogged/moist texture"]
+  řf: ["@š" "gooey texture"]
+  řg: ["@gv" "tunic"]
+  řgl: ["@š" "plastic-like texture"]
+  řgr: ["@sk" "puma"]
+  řgř: ["@š" "downy texture"]
+  řgw: ["@sk" "jaguar"]
+  řgz: ["@sk" "giraffe"]
+  řj: ["@š" "gritty texture"]
+  řjw: ["@sk" "elk"]
+  řk: ["@š" "hard + semi-smooth texture (wood)"]
+  řk': ["@š" "cotton-candy texture"]
+  řkh: ["@š" "sandpaper texture"]
+  řkw: ["@sk" "turkey"]
+  řl: ["@š" "ice-cold texture"]
+  řļ: ["@š" "chewy texture"]
+  řm: ["@xl" "silk"]
+  řmn: ["@xl" "osmium"]
+  řn: ["@š" "gummy texture"]
+  řqr: ["@š" "mettalic texture"]
   řř: [ // zero
     [
       [
@@ -4533,9 +4579,9 @@
       effect focus
     ]
   ]
-  řsw: lavender
-  řthw: ostrich
-  řzw: buffalo
+  řsw: ["@xt'" "lavender"]
+  řthw: ["@sk" "ostrich"]
+  řzw: ["@sk" "buffalo"]
   s: [ // change
     [
       [
@@ -4556,7 +4602,6 @@
       behavior/function focus
     ]
   ]
-  š: ["@š" "texture"]
   sc: ["@pk" "ecstatic contemplation of nature"]
   sč: [ // honorable/respectable/esteemed
     [
@@ -4570,13 +4615,9 @@
     ]
     self-aware
   ]
-  šč: being ultra alert
-  šč': spite
-  sch: gray
-  ščh: feeling of surprise to discover that vengeance is hollow
-  sf: bottom, lowest part, funcdation
-  šf: feeling of devilishness
-  sk: generic mammal, avian, reptile
+  sch: ["@xt'" "gray"]
+  sf: ["@g" "bottom"]
+  sk: ["@sk" "mammal/avian/reptile"]
   sk': [ // gathering/accumulation/collection
     [
       [
@@ -4597,32 +4638,27 @@
       accumulation focus
     ]
   ]
-  šk: arm
-  šk': [ // narrow-mindedness/prejudice/dogmatism
+  skh: [ // path/way/course
     [
       [
-        degree of open-mindedness
-        degree of ability to see another's perspective
-        degree of ability to relativize
+        course taken
+        marked path taken
+        trajectory
       ]
-      state focus
-      consequence focus
+      way itself
+      act of travel
     ]
     [
       [
-        degree of zealotry
-        degree of bigotry
-        degree of principal flexibility
+        route taken
+        road taken
+        channel taken
       ]
-      state focus
-      consequence focus
+      way itself
+      act of travel
     ]
   ]
-  škç: pigeon
-  skh: path/way/course
-  škh: feeling of surprise upon discovering that no need to feel victimized
-  skhw: robin
-  škhw: corn
+  skhw: ["@sk" "robin"]
   skl: ["@pk" "social bubbliness"]
   skr: [ // laxicity/leniency/tolerance
     [
@@ -4644,15 +4680,101 @@
       object focus
     ]
   ]
-  škţ: bicarbonate of soda
   sky: ["@pk" "emotionally stifled"]
-  šky: pea
-  sl: gas/flume
-  šl: humor/wit/jest
-  sm: terrain-based/geographical elevation
-  šm: lower part or half
-  sn: sense of taste
-  sňy: brine
+  @sl: [ // gas/flume
+    [
+      [
+        (cloud of) @
+        (cloud of) derived @
+        source of @
+      ]
+      [
+        cloud of @
+        cloud of derived @
+        natural source of @
+      ]
+      [
+        @ itself
+        derived @ itself
+        artificial source of @
+      ]
+    ]
+    [
+      [
+        @ in abnormal solid/liquid state
+        thing made of @ + function
+        state of being gas or not
+      ]
+      [
+        frozen @
+        thing made of @
+        gaseous state
+      ]
+      [
+        condensation
+        function of thing made of @
+        semi-gaseous state
+      ]
+    ]
+  ]
+  sl: ["@sl" "gas"]
+  sm: [ // terrain-based/geographical elevation
+    [
+      [
+        relative elevation
+        geological stratum
+        flatland area
+      ]
+      [
+        valley
+        deep underground
+        geographical plateau
+      ]
+      [
+        hill
+        shallow underground
+        geographical ridge
+      ]
+    ]
+    geopolitical
+  ]
+  sn: [ // sense of taste
+    [
+      [
+        taste
+        tongue/palate
+        imagine taste
+      ]
+      [
+        to taste
+        tongue/palate (organ)
+        to imagine a taste
+      ]
+      [
+        a whiff of flavor
+        taste bud
+        imagined flavor
+      ]
+    ]
+    [
+      [
+        taste (anticipating)
+        flavor detection
+        create flavor
+      ]
+      [
+        taste for anticipated flavor
+        to detect a flavor
+        to create a flavor
+      ]
+      [
+        anticipated flavor
+        detected flavor
+        manufactured flavor
+      ]
+    ]
+
+  ]
   sp: [ // exchange/purchase
     [
       [
@@ -4681,13 +4803,20 @@
       ]
     ]
   ]
-  sp': degree of bodily slenderness/fatness
-  šp: binary reversal/polarity
-  šp': hunting and gathering
-  sph: carbon dioxide
-  šph: feeling of humor and shame when victim of joke does not get it
-  sphw: lettuce
-  šphw: lark
+  sp': [ // degree of bodily slenderness/fatness
+    [
+      [
+        degree of bodily fatness
+        lose weight
+        gain weight
+      ]
+      physical
+      psychological effect
+    ]
+    unusual
+  ]
+  sph: ["@sl" "carbon dioxide"]
+  sphw: ["+qw" "lettuce"]
   spl: [ // face/visage
     [
       [
@@ -4700,49 +4829,108 @@
     ]
     non-animal
   ]
-  špr: marble
-  sq: cook
-  sq': oxygen
-  šq: wait
-  šq': roast
+  sq: ["@sx" "cook" "cooked food" "cooking stove" "pot for cooking"]
+  sq': ["@sl" "oxygen"]
   sqh: ["@pk" "being moved by art"]
-  šqh: malicious glee at another's discomfort
-  sqhw: cabbage
-  sqw: tomato
-  sr: lattitude/north-south
-  sř: collateral family member/relative
-  šr: discomfiture at being ill-prepared
-  šř: felling resources are wasted
-  ss: air
-  šš: [ // hide/conceal/avoid/sneak
+  sqhw: ["+qw" "cabbage"]
+  sqw: ["+qw" "tomato"]
+  sr: [
     [
       [
-        something covered up
-        something hidden away
-        something elusive
+        north-south designation
+        north designation
+        south designation
       ]
-      state focus
-      object focus
+      [
+        north-south direction
+        north direction
+        south direction
+      ]
+      [
+        north-south geo. areal designation
+        north geo. areal designation
+        south geo. areal designation
+      ]
     ]
     [
       [
-        something masked
-        something obscure
-        something sneaky
+        latitude
+        north latitude
+        south latitude
       ]
-      state focus
-      object focus
+      [
+        polar area
+        Arctic
+        Antarctic
+      ]
+      [
+        line of latitude
+        Northern Hemisphere
+        Southern Hemisphere
+      ]
     ]
   ]
-  st: comparison/measurement/weight
-  sţ: five
-  st': metal/ore
-  št: ["@sx" "fry" "fried food" "deep fryer" "deep fryer basket"]
-  šţ: discovering a new option
-  št': attraction
-  sth: boil
-  šth: anticipate a negative
-  sthw: sparrow
+  sř: [ // collateral family member/relative
+    [
+      [
+        paternal collateral relative
+        paternal male collateral relative
+        paternal female collateral relative
+      ]
+      [
+        paternal nephew/niece
+        paternal nephew
+        paternal niece
+      ]
+      [
+        paternal aunt/uncle
+        paternal uncle
+        paternal aunt
+      ]
+    ]
+    [
+      [
+        maternal collateral relative
+        maternal male collateral relative
+        maternal female collateral relative
+      ]
+      [
+        maternal nephew/niece
+        maternal nephew
+        maternal niece
+      ]
+      [
+        maternal aunt/uncle
+        maternal uncle
+        maternal aunt
+      ]
+    ]
+  ]
+  ss: ["@sl" "air"]
+  st: [ // comparison/measurement/weight
+    [
+      [
+        compare
+        distinguish
+        pro-con analysis
+      ]
+      act focus
+      purpose focus
+    ]
+    [
+      [
+        measure
+        discern
+        relate
+      ]
+      act focus
+      purpose focus
+    ]
+  ]
+  sţ: ["@num" "5"]
+  st': ["@xl" "metal/ore"]
+  sth: ["@sx" "boil" "boiled food" "stove for boiling" "pot for boiling"]
+  sthw: ["@sk" "sparrow"]
   stl: [ // opportunity/advantage/convinience/expedience
     [
       [
@@ -4763,33 +4951,30 @@
       outcome
     ]
   ]
-  štl: owl
-  str: diamond
+  str: ["@xl" "diamond"]
   stv: ["@xt'" "cyan"]
-  stw: rice
-  st:' wpeanut
-  sty: bean
-  sv: fear/fright
-  šv: solace, grief
-  sw: planetary body
-  šw: [ // beauty
+  stw: ["+qw" "rice"]
+  st:' ["+qw" "peanut"]
+  sty: ["+qw" "bean"]
+  sv: ["@pk" "fear"]
+  sw: [ // planetary body
     [
       [
-        something pretty
-        something delicate
-        something charming
+        planet
+        moon/satellite
+        spatial body
       ]
-      entity focus
-      reaction focus
+      physical
+      human interaction focus
     ]
     [
       [
-        something beautiful
-        something elegant
-        something sublime
+        the Earth
+        the Moon
+        artificial satellite
       ]
-      entity focus
-      reaction focus
+      physical
+      human interaction focus
     ]
   ]
   @sx: [ // bake/something baked
@@ -4813,13 +4998,243 @@
     commercial
   ]
   sx: ["@sx" "bake" "baked food" "oven" "baking pan"]
-  šx: desire to solve a mystery
-  sxh: disease/disorder/malady
-  šxh: feeling of being on edge
-  sy: manner/conduct/behavior/demeanor
-  šy: bittersweetness
+  sxh: ["@sxh" "disease"]
+  sy: [ // manner/conduct/behavior/demeanor
+    [
+      [
+        manner
+        guise
+        practice
+      ]
+      practice itself
+      effect focus
+    ]
+    [
+      [
+        method
+        conduct oneself
+        demeanor
+      ]
+      behavior itself
+      effect focus
+    ]
+  ]
+  š: ["@š" "texture"]
+  šč: ["@pk" "ultra-alertness"]
+  šč': ["@pk" "spite"]
+  ščh: ["@pk" "vengeance-hollowness discovery"]
+  šf: ["@pk" "devilishness"]
+  šk: [ // arm
+    [
+      [
+        arm (entity)
+        arm (holder)
+        arm (protective extension of body)
+      ]
+      [
+        arm (body part)
+        arm (limb)
+        arm (extension)
+      ]
+      [
+        arm (manipulating)
+        arm (holder function)
+        arm (protective)
+      ]
+    ]
+    non-animal
+  ]
+  šk': [ // narrow-mindedness/prejudice/dogmatism
+    [
+      [
+        degree of open-mindedness
+        degree of ability to see another's perspective
+        degree of ability to relativize
+      ]
+      state focus
+      consequence focus
+    ]
+    [
+      [
+        degree of zealotry
+        degree of bigotry
+        degree of principal flexibility
+      ]
+      state focus
+      consequence focus
+    ]
+  ]
+  škç: ["@sk" "pigeon"]
+  škh: ["@pk" "criticism-victimhood revelation"]
+  škhw: ["+qw" "corn"]
+  škţ: ["@xl" "bicarbonate of soda"]
+  šky: ["+qw" "pea"]
+  šl: [ // humor/wit/jest
+    [
+      [
+        something funny
+        something witty
+        something farcical
+      ]
+      joke focus
+      impact focus
+    ]
+    [
+      [
+        prank
+        joke
+        something sardonic
+      ]
+      joke focus
+      impact focus
+    ]
+  ]
+  šm: ["@g" "lower half"]
+  šny: ["@xl" "brine"]
+  šp: [ // binary reversal/polarity
+    [
+      [
+        switch to opposite value
+        change or reverse direction
+        toggle between on/off state
+      ]
+      [
+        set to primary value
+        change direction
+        (turn) on
+      ]
+      [
+        set to secondary value
+        reverse direction
+        (turn) off
+      ]
+    ]
+    formal
+  ]
+  šp': [ // hunting and gathering
+    [
+      [
+        gather plants
+        nomadic hunting
+        live off the land
+      ]
+      focus on hunting
+      focus on things hunted
+    ]
+    [
+      [
+        sow and harvest an annual crop
+        sow and harvest a permanent seasonal crop
+        manage crops/animals
+      ]
+      [
+        plow and plant seeds
+        grow a permanent seasonal crop
+        grow crops and raise food-producing animals
+      ]
+      [
+        harvest an annual crop
+        harvest a permanent seasonal crop
+        harvest crop products and collect animal products
+      ]
+    ]
+  ]
+  šph: ["@pk" "failed joke humor/shame"]
+  šphw: ["@sk" "lark"]
+  špr: ["@xl" "marble"]
+  šq: [ // wait
+    [
+      [
+        await
+        expect
+        predict
+      ]
+      process focus
+      thing awaited focus
+    ]
+    [
+      [
+        be vigilant
+        foresee
+        prognosticate
+      ]
+      process focus
+      thing awaited focus
+    ]
+  ]
+  šq': ["@sx" "roast" "roasted food" "oven/flame for roasting" "spit for roasting"]
+  šqh: ["@pk" "schadenfreude"]
+  šr: ["@pk" "discomfiture at being ill-prepared"]
+  šř: ["@pk" "impatience at wasted time/resources"]
+  šš: [ // hide/conceal/avoid/sneak
+    [
+      [
+        something covered up
+        something hidden away
+        something elusive
+      ]
+      state focus
+      object focus
+    ]
+    [
+      [
+        something masked
+        something obscure
+        something sneaky
+      ]
+      state focus
+      object focus
+    ]
+  ]
+  št: ["@sx" "fry" "fried food" "deep fryer" "deep fryer basket"]
+  šţ: ["@pk" "contemplation of new option"]
+  št': [ // attraction
+    [
+      [
+        feel attracted to someone
+        feel attractive to someone
+        hint attraction to someone
+      ]
+      viewpoint of others
+      viewpoint of party feeling attraction
+    ]
+    [
+      [
+        feel attracted to idea
+        be attractive (idea)
+        selling point
+      ]
+      viewpoint of others
+      viewpoint of party feeling attraction
+    ]
+  ]
+  šth: ["@pk" "dread"]
+  štl: ["@sk" "owl"]
+  šv: ["@pk" "solace"]
+  šw: [ // beauty
+    [
+      [
+        something pretty
+        something delicate
+        something charming
+      ]
+      entity focus
+      reaction focus
+    ]
+    [
+      [
+        something beautiful
+        something elegant
+        something sublime
+      ]
+      entity focus
+      reaction focus
+    ]
+  ]
+  šx: ["@pk" "desire to solve a mystery"]
+  šxh: ["@pk" "near-loss-of-control"]
+  šy: ["@pk" "wistfulness"]
   t: life
-  ţ: head
   t': exteriority/position or orientation outside
   tç: [ // spacetime/space/passage of time
     [
@@ -4857,51 +5272,8 @@
       ]
     ]
   ]
-  ţb: bounce/recoil/inertness/immobility
-  ţc: affective/non-volitional mental state/process
-  ţc': [ // sympathy/pity/empathy/compassion
-    [
-      [
-        feeling of being able to relate
-        feel sympathy for
-        feel sorry for
-      ]
-      state focus
-      target focus
-    ]
-    [
-      [
-        feel compassion for
-        feel empathy for
-        condolence/consolation
-      ]
-      state focus
-      target focus
-    ]
-  ]
-  ţč: degree of pain/loss/dissatisfaction/misery
   tf: psychological manipulation/treatment
   tfř: ozone
-  ţg: [ // motive/incentive/enticement/pursuasion
-    [
-      [
-        motive
-        intention
-        incentive
-      ]
-      state focus
-      content focus
-    ]
-    [
-      [
-        moral principle
-        aspiration
-        free will
-      ]
-      state focus
-      content focus
-    ]
-  ]
   th: (criminal) law/adjudication
   tk: upper half or part
   tk': [ // sincerity/frankness/trustworthiness
@@ -4916,29 +5288,15 @@
     ]
     self-aware
   ]
-  ţk: three
-  ţk': commitment/loyalty
   tkç: mercury
   tkh: 3D spheroid shapes
-  ţkh: flexibility/rigidity (ERROR)
-  ţkhw: spinach
-  ţkl: laughning gas
   tkr: pig
-  ţkř: helium
-  ţky: wheat
   tl: salt
   tļ: 2D curvature/distortion
-  ţl: numbness/emotional saturation
   tlw: teal
-  ţlw: hydrogen
-  ţly: chlorine
   tm: sign/mark/visual means of indication/representation
   ţm: 2D shapes
-  ţmw: garlic
-  ţmy: carbon monoxide
   tn: large implement for countering gravity
-  ţn: time period/duration
-  ţny: lime
   tp: [ // read/recite
     [
       [
@@ -4959,48 +5317,10 @@
       physical act focus
     ]
   ]
-  ţp: [ // degree of cleanliness
-    [
-      [
-        degree of being dirt-free
-        degree of being unpolluted
-        degree of being pristine
-      ]
-      state focus
-      consequence focus
-    ]
-    [
-      [
-        degree of being tidy
-        degree of being hygienic
-        degree of being free from dirt from neglect/disuse
-      ]
-    ]
-  ]
-  ţpf: talc
-  ţph: nonchalance
-  ţphw: sorghum
-  ţpļ: methanol
-  ţpř: nitrogen
-  ţpţ: fluorine
-  ţpw: baking soda
   tq: ["@pk" "inner balance"]
-  ţq: consistency/plasticity/rheological phenomenon
-  ţq': crumble/fall apart/coherence/cohesiveness
-  ţqf: radon
-  ţqh: torpor/lethargy
-  ţqhw: lentil
-  ţqţ: argon
   tr: green
   tř: appear/manifest/show/exhibit/display
-  ţr: table sugar
-  ţř: edge
   tt: salutation/greeting/acknowledgment
-  ţt: flaccidity/rigidity
-  ţt': fragility/strength
-  ţth: brittleness/resiliency
-  ţtl: neon
-  ţtř: xenon
   tv: [ // self/identity/character/subjectivity
     [
       [
@@ -5021,9 +5341,7 @@
       effect focus
     ]
   ]
-  ţv: jiggliness/immobility
   tw: occupancy/residency
-  ţw: weather condition
   tx: [ // medium of exchange
     [
       [
@@ -5060,8 +5378,107 @@
       ]
     ]
   ]
-  ţx: compressability/stiffness
   txh: subatomic particle
+  ty: sense of wonder/enthrallment
+  ţ: head
+  ţb: bounce/recoil/inertness/immobility
+  ţc: affective/non-volitional mental state/process
+  ţc': [ // sympathy/pity/empathy/compassion
+    [
+      [
+        feeling of being able to relate
+        feel sympathy for
+        feel sorry for
+      ]
+      state focus
+      target focus
+    ]
+    [
+      [
+        feel compassion for
+        feel empathy for
+        condolence/consolation
+      ]
+      state focus
+      target focus
+    ]
+  ]
+  ţč: degree of pain/loss/dissatisfaction/misery
+  ţg: [ // motive/incentive/enticement/pursuasion
+    [
+      [
+        motive
+        intention
+        incentive
+      ]
+      state focus
+      content focus
+    ]
+    [
+      [
+        moral principle
+        aspiration
+        free will
+      ]
+      state focus
+      content focus
+    ]
+  ]
+  ţk: three
+  ţk': commitment/loyalty
+  ţkh: flexibility/rigidity (ERROR)
+  ţkhw: spinach
+  ţkl: laughning gas
+  ţkř: helium
+  ţky: wheat
+  ţl: numbness/emotional saturation
+  ţlw: hydrogen
+  ţly: chlorine
+  ţmw: garlic
+  ţmy: carbon monoxide
+  ţn: time period/duration
+  ţny: lime
+  ţp: [ // degree of cleanliness
+    [
+      [
+        degree of being dirt-free
+        degree of being unpolluted
+        degree of being pristine
+      ]
+      state focus
+      consequence focus
+    ]
+    [
+      [
+        degree of being tidy
+        degree of being hygienic
+        degree of being free from dirt from neglect/disuse
+      ]
+    ]
+  ]
+  ţpf: talc
+  ţph: nonchalance
+  ţphw: sorghum
+  ţpļ: methanol
+  ţpř: nitrogen
+  ţpţ: fluorine
+  ţpw: baking soda
+  ţq: consistency/plasticity/rheological phenomenon
+  ţq': crumble/fall apart/coherence/cohesiveness
+  ţqf: radon
+  ţqh: torpor/lethargy
+  ţqhw: lentil
+  ţqţ: argon
+  ţr: table sugar
+  ţř: edge
+  ţt: flaccidity/rigidity
+  ţt': fragility/strength
+  ţth: brittleness/resiliency
+  ţtl: neon
+  ţtř: xenon
+  ţv: jiggliness/immobility
+  ţw: weather condition
+  ţx: compressability/stiffness
   ţxh: [ //smugness/conceit/foppishness
     [
       [
@@ -5075,7 +5492,6 @@
     self-aware
   ]
   ţxhw: yam
-  ty: sense of wonder/enthrallment
   ţy: benevolence
   v: [ // play/recreation/leisure
     [
@@ -5320,33 +5736,20 @@
   xw: water in stating setting
   xx: repute/notoriety
   z: mind
-  ż: day/night
-  ž: love/affection/emotional bond
   zb: conflict-based hostility
-  żb: tar
-  žb: feathery texture
   zbr: ["@pk" "emotional drainedness"]
   zbř: iodine
-  žbř: sponge-like texture
-  zbw: hairy texture
+  zbw: ["@š" "hairy texture"]
   zd: manners/decorum/dignity
-  žd: slushy texture
   zdl: formalin
   zdr: bear
   zdř: milk of magnesium
-  ždr: papery texture
   zdw: coyote
-  ždw: fluffy texture
   zdy: benzene
   zg: tragicomic-based vocal/facial gesture
-  żg: steel
-  žg: mushy texture
-  žgl: woolly texture
   zgr: donkey
   zgř: unstable heavy element
-  žgr: dusty texture
   zgw: sheep
-  žgy: ammonia
   zj: [ // nervousness/timidity
     [
       [
@@ -5379,9 +5782,6 @@
       conclusion focus
     ]
   ]
-  żk: honeycombed texture
-  żk': prickly texture
-  žk': viscous texture
   zl: [ // inversion
     [
       [
@@ -5402,34 +5802,59 @@
     ]
     formal
   ]
+  zm: ten thousand
+  zmy: isopropane
+  zn: ["@š" "heat conductive texture"]
+  zň: ["@š" "slimy texture"]
+  zp: ["@š" "rubbery texture"]
+  zp': carrot
+  zph: asbestos
+  zq: ["@š" "slippery texture"]
+  zq': brass
+  zqh: vinegar
+  zr: throat/gullet
+  zt: coal
+  zv: romantic and/or sexual relationship
+  zvw: natural chemical element
+  zvy: actinide element
+  zw: top, peak, summit
+  zy: ["@š" "wispy texture"]
+  zz: ["@š" "soft like a cushion texture"]
+  ż: day/night
+  żb: tar
+  żg: steel
+  żk: ["@š" "honeycombed texture"]
+  żk': ["@š" "prickly texture"]
+  żn: growth/cultivation/husbandry
+  żp': jade
+  żph: ["@š" "cartilaginous texture"]
+  żq: ["@š" "cactus texture"]
+  żq': plutonium
+  żqh: ["@š" "granular texture"]
+  żr: ["@š" "bristly texture"]
+  żř: quartz
+  żt: ["@š" "pins and needle texture"]
+  żv: potato
+  ž: love/affection/emotional bond
+  žb: ["@š" "feathery texture"]
+  žbř: ["@š" "sponge-like texture"]
+  žd: ["@š" "slushy texture"]
+  ždr: ["@š" "papery texture"]
+  ždw: ["@š" "fluffy texture"]
+  žg: ["@š" "mushy texture"]
+  žgl: ["@š" "woolly texture"]
+  žgr: ["@š" "dusty texture"]
+  žgy: ammonia
+  žk': ["@š" "viscous texture"]
   žl: ["@pk" "surprise"]
   žlw: plaster
-  zm: ten thousand
   žm: pride/ego/respect
-  zmy: isopropane
   žmy: synthetic heavy element
-  zn: heat conductive texture
-  zň: slimy texture
-  żn: growth/cultivation/husbandry
   žny: heavy lanthanide element
-  zp: rubbery texture
-  zp': carrot
-  żp': jade
-  zph: asbestos
-  żph: cartilaginous texture
-  žph: powdery texture
-  zq: slippery texture
-  zq': brass
-  żq: cactus texture
-  żq': plutonium
-  žq: tingly texture
+  žph: ["@š" "powdery texture"]
+  žq: ["@š" "tingly texture"]
   žq': uranium
-  zqh: vinegar
-  żqh: granular texture
-  žqh: sticky texture
-  zr: throat/gullet
-  żr: bristly texture
-  żř: quartz
+  žqh: ["@š" "sticky texture"]
   žr: [ // intelligent/astute/perspicacious
     [
       [
@@ -5442,11 +5867,7 @@
     ]
     self-aware
   ]
-  zt: coal
-  żt: pins and needle texture
-  zv: romantic and/or sexual relationship
   žr: balance/equilibrium/symmetry/homeostasis
-  żv: potato
   žv: [ // balance
     [
       [
@@ -5467,12 +5888,7 @@
       consequence focus
     ]
   ]
-  zvw: natural chemical element
   žvw: lanthanide element
-  zvy: actinide element
-  zw: top, peak, summit
-  žw: fur texture
-  zy: wispy texture
+  žw: ["@š" "fur texture"]
   žy: curvaceous/sensual
-  zz: soft like a cushion texture
 }
