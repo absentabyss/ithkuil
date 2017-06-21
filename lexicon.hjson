@@ -5234,8 +5234,46 @@
   šx: ["@pk" "desire to solve a mystery"]
   šxh: ["@pk" "near-loss-of-control"]
   šy: ["@pk" "wistfulness"]
-  t: life
-  t': exteriority/position or orientation outside
+  t: [ // life
+    [
+      [
+        living thing
+        animal
+        plant
+      ]
+      male
+      female
+    ]
+    [
+      [
+        civilized being
+        domesticated animal
+        cultivated plant
+      ]
+      male
+      female
+    ]
+  ]
+  t': [ // exteriority/position or orientation outside
+    [
+      [
+        position outside
+        position outside (2D)
+        position outside (3D)
+      ]
+      focus on exterior position
+      focus on position on exterior surface
+    ]
+    [
+      [
+        space outside
+        external surface
+        space beyond interior volume
+      ]
+      focus on exterior position
+      focus on position on exterior surface
+    ]
+  ]
   tç: [ // spacetime/space/passage of time
     [
       [
@@ -5272,10 +5310,64 @@
       ]
     ]
   ]
-  tf: psychological manipulation/treatment
-  tfř: ozone
-  th: (criminal) law/adjudication
-  tk: upper half or part
+  tf: [ // psychological manipulation/treatment
+    [
+      [
+        fool someone
+        play games with someone
+        be mesmerized
+      ]
+      state focus
+      content focus
+    ]
+    [
+      [
+        state of delusion
+        means of psychiatric treatment
+        hypnotic state
+      ]
+      state focus
+      content focus
+    ]
+  ]
+  tfř: ["@sl" "ozone"]
+  th: [ // (criminal) law/adjudication
+    [
+      [
+        law
+        applicability of law to situation/area
+        criminal investigation
+      ]
+      [
+        statement of law
+        applicability of law
+        gather evidence in criminal investigation
+      ]
+      [
+        application of law
+        state of being subject to law
+        act for criminal identification/apprehension
+      ]
+    ]
+    [
+      [
+        act of official law enforcement
+        jurisdiction in situation/area
+        go to trial
+      ]
+      [
+        authority to enforce law
+        jurisdiction of law enforcement powers
+        prosecution
+      ]
+      [
+        act of enforcing law
+        state of being subject to jurisdiction
+        formal weighing of evidence by judge/jury
+      ]
+    ]
+  ]
+  tk: ["@g" "upper part"]
   tk': [ // sincerity/frankness/trustworthiness
     [
       [
@@ -5288,15 +5380,82 @@
     ]
     self-aware
   ]
-  tkç: mercury
-  tkh: 3D spheroid shapes
-  tkr: pig
-  tl: salt
-  tļ: 2D curvature/distortion
-  tlw: teal
-  tm: sign/mark/visual means of indication/representation
-  ţm: 2D shapes
-  tn: large implement for countering gravity
+  tkç: ["@xl" "mercury"]
+  tkh: [ // 3D spheroid shapes
+    [
+      [
+        spheroid
+        ovoid
+        torus
+      ]
+      abstract
+      object
+    ]
+    flexible or hollow
+  ]
+  tkr: ["@sk" "pig"]
+  tl: ["@xl" "salt"]
+  tļ: [ // 2D curvature/distortion
+    [
+      [
+        surface curve/curl + object
+        surface dimple + object
+        surface distortion + object
+      ]
+      [
+        surface curve/curl
+        surface dimple
+        surface distortion
+      ]
+      [
+        object with surface curve/curl
+        object with surface dimple
+        object with surface distortion
+      ]
+    ]
+    volume focus
+  ]
+  tlw: ["@xt'" "teal"]
+  tm: [ // sign/mark/visual means of indication/representation
+    [
+      [
+        indication
+        track/trail
+        identifying characteristic
+      ]
+      indicator focus
+      content/meaning focus
+    ]
+    [
+      [
+        mark/token
+        emblem
+        formal representation
+      ]
+      indicator focus
+      content/meaning focus
+    ]
+  ]
+  tn: [ // large implement for countering gravity
+    [
+      [
+        ladder
+        stair
+        bridge
+      ]
+      thing focus
+      function focus
+    ]
+    [
+      [
+        winch/windlass
+        expandable boom
+        derrick
+      ]
+      thing focus
+      function focus
+    ]
+  ]
   tp: [ // read/recite
     [
       [
@@ -5318,9 +5477,47 @@
     ]
   ]
   tq: ["@pk" "inner balance"]
-  tr: green
-  tř: appear/manifest/show/exhibit/display
-  tt: salutation/greeting/acknowledgment
+  tr: ["@xt'" "green"]
+  tř: [ // appear/manifest/show/exhibit/display
+    [
+      [
+        appear
+        expose
+        call attention to
+      ]
+      act focus
+      thing shown focus
+    ]
+    [
+      [
+        exhibit
+        show off
+        announce/advertise
+      ]
+      act focus
+      thing exhibited focus
+    ]
+  ]
+  tt: [ // salutation/greeting/acknowledgment
+    [
+      [
+        acknowledge
+        hail
+        congratulate
+      ]
+      act focus
+      purpose focus
+    ]
+    [
+      [
+        greet(ing)
+        welcome/farewell
+        socially introduce
+      ]
+      act focus
+      purpose focus
+    ]
+  ]
   tv: [ // self/identity/character/subjectivity
     [
       [
@@ -5341,7 +5538,42 @@
       effect focus
     ]
   ]
-  tw: occupancy/residency
+  tw: [ // occupancy/residency
+    [
+      [
+        entity present + presence
+        occupant + place occupied
+        denizen + claimed property
+      ]
+      [
+        entity present
+        occupant
+        denizen
+      ]
+      [
+        presence of entity
+        place occupied
+        claimed property
+      ]
+    ]
+    [
+      [
+        tenant + domicile
+        resident + residence
+        citizen + property
+      ]
+      [
+        tenant
+        resident
+        citizen
+      ]
+      [
+        domicile
+        residence
+        property
+      ]
+    ]
+  ]
   tx: [ // medium of exchange
     [
       [
@@ -5378,11 +5610,95 @@
       ]
     ]
   ]
-  txh: subatomic particle
-  ty: sense of wonder/enthrallment
-  ţ: head
-  ţb: bounce/recoil/inertness/immobility
-  ţc: affective/non-volitional mental state/process
+  txh: [ // subatomic particle
+    [
+      [
+        subatomic particle + effect
+        elementary particle + effect
+        composite particle + effect
+      ]
+      [
+        subatomic particle
+        elementary particle
+        composite particle
+      ]
+      [
+        force of subatomic particle
+        force of elementary particle
+        force of composite particle
+      ]
+    ]
+    [
+      [
+        hypothetical subatomic particle + effect
+        antimatter particle + effect
+        dark matter particle + effect
+      ]
+      [
+        hypothetical subatomic particle
+        antimatter particle
+        dark matter particle
+      ]
+      [
+        force of hypothetical subatomic particle
+        force of antimatter particle
+        force of dark matter particle
+      ]
+    ]
+  ]
+  ty: [ // sense of wonder/enthrallment
+    [
+      [
+        feel wonder
+        sense of magic
+        cause of wonder
+      ]
+      process focus
+      experiential state focus
+    ]
+    awe/worship
+  ]
+  ţ: [ // head
+    [
+      [
+        head as gestalt
+        head as seat of brain/mind
+        head as interface of body
+      ]
+      [
+        head as physical body part
+        head as physical seat of brain
+        head as "top" part
+      ]
+      [
+        head as functional body part
+        head as functional seat of mind
+        head as vital seat of identity
+      ]
+    ]
+    non-animal
+  ]
+  ţb: ["@ţq" "bounciness"]
+  ţc: [ // affective/non-volitional mental state/process
+    [
+      [
+        mood
+        instinct
+        phychic phenomenon
+      ]
+      state focus
+      content focus
+    ]
+    [
+      [
+        rationalize
+        delusion
+        dream
+      ]
+      state focus
+      content focus
+    ]
+  ]
   ţc': [ // sympathy/pity/empathy/compassion
     [
       [
@@ -5403,7 +5719,26 @@
       target focus
     ]
   ]
-  ţč: degree of pain/loss/dissatisfaction/misery
+  ţč: [ // degree of pain/loss/dissatisfaction/misery
+    [
+      [
+        degree of physical pain
+        degree of emotional pain
+        degree of physical dissatisfaction/lack
+      ]
+      feeling focus
+      cause focus
+    ]
+    [
+      [
+        degree of spiritual displeasure
+        degree of misery
+        degree of emotional dissatisfaction
+      ]
+      feeling focus
+      cause focus
+    ]
+  ]
   ţg: [ // motive/incentive/enticement/pursuasion
     [
       [
@@ -5424,20 +5759,59 @@
       content focus
     ]
   ]
-  ţk: three
-  ţk': commitment/loyalty
-  ţkh: flexibility/rigidity (ERROR)
-  ţkhw: spinach
-  ţkl: laughning gas
-  ţkř: helium
-  ţky: wheat
-  ţl: numbness/emotional saturation
-  ţlw: hydrogen
-  ţly: chlorine
-  ţmw: garlic
-  ţmy: carbon monoxide
-  ţn: time period/duration
-  ţny: lime
+  ţk: ["@num" "3"]
+  ţk': ["@pk" "commitment"]
+  ţkh: ["@ţq" "flexibility"]
+  ţkhw: ["+qw" "spinach"]
+  ţkl: ["@sl" "nitrous oxide"]
+  ţkř: ["@sl" "helium"]
+  ţky: ["+qw" "wheat"]
+  ţl: ["@pk" "numbness/emotional saturation"]
+  ţlw: ["@sl" "hydrogen"]
+  ţly: ["@sl" "chlorine"]
+  ţm: [ // 2D shapes
+    [
+      [
+        strip
+        plane
+        tube
+      ]
+      abstract
+      object
+    ]
+    [
+      [
+        ribbon shape
+        sheet shape
+        flexible tube shape
+      ]
+      abstract
+      object
+    ]
+  ]
+  ţmw: ["+qw" "garlic"]
+  ţmy: ["@sl" "carbon monoxide"]
+  ţn: [ // time period/duration
+    [
+      [
+        period longer than day
+        lunar period
+        solar year
+      ]
+      elapsed time focus
+      time during which
+    ]
+    [
+      [
+        subjective long period
+        geologic era
+        lifetime
+      ]
+      elapsed time focus
+      time during which
+    ]
+  ]
+  ţny: ["@xl" "lime"]
   ţp: [ // degree of cleanliness
     [
       [
@@ -5456,27 +5830,27 @@
       ]
     ]
   ]
-  ţpf: talc
-  ţph: nonchalance
-  ţphw: sorghum
-  ţpļ: methanol
-  ţpř: nitrogen
-  ţpţ: fluorine
-  ţpw: baking soda
-  ţq: consistency/plasticity/rheological phenomenon
-  ţq': crumble/fall apart/coherence/cohesiveness
-  ţqf: radon
-  ţqh: torpor/lethargy
-  ţqhw: lentil
-  ţqţ: argon
-  ţr: table sugar
-  ţř: edge
-  ţt: flaccidity/rigidity
-  ţt': fragility/strength
-  ţth: brittleness/resiliency
-  ţtl: neon
-  ţtř: xenon
-  ţv: jiggliness/immobility
+  ţpf: ["@xl" "talc"]
+  ţph: ["@pk" "nonchalance"]
+  ţphw: ["+qw" "sorghum"]
+  ţpļ: ["@xl" "methanol"]
+  ţpř: ["@sl" "nitrogen"]
+  ţpţ: ["@sl" "fluorine"]
+  ţpw: ["@xl" "baking soda"]
+  ţq: ["@ţq" "consistency"]
+  ţq': ["@ţq" "crumbliness"]
+  ţqf: ["@sl" "radon"]
+  ţqh: ["@pk" "lethargy"]
+  ţqhw: ["+qw" "lentil"]
+  ţqţ: ["@sl" "argon"]
+  ţr: ["@xl" "table sugar"]
+  ţř: ["@g" "edge"]
+  ţt: ["@ţq" "flaccidity"]
+  ţt': ["@ţq" "flimsiness"]
+  ţth: ["@ţq" "brittleness"]
+  ţtl: ["@sl" "neon"]
+  ţtř: ["@sl" "xenon"]
+  ţv: ["@ţq" "jiggliness"]
   ţw: weather condition
   ţx: compressability/stiffness
   ţxh: [ //smugness/conceit/foppishness
