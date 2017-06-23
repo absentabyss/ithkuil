@@ -636,7 +636,7 @@
     ]
     figurative
   ]
-  by: ["@vr" "dog"]
+  by: ["@sk" "dog"]
   bz: [ // describe
     [
       [
@@ -2620,7 +2620,7 @@
   ]
   ļp: ["@ţq" "sponginess"]
   ļp': ["@ţq" "buoyancy"]
-  ļph: ["@xw'" "ochre"]
+  ļph: ["@xt'" "ochre"]
   ļq: ["@xl" "tin"]
   ļq': ["@ţq" "spreadability"]
   ļqh: ["@ţq" "deformability"]
@@ -4954,7 +4954,7 @@
   str: ["@xl" "diamond"]
   stv: ["@xt'" "cyan"]
   stw: ["+qw" "rice"]
-  st:' ["+qw" "peanut"]
+  st': ["+qw" "peanut"]
   sty: ["+qw" "bean"]
   sv: ["@pk" "fear"]
   sw: [ // planetary body
@@ -5851,8 +5851,27 @@
   ţtl: ["@sl" "neon"]
   ţtř: ["@sl" "xenon"]
   ţv: ["@ţq" "jiggliness"]
-  ţw: weather condition
-  ţx: compressability/stiffness
+  ţw: [ //weather condition
+    [
+      [
+        weather condition
+        warm amenable weather
+        cold amenable weather
+      ]
+      condition itself
+      impact
+    ]
+    [
+      [
+        adverse weather condition
+        warm adverse weather
+        cold adverse weather
+      ]
+      condition itself
+      impact
+    ]
+  ]
+  ţx: ["@ţq" "stiffness"]
   ţxh: [ //smugness/conceit/foppishness
     [
       [
@@ -5865,8 +5884,8 @@
     ]
     self-aware
   ]
-  ţxhw: yam
-  ţy: benevolence
+  ţxhw: ["+qw" "yam"]
+  ţy: ["@pk" "benevolence"]
   v: [ // play/recreation/leisure
     [
       [
@@ -5887,23 +5906,96 @@
       enjoyment focus
     ]
   ]
-  vbr: elephant
-  vdr: wolf
-  vg: helmet
-  vgl: linoleum
-  vgr: kangaroo
-  vgř: graphite
-  vgw: deer
-  vgy: acetone
-  vkr: zebra
-  vkř: emery powder
-  vkw: mule
-  vky: sesame
-  vl: contain/hold/contents
-  vm: curvature/bending/open linear forms
-  vn: degree of fun/joviality
-  vpţ: epsom salts
-  vr: generic waterlife
+  vbr: ["@sk" "elephant"]
+  vdr: ["@sk" "wolf"]
+  vg: ["@gv" "helmet"]
+  vgl: ["@xl" "linoleum"]
+  vgr: ["@sk" "kangaroo"]
+  vgř: ["@xl" "graphite"]
+  vgw: ["@sk" "deer"]
+  vgy: ["@xl" "acetone"]
+  vkr: ["@sk" "zebra"]
+  vkř: ["@xl" "emery powder"]
+  vkw: ["@sk" "mule"]
+  vky: ["+qw" "sesame"]
+  vl: [ // contain/hold/contents
+    [
+      [
+        basin + contents
+        closed container + contents
+        ingredient-haver + ingredient
+      ]
+      [
+        contents of basin
+        contents of closed container
+        ingredient
+      ]
+      [
+        basin
+        closed container
+        ingredient-haver
+      ]
+    ]
+    quasi-permanent
+  ]
+  vm: [ // curvature/bending/open linear forms
+    [
+      [
+        obtuse curve + object
+        sharp curve + object
+        math curve + object
+      ]
+      [
+        obtuse curve line
+        sharp curve line
+        math curve line
+      ]
+      [
+        object with obtuse curve
+        object with sharp curve
+        object with math curve
+      ]
+    ]
+    [
+      [
+        obtuse angle + object
+        sharp angle + object
+        linear form + object
+      ]
+      [
+        obtuse angle line
+        sharp angle line
+        linear form pattern
+      ]
+      [
+        object with obtuse angle
+        object with sharp angle
+        object with linear form
+      ]
+    ]
+  ]
+  vn: [ // degree of fun/joviality
+    [
+      [
+        fun
+        frolic
+        whim
+      ]
+      cause focus
+      feeling focus
+    ]
+    [
+      [
+        jollity
+        formal amusement
+        revelry
+      ]
+      cause focus
+      feeling focus
+    ]
+  ]
+  vpţ: ["@xl" "epsom salts"]
+  vr: ["@vr" "waterlife"]
   vř: [ // modesty/humility
     [
       [
@@ -5917,14 +6009,44 @@
     self-aware
   ]
   vtr: ["@pk" "calmness"]
-  vty: millet
+  vty: ["+qw" "millet"]
   vv: ["@pk" "appreciation"]
-  vw: heart/essence/values
-  vy: good/beneficial
+  vw: [ // heart/essence/values
+    [
+      [
+        emotional heart/soul
+        depth of emotion
+        essence
+      ]
+      controllable aspects
+      non-controllable aspects
+    ]
+    [
+      [
+        personal values
+        personal virtues
+        personal principles
+      ]
+      controllable aspects
+      non-controllable aspects
+    ]
+  ]
+  vy: [ // good/beneficial
+    [
+      [
+        beneficial
+        morally right
+        advantageous
+      ]
+      focus on act
+      focus on outcome
+    ]
+    concrete
+  ]
   vzm: ["@pk" "being consumed by morbid toughts"]
-  vžř: washing soda
-  vžv: zinc white
-  vzy: potash
+  vžř: ["@xl" "washing soda"]
+  vžv: ["@xl" "zinc white"]
+  vzy: ["@xl" "potash"]
   x: [ // vision
     [
       [
@@ -5961,11 +6083,81 @@
       ]
     ]
   ]
-  xč: weapon
-  xchw: tea
-  xčw: fluorspar
-  xč:' wgypsum
-  xh: fact/know/learn/understand/expertise
+  xč: [ // weapon
+    [
+      [
+        bladed weapon + use
+        point-tip weapon + use
+        blunt weapon + use
+      ]
+      [
+        bladed weapon
+        point-tip weapon
+        blunt weapon
+      ]
+      [
+        use of bladed weapon
+        use of point-tip weapon
+        use of blunt weapon
+      ]
+    ]
+    [
+      [
+        ballistic projectile + use
+        explosive device + use
+        chemical weapon + use
+      ]
+      [
+        ballistic projectile
+        explosive device
+        chemical weapon
+      ]
+      [
+        use of ballistic projectile
+        use of explosive device
+        use of chemical weapon
+      ]
+    ]
+  ]
+  xchw: ["+qw" "tea"]
+  xčw: ["@xl" "fluorspar"]
+  xč': ["@xl" "gypsum"]
+  xh: [ // fact/know/learn/understand/expertise
+    [
+      [
+        ontological fact + notice
+        epistemological fact + know
+        proficiency + know
+      ]
+      [
+        notice a fact
+        know a fact
+        have proficiency
+      ]
+      [
+        ontological fact
+        epistemological fact
+        proficiency
+      ]
+    ]
+    [
+      [
+        study + thing studied
+        realize + thing realized
+        understand + thing understood
+      ]
+      [
+        study
+        realize
+        understand
+      ]
+      [
+        thing studied
+        thing realized
+        thing understood
+      ]
+    ]
+  ]
   xhč': [ // stupidity/intellectual failure
     [
       [
@@ -5978,8 +6170,8 @@
     ]
     self-aware
   ]
-  xhchw: teff
-  xhčw: ginseng
+  xhchw: ["+qw" "teff"]
+  xhčw: ["+qw" "ginseng"]
   xhf: [ // intention/decision/determination/purpose
     [
       [
@@ -6000,10 +6192,10 @@
       conclusion focus
     ]
   ]
-  xhl: oil (petroleum)
-  xhly: rare natural element
-  xhm: rubber
-  xhmy: saspirin
+  xhl: ["@xl" "petroleum"]
+  xhly: ["@xl" "rare natural element"]
+  xhm: ["@xl" "rubber"]
+  xhmy: ["@xl" "aspirin"]
   xhn: [ // existencial irony
     [
       [
@@ -6024,8 +6216,8 @@
       focus on state of subject
     ]
   ]
-  xhnw: hemp
-  xhny: silica
+  xhnw: ["@xl" "hemp/marijuana"]
+  xhny: ["@xl" "silica"]
   xhp: [ // functional well-formedness/perfection/aesthetic satisfaction
     [
       [
@@ -6082,33 +6274,172 @@
       ]
     ]  ]
 
-  xhpř: saltpeter
-  xhpw: soya
-  xht: plastic
-  xht': copper
-  xhth: iron
-  xhtr: hot pepper
-  xhtř: magnesia
-  xhtw: tobacco
-  xht:' wamaranth
-  xhw: black pepper
-  xl: (quasi-)solid substance
-  xlw: yellow-green
-  xm: nine
-  xmy: lye
-  xn: back/dorsal area of the body
-  xp: 1D shapes
-  xphw: kelp
-  xpw: onion
-  xp:' woat
-  xr: gold
-  xt: effort/work
-  xt': red
-  xth: master/authority/servitude/obedience
-  xthw: mustard
-  xtļ: liquid (other than water) in static setting
-  xw: water in stating setting
-  xx: repute/notoriety
+  xhpř: ["@xl" "saltpeter"]
+  xhpw: ["+qw" "soya"]
+  xht: ["@xl" "plastic"]
+  xht': ["@xl" "copper"]
+  xhth: ["@xl" "iron"]
+  xhtr: ["+qw" "hot pepper"]
+  xhtř: ["@xl" "magnesia"]
+  xhtw: ["+qw" "tobacco"]
+  xht': ["+qw" "amaranth"]
+  xhw: ["+qw" "black pepper"]
+  xl: ["@xl" "solid substance"]
+  xlw: ["@xt'" "yellow-green"]
+  xm: ["@num" "9"]
+  xmy: ["@xl" "lye"]
+  xn: [ // back/dorsal area of the body
+    [
+      [
+        dorsal area
+        lower back
+        upper back
+      ]
+      body part
+      function
+    ]
+    non-animal
+  ]
+  xp: [ // 1D shapes
+    [
+      [
+        dot
+        line
+        hoop
+      ]
+      abstract
+      object
+    ]
+    [
+      [
+        flexible dot
+        string
+        loop
+      ]
+      abstract
+      object
+    ]
+  ]
+  xphw: ["+qw" "kelp"]
+  xpw: ["+qw" "onion"]
+  xp': ["+qw" "oat"]
+  xr: ["@xl" "gold"]
+  xt: [ // effort/work
+    [
+      [
+        expend energy
+        labor
+        craftsmanship
+      ]
+      activity
+      product
+    ]
+    [
+      [
+        perform function
+        do one's job
+        act of industry
+      ]
+      activity
+      product
+    ]
+  ]
+  xt': ["@xt'" "red"]
+  xth: [ // master/authority/servitude/obedience
+    [
+      [
+        mastery/servitude
+        supervision/following orders
+        leadership/following leadership
+      ]
+      [
+        mastery
+        supervision
+        leadership
+      ]
+      [
+        servitude
+        following orders
+        following leadership
+      ]
+    ]
+    [
+      [
+        military command/obedience
+        lordship/submission
+        formal authority/compliance
+      ]
+      [
+        military command
+        lordship
+        formal authority
+      ]
+      [
+        military obedience
+        submission to lordship
+        compliance to authority
+      ]
+    ]
+  ]
+  xthw: ["+qw" "mustard"]
+  xtļ: ["@xw" "non-water"]
+  xw: ["@xw" "water"]
+  @xw: [ // liquid in stating setting
+    [
+      [
+        container of @
+        @ in confined space
+        drenched with @
+      ]
+      [
+        @ in container
+        degree of @ moisture contained
+        @ imbued in object
+      ]
+      [
+        container holding @
+        space occupied by @
+        object imbued with @
+      ]
+    ]
+    [
+      [
+        body of @
+        atmospheric @ (moisture)
+        artificial body of @
+      ]
+      [
+        @ in body of @
+        @ in air/atmosphere
+        @ in artificial body of @
+      ]
+      [
+        bed of body of @
+        space containing @ moisture
+        bed of artificial body of @
+      ]
+    ]
+  ]
+  xx: [ // repute/notoriety
+    [
+      [
+        reputation
+        public image
+        notoriety
+      ]
+      perspective of person reputed
+      perspective of audience
+    ]
+    [
+      [
+        distinction/mark
+        degree of eminence
+        degree of prestige
+      ]
+      perspective of person reputed
+      perspective of audience
+    ]
+  ]
   z: mind
   zb: conflict-based hostility
   zbr: ["@pk" "emotional drainedness"]
