@@ -2592,12 +2592,12 @@
       sound focus
     ]
   ]
-  lž: ["@ţq" "stretchability"]
+  lž: ["@lb" "stretchability"]
   lzw: ["@sk" "goose"]
   lżw: ["@sk" "gila monster"]
   ļkh: ["@xt'" "ecru"]
-  ļļ: ["@ţq" "flabbiness"]
-  ļm: ["@ţq" "springiness"]
+  ļļ: ["@ţq" "compactness"]
+  ļm: ["@ţq" "inertness (vs. springiness)"]
   ļn: [ // classes of land, air animal
     [
       [
@@ -2618,13 +2618,13 @@
     ]
     domesticated
   ]
-  ļp: ["@ţq" "sponginess"]
+  ļp: ["@ţq" "stiffness (vs. sponginess)"]
   ļp': ["@ţq" "buoyancy"]
   ļph: ["@xt'" "ochre"]
   ļq: ["@xl" "tin"]
   ļq': ["@ţq" "spreadability"]
   ļqh: ["@ţq" "deformability"]
-  ļw: ["@ţq" "elasticity"]
+  ļw: ["@ţq" "rigidity (vs. elasticity)"]
   m: [ // appearance, semblance, impression
     [
       [
@@ -5678,7 +5678,7 @@
     ]
     non-animal
   ]
-  ţb: ["@ţq" "bounciness"]
+  ţb: ["@ţq" "inertness (vs. bounciness)"]
   ţc: [ // affective/non-volitional mental state/process
     [
       [
@@ -5761,7 +5761,7 @@
   ]
   ţk: ["@num" "3"]
   ţk': ["@pk" "commitment"]
-  ţkh: ["@ţq" "flexibility"]
+  ţkh: ["@ţq" "stiffness (vs. suppleness)"]
   ţkhw: ["+qw" "spinach"]
   ţkl: ["@sl" "nitrous oxide"]
   ţkř: ["@sl" "helium"]
@@ -5838,19 +5838,19 @@
   ţpţ: ["@sl" "fluorine"]
   ţpw: ["@xl" "baking soda"]
   ţq: ["@ţq" "consistency"]
-  ţq': ["@ţq" "crumbliness"]
+  ţq': ["@ţq" "cohesiveness (vs. crumbliness)"]
   ţqf: ["@sl" "radon"]
   ţqh: ["@pk" "lethargy"]
   ţqhw: ["+qw" "lentil"]
   ţqţ: ["@sl" "argon"]
   ţr: ["@xl" "table sugar"]
   ţř: ["@g" "edge"]
-  ţt: ["@ţq" "flaccidity"]
-  ţt': ["@ţq" "flimsiness"]
-  ţth: ["@ţq" "brittleness"]
+  ţt: ["@ţq" "stiffness (vs. flaccidity)"]
+  ţt': ["@ţq" "resiliency (vs. flimsiness)"]
+  ţth: ["@ţq" "resiliency (vs. brittleness)"]
   ţtl: ["@sl" "neon"]
   ţtř: ["@sl" "xenon"]
-  ţv: ["@ţq" "jiggliness"]
+  ţv: ["@ţq" "inertness (vs. jiggliness)"]
   ţw: [ //weather condition
     [
       [
@@ -6440,21 +6440,119 @@
       perspective of audience
     ]
   ]
-  z: mind
-  zb: conflict-based hostility
+  z: [ // mind
+    [
+      [
+        mind + use
+        perception + use
+        instinct + use
+      ]
+      [
+        mind
+        perception
+        instinct
+      ]
+      [
+        use of mind
+        perceive
+        instinctive act
+      ]
+    ]
+    [
+      [
+        sentience + use
+        conscious + subconscious
+        intellect as tool
+      ]
+      [
+        feeling of sentience
+        conscious mind
+        intellect
+      ]
+      [
+        act of self-reflection
+        subconscious mind
+        product of one's intellect
+      ]
+    ]
+  ]
+  zb: [ // conflict-based hostility
+    [
+      [
+        feel/show anger
+        threaten
+        defend (self) + reason
+      ]
+      [
+        feeling of anger
+        cause for threat
+        cause of defensive act
+      ]
+      [
+        show anger
+        effect of threat
+        take defensive action
+      ]
+    ]
+    authoritative
+  ]
   zbr: ["@pk" "emotional drainedness"]
-  zbř: iodine
+  zbř: ["@xl" "iodine"]
   zbw: ["@š" "hairy texture"]
-  zd: manners/decorum/dignity
-  zdl: formalin
-  zdr: bear
-  zdř: milk of magnesium
-  zdw: coyote
-  zdy: benzene
-  zg: tragicomic-based vocal/facial gesture
-  zgr: donkey
-  zgř: unstable heavy element
-  zgw: sheep
+  zd: [ // "manners/decorum/dignity
+    [
+      [
+        well-mannered
+        dignified
+        noble
+      ]
+      cause focus
+      effect focus
+    ]
+    [
+      [
+        decorum
+        courtly
+        aristocratic
+      ]
+      cause focus
+      effect focus
+    ]
+  ]
+  zdl: ["@xl" "formalin"]
+  zdr: ["@sk" "bear"]
+  zdř: ["@xl" "milk of magnesium"]
+  zdw: ["@sk" "coyote"]
+  zdy: ["@xl" "benzene"]
+  zg: [ // tragicomic-based vocal/facial gesture
+    [
+      [
+        smile
+        laugh
+        light up (face)
+      ]
+      physical process
+      [
+        smile (emotional/social)
+        laugh (sound)
+        light up (emotional/social)
+      ]
+    ]
+    [
+      frown
+      whine
+      look dejected
+    ]
+    physical
+    [
+      frown (emotional/social)
+      whine (sound)
+      look dejected (emotional/social)
+    ]
+  ]
+  zgr: ["@sk" "donkey"]
+  zgř: ["@xl" "radioactive heavy element"]
+  zgw: ["@sk" "sheep"]
   zj: [ // nervousness/timidity
     [
       [
@@ -6507,40 +6605,135 @@
     ]
     formal
   ]
-  zm: ten thousand
-  zmy: isopropane
+  zm: ["@num" "10,000"]
+  zmy: ["@xl" "isopropanol"]
   zn: ["@š" "heat conductive texture"]
   zň: ["@š" "slimy texture"]
   zp: ["@š" "rubbery texture"]
-  zp': carrot
-  zph: asbestos
+  zp': ["+qw" "carrot"]
+  zph: ["@xl" "asbestos"]
   zq: ["@š" "slippery texture"]
-  zq': brass
-  zqh: vinegar
-  zr: throat/gullet
-  zt: coal
-  zv: romantic and/or sexual relationship
-  zvw: natural chemical element
-  zvy: actinide element
-  zw: top, peak, summit
+  zq': ["@xl" "brass"]
+  zqh: ["@xl" "vinegar"]
+  zr: [ // throat/gullet
+    [
+      [
+        throat
+        gullet
+        interior of throat
+      ]
+      physical
+      function
+    ]
+    non-animal
+  ]
+  zt: ["@xl" "coal"]
+  zv: [ // romantic and/or sexual relationship
+    [
+      [
+        state of sexual/romantic relationship
+        perform sexual activity
+        to date/court
+      ]
+      [
+        sexual/romantic relationship itself
+        sexual activity itself
+        act involved in dating/courtship
+      ]
+      [
+        emotional basis of sexual relationship
+        lust/motive of sexual act
+        motive underlying courtship
+      ]
+    ]
+    [
+      [
+        significant other
+        partner in sex
+        partner in dating
+      ]
+      [
+        boyfriend
+        male lover
+        male date
+      ]
+      [
+        girlfriend
+        female lover
+        female date
+      ]
+    ]
+  ]
+  zvw: ["@xl" "barium/caesium/hafnium/…"]
+  zvy: ["@xl" "actinide"]
+  zw: ["@g" "top"]
   zy: ["@š" "wispy texture"]
   zz: ["@š" "soft like a cushion texture"]
-  ż: day/night
-  żb: tar
-  żg: steel
+  ż: [ // day/night
+    [
+      [
+        24-hour day
+        sky
+        degree of sunlight
+      ]
+      [
+        daytime
+        daytime sky
+        daylight
+      ]
+      [
+        nighttime
+        night sky
+        natural darkness
+      ]
+    ]
+    calendrical
+  ]
+  żb: ["@xl" "tar"]
+  żg: ["@xl" "steel"]
   żk: ["@š" "honeycombed texture"]
   żk': ["@š" "prickly texture"]
-  żn: growth/cultivation/husbandry
-  żp': jade
+  żn: [ // growth/cultivation/husbandry
+    [
+      [
+        grow
+        raise/foster
+        nurture
+      ]
+      act focus
+      effect focus
+    ]
+    plant
+  ]
+  żp': ["@xl" "jade"]
   żph: ["@š" "cartilaginous texture"]
   żq: ["@š" "cactus texture"]
-  żq': plutonium
+  żq': ["@xl" "plutonium"]
   żqh: ["@š" "granular texture"]
   żr: ["@š" "bristly texture"]
-  żř: quartz
+  żř: ["@xl" "quartz"]
   żt: ["@š" "pins and needle texture"]
-  żv: potato
-  ž: love/affection/emotional bond
+  żv: ["+qw" "potato"]
+  ž: [ // love/affection/emotional bond
+    [
+      [
+        act of affection
+        familial love
+        romantic love
+      ]
+      act focus
+      feeling focus
+    ]
+    [
+      [
+        like emotionally
+        love of country/heritage
+        love of idea
+      ]
+      act focus
+      feeling focus
+    ]
+  ]
   žb: ["@š" "feathery texture"]
   žbř: ["@š" "sponge-like texture"]
   žd: ["@š" "slushy texture"]
@@ -6549,16 +6742,35 @@
   žg: ["@š" "mushy texture"]
   žgl: ["@š" "woolly texture"]
   žgr: ["@š" "dusty texture"]
-  žgy: ammonia
+  žgy: ["@xl" "ammonia"]
   žk': ["@š" "viscous texture"]
   žl: ["@pk" "surprise"]
-  žlw: plaster
-  žm: pride/ego/respect
-  žmy: synthetic heavy element
-  žny: heavy lanthanide element
+  žlw: ["@xl" "plaster"]
+  žm: [ // pride/ego/respect
+    [
+      [
+        self-pride
+        pride in other
+        one's sensibilities
+      ]
+      cause focus
+      feeling focus
+    ]
+    [
+      [
+        self-esteem
+        respect
+        sense of ego
+      ]
+      cause focus
+      feeling focus
+    ]
+  ]
+  žmy: ["@xl" "rutherfordium/dubnium/seaborgium/…"]
+  žny: ["@xl" "heavy lanthanide"]
   žph: ["@š" "powdery texture"]
   žq: ["@š" "tingly texture"]
-  žq': uranium
+  žq': ["@xl" "uranium"]
   žqh: ["@š" "sticky texture"]
   žr: [ // intelligent/astute/perspicacious
     [
@@ -6572,7 +6784,6 @@
     ]
     self-aware
   ]
-  žr: balance/equilibrium/symmetry/homeostasis
   žv: [ // balance
     [
       [
@@ -6593,7 +6804,7 @@
       consequence focus
     ]
   ]
-  žvw: lanthanide element
+  žvw: ["@xl" "lanthanide"]
   žw: ["@š" "fur texture"]
-  žy: curvaceous/sensual
+  žy: ["@š" "curvaceous/sensual texture"]
 }
