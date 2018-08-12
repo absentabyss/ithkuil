@@ -65,16 +65,205 @@
     indistinguishable
   ]
   DEX: [
-    yonder (near nobody)
-    there (by 3rd party)
-    there (by listener)
-    here (by speaker)
+    yonder (near nobody, inaccessible)
+    there (by 3rd party, inaccessible)
+    there (by listener, inaccessible)
+    here (by speaker, inaccessible)
     here (by speaker, accessible)
     here with us (by S+L, accessible)
     there (by listener, accessible)
     there (by 3rd party, accessible)
-    yonder (near nobody but accessible)
+    yonder (near nobody, accessible)
   ]
+  DXX: [
+    scattered all over yonder, inaccessible
+    scattered all about listener, inaccessible
+    scattered all about speaker, inaccessible
+    scattered all about speaker, observ but inacc
+    scattered thru speaker, inalienable
+    scattered thru speaker, alienable
+    scattered all about speaker, accessible
+    scattered all about listener, accessible
+    scattered all over yonder, accessible
+  ]
+  SEQ: [
+    first
+    second
+    third
+    not yet halfway
+    about halfway
+    near end
+    antepenultimate
+    penultimate
+    final
+  ]
+  SQT: [
+    previous
+    one before previous
+    the former
+    two before previous
+    this one
+    two after next
+    the latter
+    one after next
+    next
+  ]
+  SQC: [
+    originating
+    preliminary
+    preparatory
+    awaited
+    precursor to
+    based on and basis
+    at last
+    following
+    subsequent
+  ]
+  COO: [
+    including
+    also
+    and so forth
+    and simultaneously
+    and (series)
+    and/or
+    either or
+    or whatever
+    either or (series)
+  ]
+  CTR: [
+    nevertheless
+    not just... but also
+    even ...er
+    otherwise
+    as opposed to
+    but
+    however
+    rather
+    just in case
+  ]
+  DST: [
+    equally, unfairly
+    selected, unfairly
+    respectively, but differing unfairly
+    selectively at random, unfairly
+    respectively
+    selectively at random, fairly
+    respectively, but differing fairly
+    selected, fairly
+    equally, fairly
+  ]
+  TPI: [
+    momentary
+    temporary
+    for now (hours/days)
+    for now (weeks/months)
+    for some time to come (years)
+    for foreseeable future (decades)
+    in the long run (lifetimes)
+    through ages
+    eternal
+  ]
+  TPD: [
+    for some seconds
+    for a minute
+    for a few minutes
+    for a while (<hour)
+    for several hours
+    for today
+    for 1-2 days
+    for 2-4 days
+    for up to a week
+  ]
+  FRQ: [
+    never
+    rarely
+    seldom
+    now and then
+    frequently
+    usually
+    almost always
+    like clockwork
+    constantly
+  ]
+  TPR: [
+    nostalgic
+    in hindsight
+    upon reflection
+    at first blush
+    now that the time has come
+    expecting any moment now
+    expecting imminent
+    expecting soon
+    expecting some day
+  ]
+  TPP: [
+    once upon a time
+    a long time ago
+    recently
+    just past
+    presently
+    on the verge of
+    forthcoming
+    future, someday
+    in the remote future
+  ]
+  ATC: [
+    long-awaited
+    eagerly awaited
+    anticipated
+    up for it
+    waiting to
+    ambivalent about it
+    not looking forward to
+    dreaded
+    long-dreaded
+  ]
+  LAT: [
+    way too soon
+    too soon
+    a bit too soon
+    almost late
+    just in time
+    a little late
+    late
+    too late
+    way too late
+  ]
+  ITN: [
+    just once
+    once more
+    again and again, habit
+    again and again, periodic
+    at irregular intervals
+    back again
+    intermittently
+    repeatedly
+    constant cycle
+  ]
+  RPN: [
+    slow regular repeat
+    slow irregular repeat
+    slow mixed repeat
+    mid regular repeat
+    mid irregular repeat
+    mid mixed repeat
+    fast regular repeat
+    fast irregular repeat
+    fast mixed repeat
+  ]
+  CAL: [
+    n-th day of week
+    n-th day of month
+    n-th day of year
+    n-th week of month
+    n-th month of year
+    n-th year
+    n-th decade of century
+    n-th century
+    n-th millenium
+  ]
+
+
   UTE: [
     tool specifically for...
     medium through which...
@@ -109,14 +298,14 @@
     the purpose of...
   ]
   OSQ: [
-    wished for but hasn't happened yet
-    missed out on (wanted to act but couldn't)
-    missed out on (ignored)
-    squandered (attempt to act was unsuccessful)
-    missed out on (hasn't happened and probably won't)
-    squandered (acted upon situation incorrectly)
-    squandered (attempt to act was thwarted by others)
-    missed out on (uninformed of opportunity)
+    wished for but hasn't happened
+    missed out (wanted but couldn't)
+    missed out (ignored)
+    squandered (attempt unsuccessful)
+    missed out (no opportunity)
+    squandered (incompetence)
+    squandered (attempt thwarted)
+    missed out (uninformed)
     won and lost
   ]
   SEN: [
@@ -127,8 +316,8 @@
     normal/sensible
     somewhat predictable
     predictable
-    a characature of...
-    clockwork
+    like caricature of...
+    predictable as clockwork
   ]
   MEM: [
     unforgettable
@@ -137,8 +326,8 @@
     reminded of...
     almost remembered
     slipped from mind
-    forgotten (despite attempt to remember)/forget how to...
-    forgotten (does not try to remember)
+    forgotten (try remember)
+    forgotten (no try to remember)
     long-forgotten
   ]
   TRS: [
@@ -147,8 +336,8 @@
     provisionally reliable
     naively trusted
     trusted based on hope/faith/intuition
-    skeptical but willin to trust in...
-    skeptical of...
+    skeptical but willing to trust
+    skeptical
     unreliable
     utterly untrustworthy
   ]
@@ -175,25 +364,25 @@
     mess caused by...
   ]
   SNM: [
-    semantic network (+ relationships) of places associated with...
-    semantic network (+ relationships) of places and objects associated with...
-    semantic network (+ relationships) of objects associated with...
-    semantic network of entities associated with...
-    semantic network (+ relationships) associated with...
-    semantic network of relationships to other entities associated of with...
-    semantic network (+ relationships) of persons associated with...
-    semantic network (+ relationships) of persons and concepts associated with...
-    semantic network (+ relationships) of concepts associated with...
+    place rel network
+    place/object rel network
+    object rel network
+    entity network
+    semantic network
+    entity rel network
+    person rel network
+    person/concept rel network
+    concept rel network
   ]
   ERN: [
-    individual concept within semantic network of...
-    individual place within semantic network of...
-    individual object within semantic network of...
-    individual person within semantic network of...
-    individual entity within semantic network of...
-    individual relationship within semantic network of...
-    individual person (+ relationship) associated with semantic network of...
-    individual place (+ relationship) within semantic network of...
-    individual concept (+ relationship) within semantic network of...
+    a concept in X network
+    a place in X network
+    a object in X network
+    a person in X network
+    a entity in X network
+    a relationship in X network
+    a person+rel in X network
+    a place+rel in X network
+    a concept+rel in X network
   ]
 }
