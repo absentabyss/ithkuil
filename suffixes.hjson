@@ -262,8 +262,524 @@
     n-th century
     n-th millenium
   ]
+  DGR: [
+    unknowable degree
+    unknown degree
+    impossible to determine degree
+    nowhere near desired degree
+    hard to determine degree
+    fluctuating degree
+    vaguely in range
+    approximately
+    exactly
+  ]
+  PTW: [
+    (contiguous) no amount of
+    (contiguous) tiny bit of
+    (contiguous) a bit of
+    (contiguous) some
+    (contiguous) a fair number of
+    (contiguous) a lot of
+    (contiguous) a whole lot of
+    (contiguous) most of
+    (contiguous) all of
+  ]
+  PTT: [
+    (intermixed) no amount of
+    (intermixed) tiny bit of
+    (intermixed) a bit of
+    (intermixed) some
+    (intermixed) a fair number of
+    (intermixed) a lot of
+    (intermixed) a whole lot of
+    (intermixed) most of
+    (intermixed) all of
+  ]
+  CNM: [
+    jar of X
+    dispensor of X
+    can of X
+    carton of X
+    natural mass of X
+    pack of X
+    pile of X
+    X-ful of
+    embodiment of X
+  ]
+  SUF: [
+    not at all sufficient
+    way too few
+    not enough
+    not quite enough
+    enough
+    a little too much
+    too much
+    way too much
+    inundated with
+  ]
+  EXN: [
+    not at all
+    hardly
+    somewhat
+    less so than usual
+    normal amount
+    more so than usual
+    way more so than usual
+    almost max extent
+    maximal extent
+  ]
+  EXD: [
+    decreasingly
+    a lot less
+    less
+    a little less
+    fluctuating degree
+    a little more
+    more
+    a lot more
+    increasingly
+  ]
 
+  // Modulative suffixes
+  RCO: [
+    recoil not enough
+    recoil hardly
+    recoil slightly
+    recoil less than usual
+    recoil
+    recoil more than usual
+    recoil greatly
+    recoil enormously
+    recoil too hard
+  ]
+  TFI: [
+    wiggle not enough
+    wiggle hardly
+    wiggle slightly
+    wiggle less than usual
+    wiggle
+    wiggle more than usual
+    wiggle greatly
+    wiggle enormously
+    wiggle too hard
+  ]
+  TFV: [
+    zigzag not enough
+    zigzag hardly
+    zigzag slightly
+    zigzag less than usual
+    zigzag
+    zigzag more than usual
+    zigzag greatly
+    zigzag enormously
+    zigzag too hard
+  ]
+  CRI: [
+    revolve not enough
+    revolve hardly
+    revolve slightly
+    revolve less than usual
+    revolve
+    revolve more than usual
+    revolve greatly
+    revolve enormously
+    revolve too hard
+  ]
+  CRV: [
+    roll not enough
+    roll hardly
+    roll slightly
+    roll less than usual
+    roll
+    roll more than usual
+    roll greatly
+    roll enormously
+    roll too hard
+  ]
+  MDL: [
+    stumble not enough
+    stumble hardly
+    stumble slightly
+    stumble less than usual
+    stumble
+    stumble more than usual
+    stumble greatly
+    stumble enormously
+    stumble too hard
+  ]
 
+  FLS: [
+    fluctuate inherently randomly
+    fluctuate highly randomly
+    fluctuate randomly
+    destabilizing
+    tend to fluctuate
+    stabilizing
+    moderately stable
+    highly stable
+    inherently stable
+  ]
+
+  ICR: [
+    increase imperceptibly
+    increase very slowly
+    increase slowly
+    increase somewhat slowly
+    increase
+    increase somewhat quickly
+    increase quickly
+    increase very rapidly
+    increase too fast to follow
+  ]
+  DCR: [
+    decrease imperceptibly
+    decrease very slowly
+    decrease slowly
+    decrease somewhat slowly
+    decrease
+    decrease somewhat quickly
+    decrease quickly
+    decrease very rapidly
+    decrease too fast to follow
+  ]
+  ICD: [
+    increase then decrease (imperceptibly)
+    increase then decrease (very slowly)
+    increase then decrease (slowly)
+    increase then decrease (somewhat slowly)
+    increase then decrease
+    increase then decrease (somewhat quickly)
+    increase then decrease (quickly)
+    increase then decrease (very rapidly)
+    increase then decrease (too fast to follow)
+  ]
+  DCI: [
+    decrease then increase (imperceptibly)
+    decrease then increase (very slowly)
+    decrease then increase (slowly)
+    decrease then increase (somewhat slowly)
+    decrease then increase
+    decrease then increase (somewhat quickly)
+    decrease then increase (quickly)
+    decrease then increase (very rapidly)
+    decrease then increase (too fast to follow)
+  ]
+  IDR: [
+    vary imperceptibly
+    vary very slowly
+    vary slowly
+    vary somewhat slowly
+    vary
+    vary somewhat quickly
+    vary quickly
+    vary very rapidly
+    vary too fast to follow
+  ]
+
+  MVT: [
+    integrated
+    too heavy to move
+    hard to move
+    inclined to stillness
+    holding still
+    moving around a bit
+    moving around in one place
+    moving around
+    unable to keep still
+  ]
+
+  SIZ: [
+    too small
+    tiny
+    little
+    undersized
+    oversized
+    big
+    very big
+    enormous
+    too big
+  ]
+  SCO: [
+    particle of ...
+    runaway shrinkage of ...
+    alone
+    shrinking
+    concentrated
+    expanded
+    growing
+    runaway growth of ...
+    synergistic expansion
+  ]
+  AFT: [
+    cute
+    schmaltzy
+    kitschy
+    dear
+    lovely
+    esteemed
+    imperious
+    too grand
+    grand
+  ]
+  QUA: [
+    too poor
+    very poor
+    poor
+    not-so-good
+    so-so
+    good
+    very good
+    excellent
+    astoundingly well
+  ]
+  UNQ: [
+    trashy
+    tasteless
+    unexceptional
+    somewhat ordinary
+    somewhat special
+    special
+    extraordinary
+    unique
+    marvelous
+  ]
+  IPT: [
+    insignificant
+    almost insignificant
+    third-string
+    back-up
+    secondary
+    fairly important
+    important
+    primary/foremost
+    crucial
+  ]
+  CNQ: [
+    inconsequential
+    little effect
+    somewhat minor effect
+    somewhat significant effect
+    consequential
+    to great effect
+    nearly for good
+    utterly/for good
+    for all time
+  ]
+  NTR: [
+    ostracized
+    infamous
+    frowned-upon
+    tolerated
+    accepted
+    notorious
+    well-liked
+    respected
+    highly esteemed
+  ]
+  BEH: [
+    grotesque
+    repugnant
+    despicable
+    lurid
+    offensive
+    lewd
+    showy
+    polite
+    classy
+  ]
+  APR: [
+    contemptable
+    scandalous
+    ill-mannered
+    eyebrow-raising
+    somewhat improper
+    acceptable
+    appropriate
+    very appropriate
+    orthodox
+  ]
+  HRC: [
+    dregs
+    rank and file
+    lower echelon
+    low-mid echelon
+    mid echelon
+    upper-mid echelon
+    upper echelon
+    senior
+    chief
+  ]
+  FRM: [
+    too casual
+    very casual
+    casual
+    somewhat casual
+    neither casual nor formal
+    somewhat formal
+    formal
+    very formal
+    too formal
+  ]
+  TYP: [
+    one-of-a-kind
+    original
+    atypical
+    somewhat atypical
+    run-of-the-mill
+    commonplace
+    very typical
+    mundane
+    stereotypical
+  ]
+  PTY: [
+    very unlike prototype
+    unlike prototype
+    dissimilar from prototype
+    somewhat unlike prototype
+    unknown similarity to prototype
+    adequately like prototype
+    as close to prototype as typical
+    as close to prototype as possible
+    prototype
+  ]
+  ITG: [
+    dumb
+    foolish
+    ill-conceived
+    naïve
+    risky
+    intelligent
+    innovative
+    ingenious
+    wise
+  ]
+  MDN: [
+    prehistoric
+    ancient
+    archaic
+    classical
+    old-fashioned
+    of yesteryear
+    modern
+    cutting-edge
+    avant-garde
+  ]
+
+  // Modifying Suffixes
+  NA1: [
+    emphatically not₁
+    contrarily not₁ (abs)
+    contrarily not₁
+    not₁ (abs)
+    not₁
+    almost₁
+    hardly₁
+    contrarily yes₁
+    emphatically yes₁
+  ]
+  NA2: [
+    emphatically not₂
+    contrarily not₂ (abs)
+    contrarily not₂
+    not₂ (abs)
+    not₂
+    almost₂
+    hardly₂
+    contrarily yes₂
+    emphatically yes₂
+  ]
+  NA3: [
+    emphatically not₃
+    contrarily not₃ (abs)
+    contrarily not₃
+    not₃ (abs)
+    not₃
+    almost₃
+    hardly₃
+    contrarily yes₃
+    emphatically yes₃
+  ]
+  NA4: [
+    emphatically not₄
+    contrarily not₄ (abs)
+    contrarily not₄
+    not₄ (abs)
+    not₄
+    almost₄
+    hardly₄
+    contrarily yes₄
+    emphatically yes₄
+  ]
+  PLV: [
+    "false"
+    three-way false
+    superpositional neither
+    unknown three-way polarity
+    neutral polarity
+    unknown polarity
+    superpositional both
+    three-way true
+    "true"
+  ]
+  DEV: [
+    undoing
+    undoing in chunks
+    undoing bit by bit
+    moribund
+    well-kept
+    one by one
+    bit by bit
+    by leaps and bound
+    set in stone
+  ]
+  REA: [
+    contrarily genuine
+    genuine
+    apparent
+    fishy
+    ersatz
+    substitute
+    fake
+    imaginary
+    contrarily imaginary
+  ]
+  SCS: [
+    total failure
+    failure
+    ineffectual
+    certain to fail
+    marginally successful
+    certain to succeed
+    effective
+    successful
+    overwhelmingly successful
+  ]
+  CAP: [
+    utterly incapable
+    underqualified
+    lacking in key capabilities
+    unlikely capable enough
+    unknown if capable
+    somewhat capable
+    sufficiently capable
+    fully capable
+    overly qualified
+  ]
+  PRB: [
+    hopeless chance
+    almost no chance
+    highly unlikelly
+    unlikely
+    possible
+    hopeful
+    probable
+    highly probable
+    done deal
+  ]
+  // 7.4.10 Adverbial Suffixes
+  // TODO
+  ////// Supplement:
+  //
   UTE: [
     tool specifically for...
     medium through which...

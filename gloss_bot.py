@@ -1,4 +1,4 @@
-import asyncio, arpeggio, discord, hjson, os, pprint, re
+import asyncio, arpeggio, discord, hjson, os, pprint, re, sys
 from ithkuil.morphology.words import Factory
 from ithkuil.morphology.exceptions import AnalysisException
 
@@ -9,11 +9,7 @@ with open('lexicon.hjson') as f: lexicon = hjson.load(f)
 with open('suffixes.hjson') as f: suffixes = hjson.load(f)
 with open('biases.hjson') as f: biases = hjson.load(f)
 
-# print(sum(1 for v in lexicon.values() if isinstance(v, str)))
-# print(sum(1 for v in lexicon.values() if isinstance(v, list)))
-# print(len(lexicon))
-
-def asciify(s):
+def normalize(s):
     s = s.replace('\N{left single quotation mark}', "'")
     s = s.replace('\N{right single quotation mark}', "'")
     s = s.replace('\N{left double quotation mark}', '"')
@@ -31,7 +27,6 @@ def fix_parens(s):
 
 def lexicon_lookup(root, designation, stem_and_pattern):
     d = 0 if designation == 'IFL' else 1
-    print(stem_and_pattern)
     p = int(stem_and_pattern[1]) - 1
     s = int(stem_and_pattern[3]) - 1
     return lexicon_lookup_(root, d, p, s)
@@ -42,7 +37,7 @@ def lexicon_lookup_(root, d, p, s):
     if (d, p, s) != (0, 0, 0):
         dps = ('-%s-P%dS%d' % (['IFL', 'FML'][d], p + 1, s + 1)).translate(SUB)
 
-    root = asciify(root)
+    root = normalize(root)
     if root not in lexicon:
         return "%s%s" % (root, dps)
     entry = lexicon[root]
@@ -84,10 +79,7 @@ def lexicon_lookup_(root, d, p, s):
 
     return entry[d][p][s]
 
-defaults = (
-    'UNI', 'DEL', 'CSL', 'NRM', 'M', 'EXS', 'OBL', 'STA',
-    'UNFRAMED', 'MNO', 'FAC', 'CTX', 'PRC', 'ASR', 'PPS', 'CNF'
-)
+defaults = 'UNI DEL CSL NRM M EXS OBL STA UNFRAMED MNO FAC CTX PRC ASR PPS CNF'.split()
 
 def nice_level(deg, typ):
     return '= > < OPT MIN SPL IFR ≥ ≤'.split()[deg - 1] + {1: 'ᵣ', 2: 'ₐ', 3: '₃'}[typ]
@@ -135,6 +127,8 @@ def nice_code(key, full_names=False):
 
 
 def nice_gloss(word, full_names=False):
+    word = normalize(word.lower().strip('.,?!'))
+
     try:
         parse = Factory.parseWord(word)
         desc = parse.fullDescription()
@@ -159,7 +153,6 @@ def nice_gloss(word, full_names=False):
             return desc['type'] + ': ' + '-'.join(tags)
 
         tags = []
-        #pprint.pprint(desc)
         root = desc.pop('Root')
         designation = desc.pop('Designation')['code']
         stem_and_pattern = desc.pop('Stem and Pattern', {'code': 'P1S1'})['code']
@@ -188,7 +181,7 @@ def nice_gloss(word, full_names=False):
             res += '-[%s]' % ir
         if 'suffixes' in desc:
             t3_adjunct = all(s['degree'][5] == '3' for s in desc['suffixes'])
-            res += ' + ' + ', '.join(nice_suffix(s, full_names, t3_adjunct) for s in desc['suffixes'])
+            res += ' + ' + ' + '.join(nice_suffix(s, full_names, t3_adjunct) for s in desc['suffixes'])
 
         return res
     except arpeggio.NoMatch as e:
@@ -196,30 +189,31 @@ def nice_gloss(word, full_names=False):
     except AnalysisException as e:
         return str(e)
 
-#print(nice_gloss('esxal'))
-print(nice_gloss('kau'))
-print(nice_gloss('rraliet'))
-#print(nice_gloss('ulkhal'))
-#print(nice_gloss('qel'))
-#print(nice_gloss('ebol'))
-#print(lexicon_lookup_('çmw', 1, 1, 1))
-#exit()
-
 client = discord.Client()
+
+def bot_result(message_content):
+    cmd, *words = message_content.split()
+    full_names = 'full' in cmd
+
+    if len(words) == 1:
+        return nice_gloss(words[0], full_names)
+    else:
+        return '\n'.join(['**__Gloss:__**'] + ['**%s**: %s' % (word.lower().strip('.,?!'), nice_gloss(word, full_names)) for word in words])
+
+
+@client.event
+async def on_ready():
+    print('Running Discord bot:', client.user)
 
 @client.event
 async def on_message(message):
     say = lambda s: client.send_message(message.channel, s)
     if message.author == client.user: return
-
     if message.content.startswith('!gloss'):
-        cmd, *words = message.content.split()
-        full_names = 'full' in cmd
-
-        if len(words) == 1:
-            await say(nice_gloss(words[0], full_names))
-        else:
-            await say('\n'.join(['**__Gloss:__**'] + ['**%s**: %s' % (word.lower().strip('.,'), nice_gloss(word, full_names)) for word in words]))
+        await say(bot_result(message.content))
 
 if __name__ == '__main__':
-    client.run(os.getenv('ULAMTON_TOKEN'))
+    if sys.argv[1:]:
+        print(bot_result(' '.join(sys.argv[1:])))
+    else:
+        client.run(os.getenv('ULAMTON_TOKEN'))
