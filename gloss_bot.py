@@ -1,4 +1,4 @@
-import asyncio, arpeggio, discord, hjson, os, pprint
+import asyncio, arpeggio, discord, hjson, os, pprint, re
 from ithkuil.morphology.words import Factory
 from ithkuil.morphology.exceptions import AnalysisException
 
@@ -21,6 +21,9 @@ def asciify(s):
     s = s.replace('\N{modifier letter acute accent}', '\N{acute accent}')
     s = s.replace('\N{modifier letter grave accent}', '\N{grave accent}')
     s = s.replace('\N{modifier letter small h}', 'h')
+    s = re.sub('ẍ|ẋ|x̌', 'xh', s)
+    s = re.sub('ḑ|đ|ḏ', 'dh', s)
+    s = re.sub('ı', 'i', s)
     return s
 
 def fix_parens(s):
