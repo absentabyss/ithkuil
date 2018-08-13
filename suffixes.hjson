@@ -778,6 +778,271 @@
     done deal
   ]
   // 7.4.10 Adverbial Suffixes
+  STR: [
+    very weakly
+    weakly
+    softly
+    measuredly
+    somewhat powerfully
+    adequately powerfully
+    powerfully
+    very powerfully
+    with maximum power
+  ]
+  FRC: [
+    too delicately
+    light as a feather
+    lightly
+    somewhat lightly
+    with the right touch
+    somewhat violently
+    violently
+    very violently
+    too violently
+  ]
+  ITY: [
+    changing too slow
+    changing very slow
+    changing slow
+    changing somewhat slow
+    changing at the right speed
+    changing somewhat fast
+    changing fast
+    changing very fast
+    changing too fast
+  ]
+  SPD: [
+    too slow
+    very slow
+    slow
+    somewhat slow
+    at the right speed
+    somewhat fast
+    fast
+    very fast
+    too fast
+  ]
+  CFD: [
+    too meek
+    very meek
+    meek
+    somewhat meek
+    properly humble
+    somewhat confident
+    confident
+    very confident
+    over-confident
+  ]
+  EFI: [
+    destructively wasteful
+    very wasteful
+    wasteful
+    somewhat wasteful
+    adequately efficient
+    rather efficient
+    efficient
+    extremely efficient
+    synergistically
+  ]
+  ERR: [
+    totally wrong
+    incorrectly
+    fairly wrong
+    somewhat wrong
+    barely correct
+    somewhat correct
+    fairly correct
+    correct
+    totally correct
+  ]
+  MAT: [
+    embryonic
+    baby
+    budding
+    maturing
+    ripe
+    overripe
+    past one's prime
+    disintegrating
+    dead
+  ]
+  SBT: [
+    too subtle
+    very subtle
+    subtle
+    somewhat subtle
+    somewhat unsubtle
+    unsubtle
+    obvious
+    very obvious
+    in-your-face
+  ]
+  DRC: [
+    too indirect
+    very indirect
+    indirect
+    somewhat indirect
+    somewhat direct
+    fairly direct
+    direct
+    very direct
+    too direct
+  ]
+  SUD: [
+    too slow in happening
+    very slow in happening
+    slow in happening
+    somewhat slow in happening
+    taking the right amt of time
+    somewhat sudden
+    sudden
+    very sudden
+    too sudden
+  ]
+  PCN: [
+    utterly sloppy
+    very sloppy
+    sloppy
+    somewhat sloppy
+    less than careful
+    somewhat careful
+    precise
+    extremely precise
+    nit-picky
+  ]
+  CNC: [
+    the hell!
+    self-centered
+    least concern required
+    without concern
+    reluctant
+    with the most concern one can mmuster
+    with concern
+    very concerned
+    overly concerned
+  ]
+  SPH: [
+    too primitive
+    very primitive
+    primitive
+    somewhat primitive
+    expcted level of sophistication
+    somewaht sophisticated
+    sophisticated
+    very sophisticated
+    too sophisticated
+  ]
+  CVT: [
+    too secretive
+    very secretive
+    secretive
+    somewhat secretive
+    not too secretive
+    somewhat upfront
+    upfront
+    very upfront
+    flaunting
+  ]
+  EFT: [
+    too difficult
+    very difficult
+    difficult
+    somewhat difficult
+    medium difficulty
+    somewhat easy
+    easy
+    very easy
+    too easy
+  ]
+  DSG: [
+    purposeless
+    haphazard
+    fairly haphazard
+    somewhat haphazard
+    somewhat disorganized
+    somewhat organized
+    organized
+    very organized
+    too organized
+  ]
+  DCS: [
+    indecisive
+    flaky
+    kind-of
+    apparent
+    merely
+    deliberately
+    a real
+    the one
+    what a...!
+  ]
+  CTN: [
+    but X would
+    but X does
+    like it or not
+    ...after all!
+    a genuine...!
+    as a matter of fact
+    at any rate
+    by the way
+    not to change the subject, but...
+  ]
+  PHY: [
+    uncontrolled
+    almost out of control
+    losing control
+    insufficiently trained
+    amateurish
+    learning to
+    growing expertise
+    proficiently
+    in full control
+  ]
+  MD: [
+    not at all @
+    not @ enough
+    hardly @
+    slightly @
+    @
+    fairly much @
+    very @
+    too @
+    overwhelmingly @
+  ]
+  MD01: resigned
+  MD02: committed
+  MD03: desired
+  MD04: attempted
+  MD05: capable
+  MD06: knowledgeable
+  MD07: mandatory
+  MD08: required
+  MD09: expected
+  MD10: intended
+  MD11: chosen
+  MD12: impulsive
+  MD13: promised
+  MD14: well-liked
+  MD15: feared
+  MD16: willing
+  MD17: prepared
+  MD18: necessary
+  MD19: daring
+  MD20: decided-upon
+  MD21: offered
+  MD22: aided
+  MD23: prone
+  MD24: agreed-upon
+  MD25: responsible
+  MD26: remembering
+  MD27: driven
+  MD28: intuiting
+  MD29: available
+  MD30: potent
+  MD31: permitted
+  MD32: hoped-for
+  MD33: inclined
+
   // TODO
   ////// Supplement:
   //

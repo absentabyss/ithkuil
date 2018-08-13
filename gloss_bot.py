@@ -82,21 +82,31 @@ def lexicon_lookup_(root, d, p, s):
 defaults = 'UNI DEL CSL NRM M EXS OBL STA UNFRAMED MNO FAC CTX PRC ASR PPS CNF'.split()
 
 def nice_level(deg, typ):
-    return '= > < OPT MIN SPL IFR ≥ ≤'.split()[deg - 1] + {1: 'ᵣ', 2: 'ₐ', 3: '₃'}[typ]
+    return '= > < OPT MIN SPL IFR ≥ ≤'.split()[deg-1] + {1: 'ᵣ', 2: 'ₐ', 3: '₃'}[typ]
 
 def nice_suffix(s, full_names=False, t3_adjunct=False):
     if t3_adjunct:
         return nice_gloss(s['v3c_adjunct'], full_names)
 
-    if s['code'] == 'LVL':
-        return nice_level(int(s['degree'][-1]), int(s['degree'][5]))
+    code = s['code']
+    typ = int(s['degree'][5])
+    deg = int(s['degree'][-1])
+    if code == 'LVL':
+        return nice_level(deg, typ)
 
-    typ = {'1': '', '2': '₂', '3': '₃'}[s['degree'][5]]
-    if s['code'] in suffixes:
-        # TODO: ₁ ₂?
-        return suffixes[s['code']][int(s['degree'][-1]) - 1].join('‘’') + typ
-    deg = s['degree'][-1].translate(SUP)
-    return s['code'] + typ + deg
+    fill_at = None
+    if re.match('MD..', code):
+        fill_at = suffixes[code]
+        code = 'MD'
+
+    typs = {1: '', 2: '₂', 3: '₃'}[typ]
+    if code in suffixes:
+        result = suffixes[code][deg-1].join('‘’') + typs
+        if fill_at: result = result.replace('@', fill_at)
+        return result
+
+    degs = str(deg).translate(SUP)
+    return code + typs + degs
 
 def nice_code(key, full_names=False):
     code = key['code']
