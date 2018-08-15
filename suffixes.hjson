@@ -1043,7 +1043,658 @@
   MD32: hoped-for
   MD33: inclined
 
-  // TODO
+  AGC: [
+    one who causes
+    one who enables
+    one who persuades
+    one who permits
+    one who is made to
+    one who undergoes
+    instrument causing
+    stimulus of experience
+    underlying reason for
+  ]
+  ROL: [
+    house for
+    thing resulting from
+    recipient of
+    one acting as
+    one described by
+    one similar to
+    one responsible for
+    one who makes
+    one who manages
+  ]
+  UTE: [
+    tool for X-ing
+    medium for X-ing
+    conduit for X-ing
+    body part for X-ing
+    object used for X-ing
+    cover to allow X-ing
+    enabling element for X-ing
+    situation fostering X-ing
+    force permitting X-ing
+  ]
+  CNS: [
+    deliberately without consent
+    without consent as a precaution
+    without consent due to circumstances
+    against their will
+    with consent obtained under pressure
+    with reluctant consent
+    with consent
+    with approval
+    at their request
+  ]
+  MEC: [
+    using body
+    using generic manual tool
+    using specialized tool
+    using machine
+    electronically
+    using willpower
+    using redirection of energy
+    using pooling of labor
+    using pooling of energy
+  ]
+  BOD: [
+    by hand
+    with an arm
+    with a foot
+    with a leg
+    with one's eyes
+    with both legs
+    with both feet
+    with both arms
+    with both hands
+  ]
+  DBI: [
+    with a finger
+    with a thumb
+    with a knee
+    with one's head
+    with one's teeth
+    with one's lips
+    with one's tongue
+    with one's elbow
+    with one's fingers
+  ]
+  SOC: [
+    via lackeys
+    by coercion
+    via fronts
+    thru actions of unknowing others
+    thru actions of knowing others
+    leveraging existing methods
+    via a proxy
+    via hired help
+    by delegation to experts
+  ]
+  OAU: [
+    thing from X
+    thing assoc with X
+    thing using X
+    person from X
+    person assoc with X
+    person using X
+    idea from X
+    idea assoc with X
+    idea using X
+  ]
+  AUT: [
+    by grant
+    by natural right
+    by legal claim
+    by right of social convention
+    by granting of a favor
+    by threat or quid-pro-quo
+    by formal authority
+    by social class authority
+    authorized by governing entity
+  ]
+  RSN: [
+    for evil reasons
+    for foolish reasons
+    due to deception
+    due to faulty information
+    due to misinterpretation
+    despite reasons not to
+    for no reason
+    for appropriate reasons
+    for virtuous reasons
+  ]
+  MTA: [
+    in anger
+    in repugnance
+    in irritation
+    in defense
+    in fear
+    out of curiosity
+    to provoke
+    to entice
+    to show appreciation
+  ]
+  XPT: [
+    without precedent
+    by surprise
+    manage despite inadequate preparation
+    manage despite misguided preparation
+    hard-won
+    easier than thought
+    manage by excellent planning
+    completely as expected
+    outcome pre-ordained
+  ]
+  DLB: [
+    accidental, unaware of consequences
+    unintentional, unaware of consequences
+    accidental, now aware of consequences
+    unintentional, now aware of consequences
+    unforseeable
+    without considering consequences
+    furtive
+    realizing risks
+    intentional
+  ]
+  MOT: [
+    ostentatious
+    self-conscious
+    guilty
+    half-hearted
+    can't help it
+    ingrained by upbringing
+    learned/habitual
+    un-self-conscious
+    automatic
+  ]
+  ENB: [
+    by inadvertent sign taken as permission
+    by granted permission
+    by cajoled permission
+    by direct request
+    by direct order based on authority
+    by inadvertent removal of hindrance
+    by inadvertent chain reaction
+    by deliberate removal of hindrance
+    by deliberate chain reaction
+  ]
+  AGN: [
+    with anticipated max effect possible
+    with anticipated effect, to high degree
+    with anticipated effect, to moderate degree
+    with anticipated effect, but to marginal degree
+    with no noticeable effect
+    with marginal unanticipated effect
+    with moderate unanticipated effect
+    with great unanticipated effect
+    with maximal and unanticipated effect
+  ]
+  IMP: [
+    target can do nothing
+    target resigned to fate
+    target tries to avoid but fails
+    target manages to mitigate impact
+    target manages to avoid
+    target inadvertently helps
+    target helps against own interest, without thinking
+    target helps intentionally, despite negative consequences
+    target helps intentionally, for own benefit
+  ]
+  SWR: [
+    nearest prec ref
+    2nd nearest prec ref
+    unmentioned 3rd party
+    sentence focus ref
+    first ref
+    sentence topic ref
+    3rd party nontransrelative ref
+    2nd order transrelative ref
+    higher order transrelative ref
+  ]
+  PLA: [
+    place for learning
+    place for doing
+    place for obtaining
+    place for inventory
+    place for keeping
+    place for seeing
+    natural habitat of
+    place for dealing with
+    place where one feels affected by X
+  ]
+  APT: [
+    yet/still
+    in the least bit
+    upon reflection
+    upon deep introspection
+    at first blush
+    obvious
+    experiential ever
+    return to previous state
+    over long period of time
+  ]
+  TEM: [
+    begin to
+    resume
+    keep on
+    not stopping
+    get tired of
+    stop
+    take break from
+    stop again
+    finish
+  ]
+  PTF: [
+    engine PTF
+    brain PTF
+    feeder PTF
+    exhaust PTF
+    branch PTF
+    support PTF
+    skeleton PTF
+    wiring PTF
+    sensor PTF
+  ]
+  PTG: [
+    base PTG
+    extension PTG
+    trunk PTG
+    joint PTG
+    top PTG
+    bottom PTG
+    side PTG
+    head PTG
+    arm PTG
+  ]
+  MET: [
+    part for whole
+    producer for product
+    object for user/owner
+    controller for controlled
+    institution for people responsible
+    place for inhabitants
+    place for event
+    place for institution
+    attribute for owner
+  ]
+  // SSD
+  SBS: [
+    single member
+    1st level subset
+    2nd level subset
+    complex system within
+    subset
+    complex select pattern within
+    select 2nd level subset
+    select 1st level subset
+    select member
+  ]
+  SPS: [
+    numberwise 3-gestalt
+    layerwise 3-gestalt
+    emergent 3-gestalt
+    numberwise 2-gestalt
+    layerwise 2-gestalt
+    emergent 2-gestalt
+    numberwise 4-gestalt
+    layerwise 4-gestalt
+    emergent 4-gestalt
+  ]
+  ATN: [
+    concentrate fully
+    be lost in concentrating
+    pay strict attention to
+    determined to
+    pay attention
+    keep an eye on
+    take some notice of
+    barely notice
+    ignore completely
+  ]
+  DPR: [
+    ball/pile of
+    cluster of
+    vine of
+    connected aphysically
+    scattered
+    virtually associated
+    long interval temporal config
+    freq interval temporal config
+    short interval temporal config
+  ]
+  SEP: [
+    only logically connected in space
+    barely connected in space
+    quite connected in space
+    very connected in space
+    connected in space and time
+    very connected time
+    quite connected time
+    barely connected time
+    only logically connected in time
+  ]
+
+  SDP: [
+    the 1st one
+    start of 1st one
+    middle of 1st one
+    end of 1st one
+    peak between halves
+    start of 2nd one
+    middle of 2nd one
+    end of 2nd one
+    the 2nd one
+  ]
+  NEW: [
+    never before seen
+    never seen in this context before
+    never functioning in this role before
+    new replacement
+    new additional instance
+    new revision
+    new revision+replacement
+    different, not seen in this context
+    different+new, status as replacement unknown/inappl
+  ]
+  COS: [
+    in extent
+    in intensity
+    in duration
+    in quality
+    in efficiency
+    in relevant outcome
+    in quality, efficiency, relevant outcome
+    in extent, intensity, duration
+    in every way
+  ]
+  WAK: [
+    "'footprints' wake"
+    "'brushstroke' wake"
+    "'barrier line' wake"
+    "'cleaned floor' wake"
+    "'coating' wake"
+    "'barrier plane' wake"
+    "'rocket air' wake"
+    "'fog' wake"
+    "'demarcate zone' wake"
+  ]
+  SCT: [
+    instantaneous shift
+    disjointed shift
+    short transition
+    normal transition
+    changing transition
+    chaotic transition
+    smooth transition
+    very gardual transition
+  ]
+  NNN: [
+    obtuse n-gon
+    star-shaped n-gon
+    n-faceted solid
+    n-faced solid
+    shape with n spikes
+    regular n-hedron
+    symm n-faceted solid
+    symmetric star n-gon
+    regular n-gon
+  ]
+  // LVL
+  FNS: [
+    as liquid
+    as goo
+    as powder
+    as gravel
+    as gas
+    as wax
+    as rubber
+    as cloth
+    as shavings
+  ]
+  FMS: [
+    as frozen
+    as carvable
+    as chalky
+    as rocky
+    as solid
+    in natural chunks
+    in blocks
+    as hardened
+    as metallic
+  ]
+  TRF: [
+    cured
+    treated
+    processed
+    saturated
+    cooked
+    soaked
+    chemically derived
+    fermented
+    pickled
+  ]
+  CVY: [
+    holder for X
+    magical means for holding X
+    automatic vessel for X
+    automated holder for X
+    manual vessel for X
+    jury-rigged holder for X
+    method for holding X
+    device for holding X
+    rule for holding X
+  ]
+  FEA: [
+    piece of X
+    containerful of X
+    sample of X
+    display of X
+    instance of X
+    trait of X
+    feature of X
+    key feature of X
+    example of X
+  ]
+  STG: [
+    onset of X
+    development of X
+    point of no return for X
+    plateau stage of X
+    at peak
+    abrupt termination of X
+    gradual decline of X
+    last stage of X
+    cessation of X
+  ]
+  CGL: [
+    conglom. voluntarily
+    conglom. by appointment
+    conglom. by custom
+    conglom. by chance
+    conglom. by being forced
+    conglom. by being pressured
+    conglom. by reluct volunteering
+    conglom. for pragmatic reasons
+    conglom. by eager volunteering
+  ]
+  INB: [
+    can't because no resources
+    can't because no means
+    can't because no skill
+    can't because blocked access to resources
+    can't because blocked access to means
+    can't because blocked access to skill
+    can't because psychological trauma
+    can't because physical trauma
+    can't because no desire
+  ]
+  PLE: [
+    horrible
+    awful
+    unpleasant
+    disagreeable
+    bland
+    agreeable
+    pleasant
+    very pleasant
+    maximally pleasant
+  ]
+  ACQ: [
+    acquired by chance
+    acquired by mental effort
+    found by informal search
+    acquired by trickery
+    innate
+    found by formal search
+    informally negotiated for
+    formally negotiated for
+    purchased
+  ]
+  TAL: [
+    no capacity for X
+    almost no capacity for X
+    little capacity for X
+    capacity for X
+    capacity for X
+    good capacity for X
+    very good capacity for X
+    excellent capacity for X
+    outstanding capacity for X
+  ]
+  RNC: [
+    give up on X
+    lose faith in X
+    stop trying to X
+    undermine X
+    refuse to X
+    lose sense of commitment to X
+    lose passion for X
+    lose ability to X
+    lack means/ability to X
+  ]
+  DPT: [
+    logo for X
+    allegorical reference to X
+    stand-in repr. for X
+    symptom of X
+    depiction of X
+    trace of X
+    record of X
+    pointer to X
+    blueprint of X
+  ]
+  ENG: [
+    avoiding X at all costs
+    averse to X
+    shy away from X
+    only for show
+    lackluster involvement
+    marginal involvement
+    limited involvement
+    fully engrossed
+    irreversibly engrossed
+  ]
+  OPF: [
+    shattered
+    ruined
+    non-operational
+    partly functional
+    something wrong with it
+    impaired
+    in fair condition
+    in good condition
+    in excellent condition
+  ]
+  MLR: [
+    theory explaining X
+    plan explaining X
+    idea explaining X
+    folk theory about X
+    picture explaining X
+    physical model explaining X
+    math model explaining X
+    logical model explaining X
+    metaphorical representation of X
+  ]
+  HG1: [
+    more or less
+    for all practical purposes
+    sort of
+    strictly speaking
+    essentially
+    might as well be
+    in one sense
+    in some sense
+    par excellence
+  ]
+  HG2: [
+    in a way
+    in a manner of speaking
+    more X than anything else
+    one might say
+    loosely speaking
+    so-called
+    in name only
+    so to say
+    for all I know
+  ]
+  PHS: [
+    contextual
+    punctual
+    iterative
+    repetitive
+    intermittent
+    recurrent
+    frequentative
+    fragmentative
+    fluctuative
+  ]
+  LCT: [
+    right/ahead/above octant
+    right/ahead/below octant
+    right/behind/above octant
+    right/behind/below octant
+    relatively at rest
+    left/ahead/above octant
+    left/ahead/below octant
+    left/behind/above octant
+    left/behind/below octant
+  ]
+  PXM: [
+    too close
+    as close as possible without contact
+    very close
+    close
+    somewhat close
+    not very close
+    distant
+    far away
+    too far away
+  ]
+  CTC: [
+    fused
+    bonded
+    joined
+    touching all over
+    deliberately touching in several spots
+    deliberately touching at one spot
+    incidentally touching in several spots
+    incidentally touching in one spot
+    barely touching
+  ]
+  VWP: [
+    from my viewpoint
+    from viewpoint of someone near me
+    from last-mentioned referent's viewpoint
+    from other party's viewpoint
+    from their viewpoint
+    from undetermined viewpoint
+    from first referent's viewpoint
+    from viewpoint of someone near you
+    from your viewpoint
+  ]
+
   ////// Supplement:
   //
   UTE: [
