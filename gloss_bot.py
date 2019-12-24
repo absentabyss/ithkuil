@@ -210,14 +210,13 @@ def bot_result(message_content):
     else:
         return '\n'.join(['**__Gloss:__**'] + ['**%s**: %s' % (word.lower().strip('.,?!'), nice_gloss(word, full_names)) for word in words])
 
-
 @client.event
 async def on_ready():
     print('Running Discord bot:', client.user)
 
 @client.event
 async def on_message(message):
-    say = lambda s: client.send_message(message.channel, s)
+    say = lambda s: message.channel.send(s)
     if message.author == client.user: return
     if message.content.startswith('!gloss'):
         await say(bot_result(message.content))

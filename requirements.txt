@@ -1,7 +1,7 @@
 hjson==3.0.1
 Arpeggio==1.5
-setuptools==20.7.0
+setuptools==42.0.2
 SQLAlchemy==1.2.10
-discord.py==0.16.12
+discord.py==1.2.5
 discord==0.0.2
 pytest==3.7.1
