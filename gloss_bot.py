@@ -79,7 +79,7 @@ def lexicon_lookup_(root, d, p, s):
 
     return entry[d][p][s]
 
-defaults = 'UNI DEL CSL NRM M EXS OBL STA UNFRAMED MNO FAC CTX PRC ASR PPS CNF'.split()
+defaults = 'UNI DEL CSL NRM M EXS OBL STA UNFRAMED MNO FAC CTX PRC ASR PPS CNF NEU'.split()
 
 def nice_level(deg, typ):
     return '= > < OPT MIN SPL IFR ≥ ≤'.split()[deg-1] + {1: 'ᵣ', 2: 'ₐ', 3: '₃'}[typ]
