@@ -15,6 +15,10 @@ A Python package providing tools for analysing texts in the [Ithkuil](http://ith
 There is also a keyboard layout making it possible to type special characters being used in Ithkuil.
 It has been moved to a separate repository - [ithkuil-utils](https://github.com/fizyk20/ithkuil-utils)
 
+## Running instance with Docker
+
+You can run an instance of the bot with `docker run -d --name ulamton -e ULAMTON_TOKEN=<bot_token> absentabyss/ulamton` by replacing with a valid discord bot token.
+
 ## TODOs
 
 Near future:
